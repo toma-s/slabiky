@@ -1,0 +1,2 @@
+# slabiky
+Analýza lingvistických dát
