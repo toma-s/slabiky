@@ -1,0 +1,76 @@
+{
+  "language": [
+    {
+      "name": "serbian",
+      "writing_system": "latin"
+    }
+  ],
+  "uppercase": [
+    "A", "B", "V", "G", "D", "Đ", "E", "Ž", "Z", "I", "J", "K", "L", "Lj", "M", "N", "Nj", "O", "P", "R", "S", "T", "Ć", "U", "F", "H", "C", "Č", "Dž", "Š"
+  ],
+  "lowercase": [
+    {
+      "a": { "phoneme-length": 1, "sign": "VOWEL"},
+      "b": { "phoneme-length": 1, "sign": "CONS"},
+      "v": { "phoneme-length": 1, "sign": "SONOR"},
+      "g": { "phoneme-length": 1, "sign": "CONS"},
+      "d": { "phoneme-length": 1, "sign": "CONS"},
+      "đ": { "phoneme-length": 1, "sign": "CONS"},
+      "e": { "phoneme-length": 1, "sign": "VOWEL"},
+      "ž": { "phoneme-length": 1, "sign": "CONS"},
+      "z": { "phoneme-length": 1, "sign": "CONS"},
+      "i": { "phoneme-length": 1, "sign": "VOWEL"},
+      "j": { "phoneme-length": 1, "sign": "SONOR"},
+      "k": { "phoneme-length": 1, "sign": "CONS"},
+      "l": { "phoneme-length": 1, "sign": "SONOR"},
+      "lj": { "phoneme-length": 1, "sign": "SONOR"},
+      "m": { "phoneme-length": 1, "sign": "SONOR"},
+      "n": { "phoneme-length": 1, "sign": "SONOR"},
+      "nj": { "phoneme-length": 1, "sign": "SONOR"},
+      "o": { "phoneme-length": 1, "sign": "VOWEL"},
+      "p": { "phoneme-length": 1, "sign": "CONS"},
+      "r": { "phoneme-length": 1, "sign": "SONOR"},
+      "s": { "phoneme-length": 1, "sign": "CONS"},
+      "t": { "phoneme-length": 1, "sign": "CONS"},
+      "ć": { "phoneme-length": 1, "sign": "CONS"},
+      "u": { "phoneme-length": 1, "sign": "VOWEL"},
+      "f": { "phoneme-length": 1, "sign": "CONS"},
+      "h": { "phoneme-length": 1, "sign": "CONS"},
+      "c": { "phoneme-length": 1, "sign": "CONS"},
+      "č": { "phoneme-length": 1, "sign": "CONS"},
+      "dž": { "phoneme-length": 1, "sign": "CONS"},
+      "š": { "phoneme-length": 1, "sign": "CONS"}
+    }
+  ],
+  "VOWEL": [
+    "a", "e", "i", "o", "u"
+  ],
+  "SONOR": [
+    "v", "j", "l", "lj", "m", "n", "nj", "r"
+  ],
+  "CONS": [
+    "b", "g", "d", "đ", "ž", "z", "k", "p", "s", "t", "ć", "f", "h", "c", "č", "š", "dž"
+  ],
+  "special_signs": [],
+  "digraphs": {
+    "d": ["ž"],
+    "l": ["j"],
+    "n": ["j"]
+  },
+  "changes": [
+    {
+      "r": {
+        "preceding": "CONS",
+        "following": "CONS",
+        "becomes": "VOWEL"
+      }
+    }
+  ],
+  "zero-syllable_words": [
+    {
+      "k": "to_following",
+      "s": "to_following"
+    }
+  ],
+  "spec_sound_length": []
+}
