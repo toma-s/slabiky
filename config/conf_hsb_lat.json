@@ -33,7 +33,7 @@
       "ó": { "phoneme-length": 1, "sign": "VOWEL"},
       "p": { "phoneme-length": 1, "sign": "CONS"},
       "r": { "phoneme-length": 1, "sign": "SONOR"},
-      "ř": { "phoneme-length": 1, "sign": ""},
+      "ř": { "phoneme-length": 1, "sign": "CONS"},
       "s": { "phoneme-length": 1, "sign": "CONS"},
       "š": { "phoneme-length": 1, "sign": "CONS"},
       "t": { "phoneme-length": 1, "sign": "CONS"},
@@ -52,7 +52,7 @@
     "j", "l", "ł", "m", "n", "ń", "r", "w"
   ],
   "CONS": [
-    "b", "c", "č", "ć", "d", "f", "g", "h", "k", "p", "s", "š", "t", "z", "ž", "ź"
+    "b", "c", "č", "ć", "d", "f", "g", "h", "k", "p", "ř", "s", "š", "t", "z", "ž", "ź"
   ],
   "special_signs": [],
   "digraphs": [],
