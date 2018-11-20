@@ -68,7 +68,20 @@
     {
       "c": ["h"],
       "d": ["ž"],
-      "a": ["u"]
+      "a": [
+        {
+          "u" : {
+            "exceptions": []
+          }
+        }
+      ],
+      "o": [
+        {
+          "u" : {
+            "exceptions": ["pouč", "pouka", "poulič..."]
+          }
+        }
+      ]
     }
   ],
   "changes": [
