@@ -57,7 +57,7 @@
     "l": ["j"],
     "n": ["j"]
   },
-  "changes": [
+  "phonotype_changes": [
     {
       "r": {
         "preceding": "CONS",
@@ -72,5 +72,5 @@
       "s": "to_following"
     }
   ],
-  "spec_sound_length": []
+  "special_sound_length": []
 }

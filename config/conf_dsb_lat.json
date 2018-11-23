@@ -67,7 +67,7 @@
       "t": ["š", "ś"]
     }
   ],
-  "changes": [],
+  "phonotype_changes": [],
   "zero-syllable_words": [
     {
       "k": "to_following",
@@ -75,5 +75,5 @@
       "z": "to_following"
     }
   ],
-  "spec_sound_length": []
+  "special_sound_length": []
 }

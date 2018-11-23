@@ -48,7 +48,7 @@
   ],
   "special_signs": [],
   "digraphs": [],
-  "changes": [
+  "phonotype_changes": [
     {
       "r": {
           "preceding": "CONS",
@@ -62,5 +62,5 @@
       "v": "to_following"
     }
   ],
-  "spec_sound_length": []
+  "special_sound_length": []
 }

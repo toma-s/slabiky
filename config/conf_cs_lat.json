@@ -62,29 +62,111 @@
   "CONS": [
     "b,", "c,", "č,", "d,", "ď,", "f,", "g,", "h,", "k,", "p,", "q,", "ř,", "s,", "š,", "t,", "ť,", "v,", "w,", "x,", "z,", "ž"
   ],
-  "special_signs": [
-  ],
-  "digraphs": [
+  "clusters": [
     {
-      "c": ["h"],
-      "d": ["ž"],
+      "c": [
+        {
+          "h": {
+            "except": [],
+            "only": [],
+            "length": 1,
+            "phonotype": "TODO"
+          }
+        }
+      ],
+      "d": [
+        {
+          "ž": {
+            "except": [],
+            "only": [],
+            "length": 1,
+            "phonotype": "TODO"
+          }
+        }
+      ],
+      "b": [
+        {
+          "ě": {
+            "except": [],
+            "only": [],
+            "length": 3,
+            "phonotype": "TODO"
+          }
+        }
+      ],
+      "f": [
+        {
+          "ě": {
+            "except": [],
+            "only": [],
+            "length": 3,
+            "phonotype": "TODO"
+          }
+        }
+      ],
+      "m": [
+        {
+          "ě": {
+            "except": [],
+            "only": [],
+            "length": 3,
+            "phonotype": "TODO"
+          }
+        }
+      ],
+      "p": [
+        {
+          "ě": {
+            "except": [],
+            "only": [],
+            "length": 3,
+            "phonotype": "TODO"
+          }
+        }
+      ],
+      "v": [
+        {
+          "ě": {
+            "except": [],
+            "only": [],
+            "length": 3,
+            "phonotype": "TODO"
+          }
+        }
+      ],
       "a": [
         {
-          "u" : {
-            "exceptions": []
+          "u": {
+            "except": [],
+            "only": [],
+            "length": 1,
+            "phonotype": "TODO"
           }
         }
       ],
       "o": [
         {
           "u" : {
-            "exceptions": ["pouč", "pouka", "poulič..."]
+            "except": ["pouč,", "pouka,", "pouká,", "poukl,", "poulič,", "poum,", "použ,", "poupr,", "pouráž,", "pousm,", "pous,", "poute,", "pouvaž,", "pouzen,", "douč,", "douprav,", "doužív,", "douzov,", "doupřesn,", "doudit,", "doudí"],
+            "only": [],
+            "length": 1,
+            "phonotype": "TODO"
+          }
+        }
+      ],
+      "e": [
+        {
+          "u": {
+            "except": [],
+            "only": ["eufemi,", "eufor,", "euro,", "eutan,", "farmaceut,", "feud,", "koloseu,", "koreu,", "leuk,", "linoleu,", "mauzoleu,", "muzeu,", "neutral,", "neutrál,", "pneum,", "pseudo,", "terapeut,", "eufon,", "eunuch,", "eunuš,", "zeugm,", "jubilee"],
+            "length": 2,
+            "phonotype": "TODO"
           }
         }
       ]
     }
   ],
-  "changes": [
+  "phonotype_changes": [
     {
       "l": {
         "preceding": "CONS",
@@ -98,6 +180,25 @@
       }
     }
   ],
+  "text_changes": [
+    {
+      "ia": {
+        "becomes": "ija"
+      },
+      "ie": {
+        "becomes": "ije"
+      },
+      "ii": {
+        "becomes": "iji"
+      },
+      "io": {
+        "becomes": "ijo"
+      },
+      "iu": {
+        "becomes": "iju"
+      }
+    }
+  ],
   "zero-syllable_words": [
     {
       "k": "to_following",
@@ -106,6 +207,5 @@
       "z": "to_following"
     }
   ],
-  "spec_sound_length": [
-  ]
+  "special_sound_length": []
 }

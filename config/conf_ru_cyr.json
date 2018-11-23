@@ -37,9 +37,9 @@
       "ч": { "phoneme-length": 1, "sign": "CONS"},
       "ш": { "phoneme-length": 1, "sign": "CONS"},
       "щ": { "phoneme-length": 1, "sign": "CONS"},
-      "ъ": { "phoneme-length": 0, "sign": "SPEC_PREC"},
+      "ъ": { "phoneme-length": 0, "sign": "SPEC"},
       "ы": { "phoneme-length": 1, "sign": "VOWEL"},
-      "ь": { "phoneme-length": 0, "sign": "SPEC_PREC"},
+      "ь": { "phoneme-length": 0, "sign": "SPEC"},
       "э": { "phoneme-length": 1, "sign": "VOWEL"},
       "ю": { "phoneme-length": -1, "sign": "VOWEL"},
       "я": { "phoneme-length": -1, "sign": "VOWEL"}
@@ -58,7 +58,7 @@
     "ъ", "ь"
   ],
   "digraphs": [],
-  "changes": [],
+  "phonotype_changes": [],
   "zero-syllable_words": [
     {
       "в": "to_following",
@@ -66,7 +66,7 @@
       "с": "to_following"
     }
   ],
-  "spec_sound_length": [
+  "special_sound_length": [
     {
       "e": {
         "0": {

@@ -53,7 +53,7 @@
   ],
   "special_signs": [],
   "digraphs": [],
-  "changes": [
+  "phonotype_changes": [
     {
       "р": {
         "preceding": "CONS",
@@ -68,5 +68,5 @@
       "с": "to_following"
     }
   ],
-  "spec_sound_length": []
+  "special_sound_length": []
 }

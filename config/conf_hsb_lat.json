@@ -33,7 +33,7 @@
       "ó": { "phoneme-length": 1, "sign": "VOWEL"},
       "p": { "phoneme-length": -1, "sign": "CONS"},
       "r": { "phoneme-length": -1, "sign": "SONOR"},
-      "ř": { "phoneme-length": 1, "sign": ""},
+      "ř": { "phoneme-length": 1, "sign": "CONS"},
       "s": { "phoneme-length": 1, "sign": "CONS"},
       "š": { "phoneme-length": 1, "sign": "CONS"},
       "t": { "phoneme-length": -1, "sign": "CONS"},
@@ -56,7 +56,7 @@
   ],
   "special_signs": [],
   "digraphs": [],
-  "changes": [
+  "phonotype_changes": [
     {
       "l": {
         "preceding": "CONS",
@@ -72,7 +72,7 @@
       "z": "to_following"
     }
   ],
-  "spec_sound_length": [
+  "special_sound_length": [
     {
       "h": {
         "0": {
