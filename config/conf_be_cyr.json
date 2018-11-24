@@ -86,58 +86,130 @@
     {
       "е": {
         "0": {
-          "preceding": [],
-          "following": []
+          "preceding": {
+            "signs": [],
+            "letters": []
+          },
+          "following": {
+            "signs": [],
+            "letters": []
+          }
         },
         "1": {
-          "preceding": ["CONS", "SONOR", "SUBUNIT"],
-          "following": ["", "CONS", "SONOR", "VOWEL", "SPEC", "SUBUNIT"]
+          "preceding": {
+            "signs": ["CONS", "SONOR"],
+            "letters": []
+            },
+          "following": {
+            "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+            "letters": []
+          }
         },
         "2": {
-          "preceding": ["", "VOWEL", "SPEC"],
-          "following": ["", "CONS", "SONOR", "VOWEL", "SPEC", "SUBUNIT"]
+          "preceding": {
+            "signs": ["NONE", "VOWEL", "SPEC"],
+            "letters": []
+            },
+          "following": {
+            "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+            "letters": []
+          }
         }
       },
       "ё": {
         "0": {
-          "preceding": [],
-          "following": []
+          "preceding": {
+            "signs": [],
+            "letters": []
+          },
+          "following": {
+            "signs": [],
+            "letters": []
+          }
         },
         "1": {
-          "preceding": ["CONS", "SONOR", "SUBUNIT"],
-          "following": ["", "CONS", "SONOR", "VOWEL", "SPEC", "SUBUNIT"]
+          "preceding": {
+            "signs": ["CONS", "SONOR"],
+            "letters": []
+            },
+          "following": {
+            "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+            "letters": []
+          }
         },
         "2": {
-          "preceding": ["", "VOWEL", "SPEC"],
-          "following": ["", "CONS", "SONOR", "VOWEL", "SPEC", "SUBUNIT"]
+          "preceding": {
+            "signs": ["NONE", "VOWEL", "SPEC"],
+            "letters": []
+            },
+          "following": {
+            "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+            "letters": []
+          }
         }
       },
       "ю": {
         "0": {
-          "preceding": [],
-          "following": []
+          "preceding": {
+            "signs": [],
+            "letters": []
+          },
+          "following": {
+            "signs": [],
+            "letters": []
+          }
         },
         "1": {
-          "preceding": ["CONS", "SONOR", "SUBUNIT"],
-          "following": ["", "CONS", "SONOR", "VOWEL", "SPEC", "SUBUNIT"]
+          "preceding": {
+            "signs": ["CONS", "SONOR"],
+            "letters": []
+            },
+          "following": {
+            "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+            "letters": []
+          }
         },
         "2": {
-          "preceding": ["", "VOWEL", "SPEC"],
-          "following": ["", "CONS", "SONOR", "VOWEL", "SPEC", "SUBUNIT"]
+          "preceding": {
+            "signs": ["NONE", "VOWEL", "SPEC"],
+            "letters": []
+            },
+          "following": {
+            "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+            "letters": []
+          }
         }
       },
       "я": {
         "0": {
-          "preceding": [],
-          "following": []
+          "preceding": {
+            "signs": [],
+            "letters": []
+          },
+          "following": {
+            "signs": [],
+            "letters": []
+          }
         },
         "1": {
-          "preceding": ["CONS", "SONOR", "SUBUNIT"],
-          "following": ["", "CONS", "SONOR", "VOWEL", "SPEC", "SUBUNIT"]
+          "preceding": {
+            "signs": ["CONS", "SONOR"],
+            "letters": []
+            },
+          "following": {
+            "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+            "letters": []
+          }
         },
         "2": {
-          "preceding": ["", "VOWEL", "SPEC"],
-          "following": ["", "CONS", "SONOR", "VOWEL", "SPEC", "SUBUNIT"]
+          "preceding": {
+            "signs": ["NONE", "VOWEL", "SPEC"],
+            "letters": []
+            },
+          "following": {
+            "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+            "letters": []
+          }
         }
       }
     }
