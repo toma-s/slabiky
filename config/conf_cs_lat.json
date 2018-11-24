@@ -62,6 +62,7 @@
   "CONS": [
     "b,", "c,", "č,", "d,", "ď,", "f,", "g,", "h,", "k,", "p,", "q,", "ř,", "s,", "š,", "t,", "ť,", "v,", "w,", "x,", "z,", "ž"
   ],
+  "SPEC": [],
   "clusters": [
     {
       "c": [
@@ -207,5 +208,40 @@
       "z": "to_following"
     }
   ],
-  "special_sound_length": []
+  "special_sound_length": [
+    {
+      "ě": {
+        "0": {
+          "preceding": {
+            "signs": [],
+            "letters": []
+          },
+          "following": {
+            "signs": [],
+            "letters": []
+          }
+        },
+        "1": {
+          "preceding": {
+            "signs": ["NONE", "VOWEL", "SPEC"],
+            "letters": ["j", "l", "n", "ň", "r", "c,", "č", "d", "ď", "g", "h", "k", "q", "ř", "s", "š", "t", "ť", "w", "x", "z", "ž"]
+            },
+          "following": {
+            "signs": [],
+            "letters": []
+          }
+        },
+        "2": {
+          "preceding": {
+            "signs": [],
+            "letters": ["b", "f", "m", "p", "v"]
+            },
+          "following": {
+            "signs": [],
+            "letters": []
+          }
+        }
+      }
+    }
+  ]
 }
