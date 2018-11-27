@@ -5,9 +5,6 @@
       "writing_system": "latin"
     }
   ],
-  "uppercase": [
-    "A", "B", "C", "Č", "Ć", "D", "E", "Ě", "F", "G", "H", "I", "J", "K", "L", "Ł", "M", "N", "Ń", "O", "Ó", "P", "R", "Ŕ", "S", "Š", "Ś", "T", "U", "W", "Y", "Z", "Ž", "Ź"
-  ],
   "lowercase": [
     {
       "a": { "phoneme-length": 1, "sign": "VOWEL"},
