@@ -219,8 +219,9 @@
       "c": [
         {
           "h": {
-            "except": [],
-            "only": [],
+            "except_in_subword": [],
+            "except_preceding": [],
+            "only_in_subword": [],
             "length": 1,
             "phonotype": "TODO"
           }
@@ -229,8 +230,9 @@
       "d": [
         {
           "ž": {
-            "except": [],
-            "only": [],
+            "except_in_subword": [],
+            "except_preceding": [],
+            "only_in_subword": [],
             "length": 1,
             "phonotype": "TODO"
           }
@@ -239,8 +241,9 @@
       "a": [
         {
           "u": {
-            "except": [],
-            "only": [],
+            "except_in_subword": [],
+            "except_preceding": [],
+            "only_in_subword": [],
             "length": 1,
             "phonotype": "TODO"
           }
@@ -249,8 +252,8 @@
       "o": [
         {
           "u" : {
-            "except": ["pouč,", "pouka,", "pouká,", "poukl,", "poulič,", "poum,", "použ,", "poupr,", "pouráž,", "pousm,", "pous,", "poute,", "pouvaž,", "pouzen,", "douč,", "douprav,", "doužív,", "douzov,", "doupřesn,", "doudit,", "doudí"],
-            "only": [],
+            "except_in_subword": ["pouč,", "pouka,", "pouká,", "poukl,", "poulič,", "poum,", "použ,", "poupr,", "pouráž,", "pousm,", "pous,", "poute,", "pouvaž,", "pouzen,", "douč,", "douprav,", "doužív,", "douzov,", "doupřesn,", "doudit,", "doudí"],
+            "only_in_subword": [],
             "length": 1,
             "phonotype": "TODO"
           }
@@ -259,8 +262,8 @@
       "e": [
         {
           "u": {
-            "except": [],
-            "only": ["eufemi,", "eufor,", "euro,", "eutan,", "farmaceut,", "feud,", "koloseu,", "koreu,", "leuk,", "linoleu,", "mauzoleu,", "muzeu,", "neutral,", "neutrál,", "pneum,", "pseudo,", "terapeut,", "eufon,", "eunuch,", "eunuš,", "zeugm,", "jubilee"],
+            "except_in_subword": [],
+            "only_in_subword": ["eufemi,", "eufor,", "euro,", "eutan,", "farmaceut,", "feud,", "koloseu,", "koreu,", "leuk,", "linoleu,", "mauzoleu,", "muzeu,", "neutral,", "neutrál,", "pneum,", "pseudo,", "terapeut,", "eufon,", "eunuch,", "eunuš,", "zeugm,", "jubilee"],
             "length": 2,
             "phonotype": "TODO"
           }
@@ -274,19 +277,22 @@
         "preceding": "CONS",
         "following": "CONS",
         "becomes": "VOWEL",
-        "only": []
+        "only_in_word": [],
+        "include_word": []
       },
       "r": {
         "preceding": "CONS",
         "following": "CONS",
         "becomes": "VOWEL",
-        "only": []
+        "only_in_word": [],
+        "include_word": []
       },
       "m": {
         "preceding": "CONS",
         "following": "NONE",
         "becomes": "VOWEL",
-        "only": ["sedm", "osm"]
+        "only_in_word": ["sedm", "osm"],
+        "include_word": []
       }
     }
   ],

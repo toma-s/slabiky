@@ -179,16 +179,18 @@
       "д": [
         {
           "ж": {
-            "except": [],
-            "only": [],
+            "except_in_subword": [],
+            "except_preceding": [],
+            "only_in_subword": [],
             "length": 1,
-            "phonotype": "TODO"
+            "phonotype": "CONS"
           },
           "з": {
-            "except": [],
-            "only": [],
+            "except_in_subword": [],
+            "except_preceding": [],
+            "only_in_subword": [],
             "length": 1,
-            "phonotype": "TODO"
+            "phonotype": "CONS"
           }
         }
       ]

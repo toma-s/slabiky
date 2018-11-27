@@ -1,7 +1,7 @@
 {
   "language": [
     {
-      "name": "lower sorbian",
+      "name": "polish",
       "writing_system": "latin"
     }
   ],
@@ -12,20 +12,20 @@
         "sign": "VOWEL",
         "subunit": 0
       },
+      "ą": {
+        "phoneme-length": 1,
+        "sign": "VOWEL",
+        "subunit": 0
+      },
       "b": {
         "phoneme-length": 1,
         "sign": "CONS",
-        "subunit": 1
+        "subunit": 0
       },
       "c": {
         "phoneme-length": 1,
         "sign": "CONS",
         "subunit": 1
-      },
-      "č": {
-        "phoneme-length": 1,
-        "sign": "CONS",
-        "subunit": 0
       },
       "ć": {
         "phoneme-length": 1,
@@ -42,7 +42,7 @@
         "sign": "VOWEL",
         "subunit": 0
       },
-      "ě": {
+      "ę": {
         "phoneme-length": 1,
         "sign": "VOWEL",
         "subunit": 0
@@ -65,7 +65,7 @@
       "i": {
         "phoneme-length": 1,
         "sign": "VOWEL",
-        "subunit": 0
+        "subunit": 1
       },
       "j": {
         "phoneme-length": 1,
@@ -90,12 +90,12 @@
       "m": {
         "phoneme-length": 1,
         "sign": "SONOR",
-        "subunit": 1
+        "subunit": 0
       },
       "n": {
         "phoneme-length": 1,
         "sign": "SONOR",
-        "subunit": 1
+        "subunit": 0
       },
       "ń": {
         "phoneme-length": 1,
@@ -115,27 +115,17 @@
       "p": {
         "phoneme-length": 1,
         "sign": "CONS",
-        "subunit": 1
+        "subunit": 0
       },
       "r": {
         "phoneme-length": 1,
         "sign": "SONOR",
         "subunit": 1
       },
-      "ŕ": {
-        "phoneme-length": 1,
-        "sign": "SONOR",
-        "subunit": 0
-      },
       "s": {
         "phoneme-length": 1,
         "sign": "CONS",
-        "subunit": 0
-      },
-      "š": {
-        "phoneme-length": 1,
-        "sign": "CONS",
-        "subunit": 0
+        "subunit": 1
       },
       "ś": {
         "phoneme-length": 1,
@@ -145,7 +135,7 @@
       "t": {
         "phoneme-length": 1,
         "sign": "CONS",
-        "subunit": 1
+        "subunit": 0
       },
       "u": {
         "phoneme-length": 1,
@@ -154,8 +144,8 @@
       },
       "w": {
         "phoneme-length": 1,
-        "sign": "SONOR",
-        "subunit": 1
+        "sign": "CONS",
+        "subunit": 0
       },
       "y": {
         "phoneme-length": 1,
@@ -167,12 +157,12 @@
         "sign": "CONS",
         "subunit": 0
       },
-      "ž": {
+      "ź": {
         "phoneme-length": 1,
         "sign": "CONS",
         "subunit": 0
       },
-      "ź": {
+      "ż": {
         "phoneme-length": 1,
         "sign": "CONS",
         "subunit": 0
@@ -181,69 +171,21 @@
   ],
   "clusters": [
     {
-      "p": [
+      "c": [
         {
-          "j": {
+          "h": {
             "except_in_subword": [],
             "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "CONS"
-          }
-        }
-      ],
-      "b": [
-        {
-          "j": {
+          },
+          "z": {
             "except_in_subword": [],
             "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "CONS"
-          }
-        }
-      ],
-      "w": [
-        {
-          "j": {
-            "except_in_subword": [],
-            "except_preceding": [],
-            "only_in_subword": [],
-            "length": 1,
-            "phonotype": "SONOR"
-          }
-        }
-      ],
-      "m": [
-        {
-          "j": {
-            "except_in_subword": [],
-            "except_preceding": [],
-            "only_in_subword": [],
-            "length": 1,
-            "phonotype": "SONOR"
-          }
-        }
-      ],
-      "n": [
-        {
-          "j": {
-            "except_in_subword": [],
-            "except_preceding": [],
-            "only_in_subword": [],
-            "length": 1,
-            "phonotype": "SONOR"
-          }
-        }
-      ],
-      "r": [
-        {
-          "j": {
-            "except_in_subword": [],
-            "except_preceding": [],
-            "only_in_subword": [],
-            "length": 1,
-            "phonotype": "SONOR"
           }
         }
       ],
@@ -262,35 +204,88 @@
             "only_in_subword": [],
             "length": 1,
             "phonotype": "CONS"
-          }
-        }
-      ],
-      "c": [
-        {
-          "h": {
-            "excep_subwordt": [],
-            "except_preceding": [],
-            "only_in_subword": [],
-            "length": 1,
-            "phonotype": "CONS"
-          }
-        }
-      ],
-      "t": [
-        {
-          "š": {
-            "except_in_subword": [],
-            "except_preceding": [],
-            "only_in_subword": [],
-            "length": 1,
-            "phonotype": "CONS"
           },
-          "ś": {
+          "ż": {
             "except_in_subword": [],
             "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "CONS"
+          }
+        }
+      ],
+      "s": [
+        {
+          "z": {
+            "except_in_subword": [],
+            "except_preceding": [],
+            "only_in_subword": [],
+            "length": 1,
+            "phonotype": "CONS"
+          }
+        }
+      ],
+      "r": [
+        {
+          "z": {
+            "except_in_subword": [],
+            "except_preceding": [],
+            "only_in_subword": [],
+            "length": 1,
+            "phonotype": "CONS"
+          }
+        }
+      ],
+      "i": [
+        {
+          "a": {
+            "except_in_subword": [],
+            "except_preceding": ["r", "l"],
+            "only_in_subword": [],
+            "length": 1,
+            "phonotype": "TODO"
+          },
+          "ą": {
+            "except_in_subword": [],
+            "except_preceding": ["r", "l"],
+            "only_in_subword": [],
+            "length": 1,
+            "phonotype": "TODO"
+          },
+          "e": {
+            "except_in_subword": [],
+            "except_preceding": ["r", "l"],
+            "only_in_subword": [],
+            "length": 1,
+            "phonotype": "TODO"
+          },
+          "ę": {
+            "except_in_subword": [],
+            "except_preceding": ["r", "l"],
+            "only_in_subword": [],
+            "length": 1,
+            "phonotype": "TODO"
+          },
+          "o": {
+            "except_in_subword": [],
+            "except_preceding": ["r", "l"],
+            "only_in_subword": [],
+            "length": 1,
+            "phonotype": "TODO"
+          },
+          "ó": {
+            "except_in_subword": [],
+            "except_preceding": ["r", "l"],
+            "only_in_subword": [],
+            "length": 1,
+            "phonotype": "TODO"
+          },
+          "u": {
+            "except_in_subword": [],
+            "except_preceding": ["r", "l"],
+            "only_in_subword": [],
+            "length": 1,
+            "phonotype": "TODO"
           }
         }
       ]
@@ -300,7 +295,6 @@
   "text_changes": [],
   "zero-syllable_words": [
     {
-      "k": "to_following",
       "w": "to_following",
       "z": "to_following"
     }
