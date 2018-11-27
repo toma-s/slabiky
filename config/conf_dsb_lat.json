@@ -7,297 +7,64 @@
   ],
   "lowercase": [
     {
-      "a": {
-        "phoneme-length": 1,
-        "sign": "VOWEL",
-        "subunit": 0
-      },
-      "b": {
-        "phoneme-length": 1,
-        "sign": "CONS",
-        "subunit": 1
-      },
-      "c": {
-        "phoneme-length": 1,
-        "sign": "CONS",
-        "subunit": 1
-      },
-      "č": {
-        "phoneme-length": 1,
-        "sign": "CONS",
-        "subunit": 0
-      },
-      "ć": {
-        "phoneme-length": 1,
-        "sign": "CONS",
-        "subunit": 0
-      },
-      "d": {
-        "phoneme-length": 1,
-        "sign": "CONS",
-        "subunit": 1
-      },
-      "e": {
-        "phoneme-length": 1,
-        "sign": "VOWEL",
-        "subunit": 0
-      },
-      "ě": {
-        "phoneme-length": 1,
-        "sign": "VOWEL",
-        "subunit": 0
-      },
-      "f": {
-        "phoneme-length": 1,
-        "sign": "CONS",
-        "subunit": 0
-      },
-      "g": {
-        "phoneme-length": 1,
-        "sign": "CONS",
-        "subunit": 0
-      },
-      "h": {
-        "phoneme-length": 1,
-        "sign": "CONS",
-        "subunit": 0
-      },
-      "i": {
-        "phoneme-length": 1,
-        "sign": "VOWEL",
-        "subunit": 0
-      },
-      "j": {
-        "phoneme-length": 1,
-        "sign": "SONOR",
-        "subunit": 0
-      },
-      "k": {
-        "phoneme-length": 1,
-        "sign": "CONS",
-        "subunit": 0
-      },
-      "l": {
-        "phoneme-length": 1,
-        "sign": "SONOR",
-        "subunit": 0
-      },
-      "ł": {
-        "phoneme-length": 1,
-        "sign": "SONOR",
-        "subunit": 0
-      },
-      "m": {
-        "phoneme-length": 1,
-        "sign": "SONOR",
-        "subunit": 1
-      },
-      "n": {
-        "phoneme-length": 1,
-        "sign": "SONOR",
-        "subunit": 1
-      },
-      "ń": {
-        "phoneme-length": 1,
-        "sign": "SONOR",
-        "subunit": 0
-      },
-      "o": {
-        "phoneme-length": 1,
-        "sign": "VOWEL",
-        "subunit": 0
-      },
-      "ó": {
-        "phoneme-length": 1,
-        "sign": "VOWEL",
-        "subunit": 0
-      },
-      "p": {
-        "phoneme-length": 1,
-        "sign": "CONS",
-        "subunit": 1
-      },
-      "r": {
-        "phoneme-length": 1,
-        "sign": "SONOR",
-        "subunit": 1
-      },
-      "ŕ": {
-        "phoneme-length": 1,
-        "sign": "SONOR",
-        "subunit": 0
-      },
-      "s": {
-        "phoneme-length": 1,
-        "sign": "CONS",
-        "subunit": 0
-      },
-      "š": {
-        "phoneme-length": 1,
-        "sign": "CONS",
-        "subunit": 0
-      },
-      "ś": {
-        "phoneme-length": 1,
-        "sign": "CONS",
-        "subunit": 0
-      },
-      "t": {
-        "phoneme-length": 1,
-        "sign": "CONS",
-        "subunit": 1
-      },
-      "u": {
-        "phoneme-length": 1,
-        "sign": "VOWEL",
-        "subunit": 0
-      },
-      "w": {
-        "phoneme-length": 1,
-        "sign": "SONOR",
-        "subunit": 1
-      },
-      "y": {
-        "phoneme-length": 1,
-        "sign": "VOWEL",
-        "subunit": 0
-      },
-      "z": {
-        "phoneme-length": 1,
-        "sign": "CONS",
-        "subunit": 0
-      },
-      "ž": {
-        "phoneme-length": 1,
-        "sign": "CONS",
-        "subunit": 0
-      },
-      "ź": {
-        "phoneme-length": 1,
-        "sign": "CONS",
-        "subunit": 0
-      }
+      "a": { "phoneme-length": 1, "sign": "VOWEL"},
+      "b": { "phoneme-length": 1, "sign": "CONS"},
+      "c": { "phoneme-length": 1, "sign": "CONS"},
+      "č": { "phoneme-length": 1, "sign": "CONS"},
+      "ć": { "phoneme-length": 1, "sign": "CONS"},
+      "d": { "phoneme-length": 1, "sign": "CONS"},
+      "e": { "phoneme-length": 1, "sign": "VOWEL"},
+      "ě": { "phoneme-length": 1, "sign": "VOWEL"},
+      "f": { "phoneme-length": 1, "sign": "CONS"},
+      "g": { "phoneme-length": 1, "sign": "CONS"},
+      "h": { "phoneme-length": 1, "sign": "CONS"},
+      "i": { "phoneme-length": 1, "sign": "VOWEL"},
+      "j": { "phoneme-length": 1, "sign": "SONOR"},
+      "k": { "phoneme-length": 1, "sign": "CONS"},
+      "l": { "phoneme-length": 1, "sign": "SONOR"},
+      "ł": { "phoneme-length": 1, "sign": "SONOR"},
+      "m": { "phoneme-length": 1, "sign": "SONOR"},
+      "n": { "phoneme-length": 1, "sign": "SONOR"},
+      "ń": { "phoneme-length": 1, "sign": "SONOR"},
+      "o": { "phoneme-length": 1, "sign": "VOWEL"},
+      "ó": { "phoneme-length": 1, "sign": "VOWEL"},
+      "p": { "phoneme-length": 1, "sign": "CONS"},
+      "r": { "phoneme-length": 1, "sign": "SONOR"},
+      "ŕ": { "phoneme-length": 1, "sign": "SONOR"},
+      "s": { "phoneme-length": 1, "sign": "CONS"},
+      "š": { "phoneme-length": 1, "sign": "CONS"},
+      "ś": { "phoneme-length": 1, "sign": "CONS"},
+      "t": { "phoneme-length": 1, "sign": "CONS"},
+      "u": { "phoneme-length": 1, "sign": "VOWEL"},
+      "w": { "phoneme-length": 1, "sign": "SONOR"},
+      "y": { "phoneme-length": 1, "sign": "VOWEL"},
+      "z": { "phoneme-length": 1, "sign": "CONS"},
+      "ž": { "phoneme-length": 1, "sign": "CONS"},
+      "ź": { "phoneme-length": 1, "sign": "CONS"}
     }
   ],
-  "clusters": [
+  "VOWEL": [
+    "a", "e", "ě", "i", "o", "ó", "u", "y"
+  ],
+  "SONOR": [
+    "j", "l", "ł", "m", "n", "ń", "r", "ŕ", "w"
+  ],
+  "CONS": [
+    "b,", "c,", "č,", "ć,", "d,", "f,", "g,", "h,", "k,", "p,", "s,", "š,", "ś,", "t,", "z,", "ž,", "ź"
+  ],
+  "special_signs": [],
+  "digraphs": [
     {
-      "p": [
-        {
-          "j": {
-            "except_in_subword": [],
-            "except_preceding": [],
-            "only_in_subword": [],
-            "length": 1,
-            "phonotype": "CONS"
-          }
-        }
-      ],
-      "b": [
-        {
-          "j": {
-            "except_in_subword": [],
-            "except_preceding": [],
-            "only_in_subword": [],
-            "length": 1,
-            "phonotype": "CONS"
-          }
-        }
-      ],
-      "w": [
-        {
-          "j": {
-            "except_in_subword": [],
-            "except_preceding": [],
-            "only_in_subword": [],
-            "length": 1,
-            "phonotype": "SONOR"
-          }
-        }
-      ],
-      "m": [
-        {
-          "j": {
-            "except_in_subword": [],
-            "except_preceding": [],
-            "only_in_subword": [],
-            "length": 1,
-            "phonotype": "SONOR"
-          }
-        }
-      ],
-      "n": [
-        {
-          "j": {
-            "except_in_subword": [],
-            "except_preceding": [],
-            "only_in_subword": [],
-            "length": 1,
-            "phonotype": "SONOR"
-          }
-        }
-      ],
-      "r": [
-        {
-          "j": {
-            "except_in_subword": [],
-            "except_preceding": [],
-            "only_in_subword": [],
-            "length": 1,
-            "phonotype": "SONOR"
-          }
-        }
-      ],
-      "d": [
-        {
-          "z": {
-            "except_in_subword": [],
-            "except_preceding": [],
-            "only_in_subword": [],
-            "length": 1,
-            "phonotype": "CONS"
-          },
-          "ź": {
-            "except_in_subword": [],
-            "except_preceding": [],
-            "only_in_subword": [],
-            "length": 1,
-            "phonotype": "CONS"
-          }
-        }
-      ],
-      "c": [
-        {
-          "h": {
-            "excep_subwordt": [],
-            "except_preceding": [],
-            "only_in_subword": [],
-            "length": 1,
-            "phonotype": "CONS"
-          }
-        }
-      ],
-      "t": [
-        {
-          "š": {
-            "except_in_subword": [],
-            "except_preceding": [],
-            "only_in_subword": [],
-            "length": 1,
-            "phonotype": "CONS"
-          },
-          "ś": {
-            "except_in_subword": [],
-            "except_preceding": [],
-            "only_in_subword": [],
-            "length": 1,
-            "phonotype": "CONS"
-          }
-        }
-      ]
+      "p": ["j"],
+      "b": ["j"],
+      "w": ["j"],
+      "m": ["j"],
+      "d": ["z", "ź"],
+      "c": ["h"],
+      "t": ["š", "ś"]
     }
   ],
   "phonotype_changes": [],
-  "text_changes": [],
   "zero-syllable_words": [
     {
       "k": "to_following",

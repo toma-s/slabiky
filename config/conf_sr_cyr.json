@@ -5,173 +5,63 @@
       "writing_system": "cyrillic"
     }
   ],
+  "uppercase": [
+    "А", "Б", "В", "Г", "Д", "Ҕ", "Е", "Ж", "З", "И", "J", "К", "Л", "Љ", "М", "Н", "Њ", "О", "П", "Р", "С", "Т", "Ћ", "У", "Ф", "Х", "Ц", "Ч", "Џ", "Ш"
+  ],
   "lowercase": [
     {
-      "а": {
-        "phoneme-length": 1,
-        "sign": "VOWEL",
-        "subunit": 0
-      },
-      "б": {
-        "phoneme-length": 1,
-        "sign": "CONS",
-        "subunit": 0
-      },
-      "в": {
-        "phoneme-length": 1,
-        "sign": "SONOR",
-        "subunit": 0
-      },
-      "г": {
-        "phoneme-length": 1,
-        "sign": "CONS",
-        "subunit": 0
-      },
-      "д": {
-        "phoneme-length": 1,
-        "sign": "CONS",
-        "subunit": 0
-      },
-      "ҕ": {
-        "phoneme-length": 1,
-        "sign": "CONS",
-        "subunit": 0
-      },
-      "е": {
-        "phoneme-length": 1,
-        "sign": "VOWEL",
-        "subunit": 0
-      },
-      "ж": {
-        "phoneme-length": 1,
-        "sign": "CONS",
-        "subunit": 0
-      },
-      "з": {
-        "phoneme-length": 1,
-        "sign": "CONS",
-        "subunit": 0
-      },
-      "и": {
-        "phoneme-length": 1,
-        "sign": "VOWEL",
-        "subunit": 0
-      },
-      "j": {
-        "phoneme-length": 1,
-        "sign": "SONOR",
-        "subunit": 0
-      },
-      "к": {
-        "phoneme-length": 1,
-        "sign": "CONS",
-        "subunit": 0
-      },
-      "л": {
-        "phoneme-length": 1,
-        "sign": "SONOR",
-        "subunit": 0
-      },
-      "љ": {
-        "phoneme-length": 1,
-        "sign": "SONOR",
-        "subunit": 0
-      },
-      "м": {
-        "phoneme-length": 1,
-        "sign": "SONOR",
-        "subunit": 0
-      },
-      "н": {
-        "phoneme-length": 1,
-        "sign": "SONOR",
-        "subunit": 0
-      },
-      "њ": {
-        "phoneme-length": 1,
-        "sign": "SONOR",
-        "subunit": 0
-      },
-      "о": {
-        "phoneme-length": 1,
-        "sign": "VOWEL",
-        "subunit": 0
-      },
-      "п": {
-        "phoneme-length": 1,
-        "sign": "CONS",
-        "subunit": 0
-      },
-      "р": {
-        "phoneme-length": 1,
-        "sign": "SONOR",
-        "subunit": 0
-      },
-      "с": {
-        "phoneme-length": 1,
-        "sign": "CONS",
-        "subunit": 0
-      },
-      "т": {
-        "phoneme-length": 1,
-        "sign": "CONS",
-        "subunit": 0
-      },
-      "ћ": {
-        "phoneme-length": 1,
-        "sign": "CONS",
-        "subunit": 0
-      },
-      "у": {
-        "phoneme-length": 1,
-        "sign": "VOWEL",
-        "subunit": 0
-      },
-      "ф": {
-        "phoneme-length": 1,
-        "sign": "CONS",
-        "subunit": 0
-      },
-      "х": {
-        "phoneme-length": 1,
-        "sign": "CONS",
-        "subunit": 0
-      },
-      "ц": {
-        "phoneme-length": 1,
-        "sign": "CONS",
-        "subunit": 0
-      },
-      "ч": {
-        "phoneme-length": 1,
-        "sign": "CONS",
-        "subunit": 0
-      },
-      "џ": {
-        "phoneme-length": 1,
-        "sign": "CONS",
-        "subunit": 0
-      },
-      "ш": {
-        "phoneme-length": 1,
-        "sign": "CONS",
-        "subunit": 0
-      }
+      "а": { "phoneme-length": 1, "sign": "VOWEL"},
+      "б": { "phoneme-length": 1, "sign": "CONS"},
+      "в": { "phoneme-length": 1, "sign": "SONOR"},
+      "г": { "phoneme-length": 1, "sign": "CONS"},
+      "д": { "phoneme-length": 1, "sign": "CONS"},
+      "ҕ": { "phoneme-length": 1, "sign": "CONS"},
+      "е": { "phoneme-length": 1, "sign": "VOWEL"},
+      "ж": { "phoneme-length": 1, "sign": "CONS"},
+      "з": { "phoneme-length": 1, "sign": "CONS"},
+      "и": { "phoneme-length": 1, "sign": "VOWEL"},
+      "j": { "phoneme-length": 1, "sign": "SONOR"},
+      "к": { "phoneme-length": 1, "sign": "CONS"},
+      "л": { "phoneme-length": 1, "sign": "SONOR"},
+      "љ": { "phoneme-length": 1, "sign": "SONOR"},
+      "м": { "phoneme-length": 1, "sign": "SONOR"},
+      "н": { "phoneme-length": 1, "sign": "SONOR"},
+      "њ": { "phoneme-length": 1, "sign": "SONOR"},
+      "о": { "phoneme-length": 1, "sign": "VOWEL"},
+      "п": { "phoneme-length": 1, "sign": "CONS"},
+      "р": { "phoneme-length": 1, "sign": "SONOR"},
+      "с": { "phoneme-length": 1, "sign": "CONS"},
+      "т": { "phoneme-length": 1, "sign": "CONS"},
+      "ћ": { "phoneme-length": 1, "sign": "CONS"},
+      "у": { "phoneme-length": 1, "sign": "VOWEL"},
+      "ф": { "phoneme-length": 1, "sign": "CONS"},
+      "х": { "phoneme-length": 1, "sign": "CONS"},
+      "ц": { "phoneme-length": 1, "sign": "CONS"},
+      "ч": { "phoneme-length": 1, "sign": "CONS"},
+      "џ": { "phoneme-length": 1, "sign": "CONS"},
+      "ш": { "phoneme-length": 1, "sign": "CONS"}
     }
   ],
-  "clusters": [],
+  "VOWEL": [
+    "а", "е", "и", "о", "у"
+  ],
+  "SONOR": [
+    "в", "j", "л", "љ", "м", "н", "њ", "р"
+  ],
+  "CONS": [
+    "б", "г", "д", "ҕ", "ж", "з", "к", "п", "с", "т", "ћ", "ф", "х", "ц", "ч", "ш", "џ"
+  ],
+  "special_signs": [],
+  "digraphs": [],
   "phonotype_changes": [
     {
       "р": {
         "preceding": "CONS",
         "following": "CONS",
-        "becomes": "VOWEL",
-        "only_in_word": [],
-        "include_word": []
+        "becomes": "VOWEL"
       }
     }
   ],
-  "text_changes": [],
   "zero-syllable_words": [
     {
       "к": "to_following",

@@ -5,13 +5,21 @@
       "writing_system": ""
     }
   ],
+  "uppercase": [
+  ],
   "lowercase": [
   ],
-  "clusters": [
+  "VOWEL": [
+  ],
+  "SONOR": [
+  ],
+  "CONS": [
+  ],
+  "special_signs": [
+  ],
+  "digraphs": [
   ],
   "phonotype_changes": [
-  ],
-  "text_changes": [
   ],
   "zero-syllable_words": [
   ],

@@ -164,16 +164,14 @@
       "д": [
         {
           "ж": {
-            "except_in_subword": [],
-            "except_preceding": [],
-            "only_in_subword": [],
+            "except": [],
+            "only": [],
             "length": 1,
             "phonotype": "TODO"
           },
           "з": {
-            "except_in_subword": [],
-            "except_preceding": [],
-            "only_in_subword": [],
+            "except": [],
+            "only": [],
             "length": 1,
             "phonotype": "TODO"
           }
