@@ -34,10 +34,16 @@ def lower_upd(input):
         letter, sign = x.split(':')
         print(letter.strip() + ': { "phoneme-length": 1, "sign": ' + sign.strip() + "},")
 
+def quot(input):
+    for line in input:
+        for word in line.split(' '):
+            print('"{}",'.format(word), end=' ')
+
 
 if __name__ == '__main__':
     # upper(list(sys.stdin))
     # lower1(list(sys.stdin))
     # lower(list(sys.stdin))
-    get_single(list(sys.stdin))
+##    get_single(list(sys.stdin))
     # lower_upd(list(sys.stdin))
+    quot(list(sys.stdin))
