@@ -167,7 +167,7 @@
         "following": "CONS",
         "becomes": "VOWEL",
         "only_in_word": [],
-        "include_word": []
+        "included_in_word": []
       }
     }
   ],

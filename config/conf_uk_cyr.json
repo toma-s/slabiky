@@ -185,14 +185,12 @@
         {
           "ж": {
             "except_in_subword": [],
-            "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "CONS"
           },
           "з": {
             "except_in_subword": [],
-            "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "CONS"

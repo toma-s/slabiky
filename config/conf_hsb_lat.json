@@ -13,12 +13,12 @@
         "subunit": 0
       },
       "b": {
-        "phoneme-length": -1,
+        "phoneme-length": 1,
         "sign": "CONS",
         "subunit": 1
       },
       "c": {
-        "phoneme-length": -1,
+        "phoneme-length": 1,
         "sign": "CONS",
         "subunit": 1
       },
@@ -33,7 +33,7 @@
         "subunit": 0
       },
       "d": {
-        "phoneme-length": -1,
+        "phoneme-length": 1,
         "sign": "CONS",
         "subunit": 1
       },
@@ -83,17 +83,17 @@
         "subunit": 0
       },
       "ł": {
-        "phoneme-length": -1,
+        "phoneme-length": 1,
         "sign": "SONOR",
         "subunit": 1
       },
       "m": {
-        "phoneme-length": -1,
+        "phoneme-length": 1,
         "sign": "SONOR",
         "subunit": 1
       },
       "n": {
-        "phoneme-length": -1,
+        "phoneme-length": 1,
         "sign": "SONOR",
         "subunit": 1
       },
@@ -113,12 +113,12 @@
         "subunit": 0
       },
       "p": {
-        "phoneme-length": -1,
+        "phoneme-length": 1,
         "sign": "CONS",
         "subunit": 1
       },
       "r": {
-        "phoneme-length": -1,
+        "phoneme-length": 1,
         "sign": "SONOR",
         "subunit": 1
       },
@@ -138,7 +138,7 @@
         "subunit": 0
       },
       "t": {
-        "phoneme-length": -1,
+        "phoneme-length": 1,
         "sign": "CONS",
         "subunit": 1
       },
@@ -148,7 +148,7 @@
         "subunit": 0
       },
       "w": {
-        "phoneme-length": -1,
+        "phoneme-length": 1,
         "sign": "SONOR",
         "subunit": 1
       },
@@ -180,7 +180,6 @@
         {
           "h": {
             "except_in_subword": [],
-            "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "TODO"
@@ -191,7 +190,6 @@
         {
           "j": {
             "except_in_subword": [],
-            "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "TODO"
@@ -202,7 +200,6 @@
         {
           "j": {
             "except_in_subword": [],
-            "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "TODO"
@@ -213,7 +210,6 @@
         {
           "j": {
             "except_in_subword": [],
-            "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "TODO"
@@ -224,7 +220,6 @@
         {
           "j": {
             "except_in_subword": [],
-            "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "TODO"
@@ -235,7 +230,6 @@
         {
           "j": {
             "except_in_subword": [],
-            "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "TODO"
@@ -246,7 +240,6 @@
         {
           "j": {
             "except_in_subword": [],
-            "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "TODO"
@@ -257,14 +250,12 @@
         {
           "z": {
             "except_in_subword": [],
-            "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "TODO"
           },
           "ź": {
             "except_in_subword": [],
-            "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "TODO"
@@ -275,7 +266,6 @@
         {
           "h": {
             "except_in_subword": [],
-            "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "TODO"
@@ -286,7 +276,6 @@
         {
           "ř": {
             "except_in_subword": [],
-            "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "TODO"
@@ -302,7 +291,7 @@
         "following": "",
         "becomes": "VOWEL",
         "only_in_word": [],
-        "include_word": []
+        "included_in_word": []
       }
     }
   ],

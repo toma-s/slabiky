@@ -185,7 +185,6 @@
         {
           "j": {
             "except_in_subword": [],
-            "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "CONS"
@@ -196,7 +195,6 @@
         {
           "j": {
             "except_in_subword": [],
-            "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "CONS"
@@ -207,7 +205,6 @@
         {
           "j": {
             "except_in_subword": [],
-            "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "SONOR"
@@ -218,7 +215,6 @@
         {
           "j": {
             "except_in_subword": [],
-            "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "SONOR"
@@ -229,7 +225,6 @@
         {
           "j": {
             "except_in_subword": [],
-            "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "SONOR"
@@ -240,7 +235,6 @@
         {
           "j": {
             "except_in_subword": [],
-            "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "SONOR"
@@ -251,14 +245,12 @@
         {
           "z": {
             "except_in_subword": [],
-            "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "CONS"
           },
           "ź": {
             "except_in_subword": [],
-            "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "CONS"
@@ -269,7 +261,6 @@
         {
           "h": {
             "excep_subwordt": [],
-            "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "CONS"
@@ -280,14 +271,12 @@
         {
           "š": {
             "except_in_subword": [],
-            "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "CONS"
           },
           "ś": {
             "except_in_subword": [],
-            "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "CONS"

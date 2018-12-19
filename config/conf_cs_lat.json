@@ -20,7 +20,7 @@
       "b": {
         "phoneme-length": 1,
         "sign": "CONS",
-        "subunit": 1
+        "subunit": 0
       },
       "c": {
         "phoneme-length": 1,
@@ -53,14 +53,14 @@
         "subunit": 0
       },
       "ě": {
-        "phoneme-length": 1,
+        "phoneme-length": -1,
         "sign": "VOWEL",
         "subunit": 0
       },
       "f": {
         "phoneme-length": 1,
         "sign": "CONS",
-        "subunit": 1
+        "subunit": 0
       },
       "g": {
         "phoneme-length": 1,
@@ -100,7 +100,7 @@
       "m": {
         "phoneme-length": 1,
         "sign": "SONOR",
-        "subunit": 1
+        "subunit": 0
       },
       "n": {
         "phoneme-length": 1,
@@ -125,7 +125,7 @@
       "p": {
         "phoneme-length": 1,
         "sign": "CONS",
-        "subunit": 1
+        "subunit": 0
       },
       "q": {
         "phoneme-length": 2,
@@ -180,7 +180,7 @@
       "v": {
         "phoneme-length": 1,
         "sign": "CONS",
-        "subunit": 1
+        "subunit": 0
       },
       "w": {
         "phoneme-length": 1,
@@ -220,7 +220,6 @@
         {
           "h": {
             "except_in_subword": [],
-            "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "TODO"
@@ -231,7 +230,6 @@
         {
           "ž": {
             "except_in_subword": [],
-            "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "TODO"
@@ -242,7 +240,6 @@
         {
           "u": {
             "except_in_subword": [],
-            "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "TODO"
@@ -264,7 +261,7 @@
           "u": {
             "except_in_subword": [],
             "only_in_subword": ["eufemi,", "eufor,", "euro,", "eutan,", "farmaceut,", "feud,", "koloseu,", "koreu,", "leuk,", "linoleu,", "mauzoleu,", "muzeu,", "neutral,", "neutrál,", "pneum,", "pseudo,", "terapeut,", "eufon,", "eunuch,", "eunuš,", "zeugm,", "jubilee"],
-            "length": 2,
+            "length": 1,
             "phonotype": "TODO"
           }
         }
@@ -278,21 +275,21 @@
         "following": "CONS",
         "becomes": "VOWEL",
         "only_in_word": [],
-        "include_word": []
+        "included_in_word": []
       },
       "r": {
         "preceding": "CONS",
         "following": "CONS",
         "becomes": "VOWEL",
         "only_in_word": [],
-        "include_word": []
+        "included_in_word": []
       },
       "m": {
         "preceding": "CONS",
         "following": "NONE",
         "becomes": "VOWEL",
         "only_in_word": ["sedm", "osm"],
-        "include_word": []
+        "included_in_word": []
       }
     }
   ],

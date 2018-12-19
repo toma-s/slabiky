@@ -28,7 +28,7 @@
         "subunit": 0
       },
       "д": {
-        "phoneme-length": -1,
+        "phoneme-length": 1,
         "sign": "CONS",
         "subunit": 1
       },
@@ -180,14 +180,12 @@
         {
           "ж": {
             "except_in_subword": [],
-            "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "CONS"
           },
           "з": {
             "except_in_subword": [],
-            "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "CONS"

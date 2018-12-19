@@ -175,14 +175,12 @@
         {
           "h": {
             "except_in_subword": [],
-            "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "CONS"
           },
           "z": {
             "except_in_subword": [],
-            "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "CONS"
@@ -193,21 +191,18 @@
         {
           "z": {
             "except_in_subword": [],
-            "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "CONS"
           },
           "ź": {
             "except_in_subword": [],
-            "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "CONS"
           },
           "ż": {
             "except_in_subword": [],
-            "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "CONS"
@@ -218,7 +213,6 @@
         {
           "z": {
             "except_in_subword": [],
-            "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "CONS"
@@ -229,7 +223,6 @@
         {
           "z": {
             "except_in_subword": [],
-            "except_preceding": [],
             "only_in_subword": [],
             "length": 1,
             "phonotype": "CONS"
@@ -240,51 +233,44 @@
         {
           "a": {
             "except_in_subword": [],
-            "except_preceding": ["r", "l"],
             "only_in_subword": [],
-            "length": 1,
+            "length": -1,
             "phonotype": "TODO"
           },
           "ą": {
             "except_in_subword": [],
-            "except_preceding": ["r", "l"],
             "only_in_subword": [],
-            "length": 1,
+            "length": -1,
             "phonotype": "TODO"
           },
           "e": {
             "except_in_subword": [],
-            "except_preceding": ["r", "l"],
             "only_in_subword": [],
-            "length": 1,
+            "length": -1,
             "phonotype": "TODO"
           },
           "ę": {
             "except_in_subword": [],
-            "except_preceding": ["r", "l"],
             "only_in_subword": [],
-            "length": 1,
+            "length": -1,
             "phonotype": "TODO"
           },
           "o": {
             "except_in_subword": [],
-            "except_preceding": ["r", "l"],
             "only_in_subword": [],
-            "length": 1,
+            "length": -1,
             "phonotype": "TODO"
           },
           "ó": {
             "except_in_subword": [],
-            "except_preceding": ["r", "l"],
             "only_in_subword": [],
-            "length": 1,
+            "length": -1,
             "phonotype": "TODO"
           },
           "u": {
             "except_in_subword": [],
-            "except_preceding": ["r", "l"],
             "only_in_subword": [],
-            "length": 1,
+            "length": -1,
             "phonotype": "TODO"
           }
         }
@@ -299,5 +285,232 @@
       "z": "to_following"
     }
   ],
-  "special_sound_length": []
+  "special_sound_length": [
+    {
+      "ia": {
+        "0": {
+          "preceding": {
+            "signs": [],
+            "letters": []
+          },
+          "following": {
+            "signs": [],
+            "letters": []
+          }
+        },
+        "1": {
+          "preceding": {
+            "signs": ["NONE", "CONS", "VOWEL", "SPEC"],
+            "letters": ["j", "ł", "m", "n", "ń"]
+          },
+          "following": {
+            "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+            "letters": []
+          }
+        },
+        "2": {
+          "preceding": {
+            "signs": [],
+            "letters": ["r", "l"]
+          },
+          "following": {
+            "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+            "letters": []
+          }
+        }
+      },
+      "ią": {
+        "0": {
+          "preceding": {
+            "signs": [],
+            "letters": []
+          },
+          "following": {
+            "signs": [],
+            "letters": []
+          }
+        },
+        "1": {
+          "preceding": {
+            "signs": ["NONE", "CONS", "VOWEL", "SPEC"],
+            "letters": ["j", "ł", "m", "n", "ń"]
+          },
+          "following": {
+            "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+            "letters": []
+          }
+        },
+        "2": {
+          "preceding": {
+            "signs": [],
+            "letters": ["r", "l"]
+          },
+          "following": {
+            "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+            "letters": []
+          }
+        }
+      },
+      "ie": {
+        "0": {
+          "preceding": {
+            "signs": [],
+            "letters": []
+          },
+          "following": {
+            "signs": [],
+            "letters": []
+          }
+        },
+        "1": {
+          "preceding": {
+            "signs": ["NONE", "CONS", "VOWEL", "SPEC"],
+            "letters": ["j", "ł", "m", "n", "ń"]
+          },
+          "following": {
+            "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+            "letters": []
+          }
+        },
+        "2": {
+          "preceding": {
+            "signs": [],
+            "letters": ["r", "l"]
+          },
+          "following": {
+            "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+            "letters": []
+          }
+        }
+      },
+      "ię": {
+        "0": {
+          "preceding": {
+            "signs": [],
+            "letters": []
+          },
+          "following": {
+            "signs": [],
+            "letters": []
+          }
+        },
+        "1": {
+          "preceding": {
+            "signs": ["NONE", "CONS", "VOWEL", "SPEC"],
+            "letters": ["j", "ł", "m", "n", "ń"]
+          },
+          "following": {
+            "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+            "letters": []
+          }
+        },
+        "2": {
+          "preceding": {
+            "signs": [],
+            "letters": ["r", "l"]
+          },
+          "following": {
+            "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+            "letters": []
+          }
+        }
+      },
+      "io": {
+        "0": {
+          "preceding": {
+            "signs": [],
+            "letters": []
+          },
+          "following": {
+            "signs": [],
+            "letters": []
+          }
+        },
+        "1": {
+          "preceding": {
+            "signs": ["NONE", "CONS", "VOWEL", "SPEC"],
+            "letters": ["j", "ł", "m", "n", "ń"]
+          },
+          "following": {
+            "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+            "letters": []
+          }
+        },
+        "2": {
+          "preceding": {
+            "signs": [],
+            "letters": ["r", "l"]
+          },
+          "following": {
+            "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+            "letters": []
+          }
+        }
+      },
+      "ió": {
+        "0": {
+          "preceding": {
+            "signs": [],
+            "letters": []
+          },
+          "following": {
+            "signs": [],
+            "letters": []
+          }
+        },
+        "1": {
+          "preceding": {
+            "signs": ["NONE", "CONS", "VOWEL", "SPEC"],
+            "letters": ["j", "ł", "m", "n", "ń"]
+          },
+          "following": {
+            "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+            "letters": []
+          }
+        },
+        "2": {
+          "preceding": {
+            "signs": [],
+            "letters": ["r", "l"]
+          },
+          "following": {
+            "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+            "letters": []
+          }
+        }
+      },
+      "iu": {
+        "0": {
+          "preceding": {
+            "signs": [],
+            "letters": []
+          },
+          "following": {
+            "signs": [],
+            "letters": []
+          }
+        },
+        "1": {
+          "preceding": {
+            "signs": ["NONE", "CONS", "VOWEL", "SPEC"],
+            "letters": ["j", "ł", "m", "n", "ń"]
+          },
+          "following": {
+            "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+            "letters": []
+          }
+        },
+        "2": {
+          "preceding": {
+            "signs": [],
+            "letters": ["r", "l"]
+          },
+          "following": {
+            "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+            "letters": []
+          }
+        }
+      }
+    }
+  ]
 }
