@@ -1,20 +1,12 @@
 {
-  "language": [
-    {
-      "name": "",
-      "writing_system": ""
-    }
-  ],
-  "lowercase": [
-  ],
-  "clusters": [
-  ],
-  "phonotype_changes": [
-  ],
-  "text_changes": [
-  ],
-  "zero-syllable_words": [
-  ],
-  "special_sound_length": [
-  ]
+  "language": {
+    "name": "",
+    "writing_system": ""
+  },
+  "lowercase": {},
+  "clusters": {},
+  "phonotype_changes": {},
+  "text_changes": {},
+  "zero-syllable_words": {},
+  "special_sound_length": {}
 }
