@@ -316,7 +316,7 @@
           "letters": ["j", "l", "n", "ň", "r", "c,", "č", "d", "ď", "g", "h", "k", "q", "ř", "s", "š", "t", "ť", "w", "x", "z", "ž"]
           },
         "following": {
-          "signs": [],
+          "signs": ["CONS", "SONOR"],
           "letters": []
         }
       },
@@ -326,7 +326,7 @@
           "letters": ["b", "f", "m", "p", "v"]
           },
         "following": {
-          "signs": [],
+          "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
           "letters": []
         }
       }

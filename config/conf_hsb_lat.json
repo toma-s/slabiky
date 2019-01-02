@@ -277,7 +277,7 @@
     "h": {
       "0": {
         "preceding": {
-          "signs": ["CONS", "SONOR", "SPEC"],
+          "signs": ["NONE", "CONS", "SONOR", "SPEC", "VOWEL"],
           "letters": []
         },
         "following": {
