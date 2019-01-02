@@ -167,7 +167,7 @@
             "except_in_subword": [],
             "only_in_subword": [],
             "length": 1,
-            "phonotype": "TODO"
+            "phonotype": "SONOR"
           }
         }
       ],
@@ -177,7 +177,7 @@
             "except_in_subword": [],
             "only_in_subword": [],
             "length": 1,
-            "phonotype": "TODO"
+            "phonotype": "SONOR"
           }
         }
       ],
@@ -187,7 +187,7 @@
             "except_in_subword": [],
             "only_in_subword": [],
             "length": 1,
-            "phonotype": "TODO"
+            "phonotype": "CONS"
           }
         }
       ]

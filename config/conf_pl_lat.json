@@ -235,43 +235,43 @@
             "except_in_subword": [],
             "only_in_subword": [],
             "length": -1,
-            "phonotype": "TODO"
+            "phonotype": "VOWEL"
           },
           "ą": {
             "except_in_subword": [],
             "only_in_subword": [],
             "length": -1,
-            "phonotype": "TODO"
+            "phonotype": "VOWEL"
           },
           "e": {
             "except_in_subword": [],
             "only_in_subword": [],
             "length": -1,
-            "phonotype": "TODO"
+            "phonotype": "VOWEL"
           },
           "ę": {
             "except_in_subword": [],
             "only_in_subword": [],
             "length": -1,
-            "phonotype": "TODO"
+            "phonotype": "VOWEL"
           },
           "o": {
             "except_in_subword": [],
             "only_in_subword": [],
             "length": -1,
-            "phonotype": "TODO"
+            "phonotype": "VOWEL"
           },
           "ó": {
             "except_in_subword": [],
             "only_in_subword": [],
             "length": -1,
-            "phonotype": "TODO"
+            "phonotype": "VOWEL"
           },
           "u": {
             "except_in_subword": [],
             "only_in_subword": [],
             "length": -1,
-            "phonotype": "TODO"
+            "phonotype": "VOWEL"
           }
         }
       ]
