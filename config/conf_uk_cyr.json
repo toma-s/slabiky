@@ -1,128 +1,301 @@
 {
-  "language": [
-    {
-      "name": "ukrainian",
-      "writing_system": "cyrillic"
+  "language": {
+    "name": "ukrainian",
+    "writing_system": "cyrillic"
+  },
+  "lowercase": {
+    "а": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "б": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "в": {
+      "phoneme-length": 1,
+      "sign": "SONOR",
+      "subunit": 0
+    },
+    "г": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "ґ": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "д": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 1
+    },
+    "е": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "є": {
+      "phoneme-length": -1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "ж": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "з": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "и": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "і": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "ї": {
+      "phoneme-length": 2,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "й": {
+      "phoneme-length": 1,
+      "sign": "SONOR",
+      "subunit": 0
+    },
+    "к": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "л": {
+      "phoneme-length": 1,
+      "sign": "SONOR",
+      "subunit": 0
+    },
+    "м": {
+      "phoneme-length": 1,
+      "sign": "SONOR",
+      "subunit": 0
+    },
+    "н": {
+      "phoneme-length": 1,
+      "sign": "SONOR",
+      "subunit": 0
+    },
+    "о": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "п": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "р": {
+      "phoneme-length": 1,
+      "sign": "SONOR",
+      "subunit": 0
+    },
+    "с": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "т": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "у": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "ф": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "х": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "ц": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "ч": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "ш": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "щ": {
+      "phoneme-length": 2,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "ь": {
+      "phoneme-length": 0,
+      "sign": "SPEC",
+      "subunit": 0
+    },
+    "ю": {
+      "phoneme-length": -1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "я": {
+      "phoneme-length": -1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "’": {
+      "phoneme-length": 0,
+      "sign": "SPEC",
+      "subunit": 0
     }
-  ],
-  "uppercase": [
-    "А", "Б", "В", "Г", "Ґ", "Д", "Е", "Є", "Ж", "З", "И", "І", "Ї", "Й", "К", "Л", "М", "Н", "О", "П", "Р", "С", "Т", "У", "Ф", "Х", "Ц", "Ч", "Ш", "Щ", "Ь", "Ю", "Я"
-  ],
-  "lowercase": [
-    {
-      "а": { "phoneme-length": 1, "sign": "VOWEL"},
-      "б": { "phoneme-length": 1, "sign": "CONS"},
-      "в": { "phoneme-length": 1, "sign": "SONOR"},
-      "г": { "phoneme-length": 1, "sign": "CONS"},
-      "ґ": { "phoneme-length": 1, "sign": "CONS"},
-      "д": { "phoneme-length": 1, "sign": "CONS"},
-      "е": { "phoneme-length": 1, "sign": "VOWEL"},
-      "є": { "phoneme-length": -1, "sign": "VOWEL"},
-      "ж": { "phoneme-length": 1, "sign": "CONS"},
-      "з": { "phoneme-length": 1, "sign": "CONS"},
-      "и": { "phoneme-length": 1, "sign": "VOWEL"},
-      "і": { "phoneme-length": 1, "sign": "VOWEL"},
-      "ї": { "phoneme-length": 2, "sign": "VOWEL"},
-      "й": { "phoneme-length": 1, "sign": "SONOR"},
-      "к": { "phoneme-length": 1, "sign": "CONS"},
-      "л": { "phoneme-length": 1, "sign": "SONOR"},
-      "м": { "phoneme-length": 1, "sign": "SONOR"},
-      "н": { "phoneme-length": 1, "sign": "SONOR"},
-      "о": { "phoneme-length": 1, "sign": "VOWEL"},
-      "п": { "phoneme-length": 1, "sign": "CONS"},
-      "р": { "phoneme-length": 1, "sign": "SONOR"},
-      "с": { "phoneme-length": 1, "sign": "CONS"},
-      "т": { "phoneme-length": 1, "sign": "CONS"},
-      "у": { "phoneme-length": 1, "sign": "VOWEL"},
-      "ф": { "phoneme-length": 1, "sign": "CONS"},
-      "х": { "phoneme-length": 1, "sign": "CONS"},
-      "ц": { "phoneme-length": 1, "sign": "CONS"},
-      "ч": { "phoneme-length": 1, "sign": "CONS"},
-      "ш": { "phoneme-length": 1, "sign": "CONS"},
-      "щ": { "phoneme-length": 2, "sign": "CONS"},
-      "ь": { "phoneme-length": 0, "sign": "SPEC"},
-      "ю": { "phoneme-length": -1, "sign": "VOWEL"},
-      "я": { "phoneme-length": -1, "sign": "VOWEL"},
-      "’": { "phoneme-length": 0, "sign": "SPEC"}
+  },
+  "clusters": {
+    "д": {
+      "ж": {
+        "except_in_subword": [],
+        "only_in_subword": [],
+        "length": 1,
+        "phonotype": "CONS"
+      },
+      "з": {
+        "except_in_subword": [],
+        "only_in_subword": [],
+        "length": 1,
+        "phonotype": "CONS"
+      }
     }
-  ],
-  "VOWEL": [
-    "а", "е", "є", "и", "і", "ї", "о", "у", "ю", "я"
-  ],
-  "SONOR": [
-    "в", "й", "л", "м", "н", "р"
-  ],
-  "CONS": [
-    "б", "г", "ґ", "д", "ж", "з", "к", "п", "с", "т", "ф", "х", "ц", "ч", "ш", "щ"
-  ],
-  "special_signs": [
-    "’", "ь"
-  ],
-  "digraphs": [],
-  "phonotype_changes": [],
-  "zero-syllable_words": [
-    {
-      "в": "to_following",
-      "з": "to_following",
-      "й": "to_following",
-      "б": "to_preceding",
-      "ж": "to_preceding"
-    }
-  ],
-  "special_sound_length": [
-    {
-      "д": {
-        "0": {
-          "preceding": ["", "а", "е", "є", "и", "і", "ї", "о", "у", "ю", "я", "в", "й", "л", "м", "н", "р", "б", "г", "ґ", "д", "ж", "з", "к", "п", "с", "т", "ф", "х", "ц", "ч", "ш", "щ", "’", "ь"],
-          "following": ["ж", "з"]
+  },
+  "phonotype_changes": {},
+  "text_changes": {},
+  "zero-syllable_words": {
+    "в": "to_following",
+    "з": "to_following",
+    "й": "to_following",
+    "б": "to_preceding",
+    "ж": "to_preceding"
+  },
+  "special_sound_length": {
+    "є": {
+      "0": {
+        "preceding": {
+          "signs": [],
+          "letters": []
         },
-        "1": {
-          "preceding": ["", "а", "е", "є", "и", "і", "ї", "о", "у", "ю", "я", "в", "й", "л", "м", "н", "р", "б", "г", "ґ", "д", "ж", "з", "к", "п", "с", "т", "ф", "х", "ц", "ч", "ш", "щ", "’", "ь"],
-          "following": ["", "а", "е", "є", "и", "і", "ї", "о", "у", "ю", "я", "в", "й", "л", "м", "н", "р", "б", "г", "ґ", "д", "к", "п", "с", "т", "ф", "х", "ц", "ч", "ш", "щ", "’", "ь"]
+        "following": {
+          "signs": [],
+          "letters": []
         }
       },
-      "є": {
-        "0": {
-          "preceding": [],
-          "following": []
+      "1": {
+        "preceding": {
+          "signs": ["CONS", "SONOR"],
+          "letters": []
         },
-        "1": {
-          "preceding": ["в", "й", "л", "м", "н", "р", "б", "г", "ґ", "д", "ж", "з", "к", "п", "с", "т", "ф", "х", "ц", "ч", "ш", "щ"],
-          "following": ["", "а", "е", "є", "и", "і", "ї", "о", "у", "ю", "я", "в", "й", "л", "м", "н", "р", "б", "г", "ґ", "д", "ж", "з", "к", "п", "с", "т", "ф", "х", "ц", "ч", "ш", "щ"]
-        },
-        "2": {
-          "preceding": ["", "а", "е", "є", "и", "і", "ї", "о", "у", "ю", "я", "ь", "’"],
-          "following": ["", "а", "е", "є", "и", "і", "ї", "о", "у", "ю", "я", "в", "й", "л", "м", "н", "р", "б", "г", "ґ", "д", "ж", "з", "к", "п", "с", "т", "ф", "х", "ц", "ч", "ш", "щ"]
+        "following": {
+          "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+          "letters": []
         }
       },
-      "ю": {
-        "0": {
-          "preceding": [],
-          "following": []
+      "2": {
+        "preceding": {
+          "signs": ["NONE", "VOWEL", "SPEC"],
+          "letters": []
         },
-        "1": {
-          "preceding": ["в", "й", "л", "м", "н", "р", "б", "г", "ґ", "д", "ж", "з", "к", "п", "с", "т", "ф", "х", "ц", "ч", "ш", "щ"],
-          "following": ["", "а", "е", "є", "и", "і", "ї", "о", "у", "ю", "я", "в", "й", "л", "м", "н", "р", "б", "г", "ґ", "д", "ж", "з", "к", "п", "с", "т", "ф", "х", "ц", "ч", "ш", "щ"]
+        "following": {
+          "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+          "letters": []
+        }
+      }
+    },
+    "ю": {
+      "0": {
+        "preceding": {
+          "signs": [],
+          "letters": []
         },
-        "2": {
-          "preceding": ["", "а", "е", "є", "и", "і", "ї", "о", "у", "ю", "я", "ь", "’"],
-          "following": ["", "а", "е", "є", "и", "і", "ї", "о", "у", "ю", "я", "в", "й", "л", "м", "н", "р", "б", "г", "ґ", "д", "ж", "з", "к", "п", "с", "т", "ф", "х", "ц", "ч", "ш", "щ"]
+        "following": {
+          "signs": [],
+          "letters": []
         }
       },
-      "я": {
-        "0": {
-          "preceding": [],
-          "following": []
+      "1": {
+        "preceding": {
+          "signs": ["CONS", "SONOR"],
+          "letters": []
         },
-        "1": {
-          "preceding": ["в", "й", "л", "м", "н", "р", "б", "г", "ґ", "д", "ж", "з", "к", "п", "с", "т", "ф", "х", "ц", "ч", "ш", "щ"],
-          "following": ["", "а", "е", "є", "и", "і", "ї", "о", "у", "ю", "я", "в", "й", "л", "м", "н", "р", "б", "г", "ґ", "д", "ж", "з", "к", "п", "с", "т", "ф", "х", "ц", "ч", "ш", "щ"]
+        "following": {
+          "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+          "letters": []
+        }
+      },
+      "2": {
+        "preceding": {
+          "signs": ["NONE", "VOWEL", "SPEC"],
+          "letters": []
         },
-        "2": {
-          "preceding": ["", "а", "е", "є", "и", "і", "ї", "о", "у", "ю", "я", "’"],
-          "following": ["", "а", "е", "є", "и", "і", "ї", "о", "у", "ю", "я", "в", "й", "л", "м", "н", "р", "б", "г", "ґ", "д", "ж", "з", "к", "п", "с", "т", "ф", "х", "ц", "ч", "ш", "щ"]
+        "following": {
+          "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+          "letters": []
+        }
+      }
+    },
+    "я": {
+      "0": {
+        "preceding": {
+          "signs": [],
+          "letters": []
+        },
+        "following": {
+          "signs": [],
+          "letters": []
+        }
+      },
+      "1": {
+        "preceding": {
+          "signs": ["CONS", "SONOR"],
+          "letters": []
+        },
+        "following": {
+          "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+          "letters": []
+        }
+      },
+      "2": {
+        "preceding": {
+          "signs": ["NONE", "VOWEL", "SPEC"],
+          "letters": []
+        },
+        "following": {
+          "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+          "letters": []
         }
       }
     }
-  ]
+  }
 }

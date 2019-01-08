@@ -1,233 +1,310 @@
 {
-  "language": [
-    {
-      "name": "upper sorbian",
-      "writing_system": "latin"
+  "language": {
+    "name": "upper sorbian",
+    "writing_system": "latin"
+  },
+  "lowercase": {
+    "a": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "b": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 1
+    },
+    "c": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 1
+    },
+    "č": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "ć": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "d": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 1
+    },
+    "e": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "ě": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "f": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "g": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "h": {
+      "phoneme-length": -1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "i": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "j": {
+      "phoneme-length": 1,
+      "sign": "SONOR",
+      "subunit": 0
+    },
+    "k": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "l": {
+      "phoneme-length": 1,
+      "sign": "SONOR",
+      "subunit": 0
+    },
+    "ł": {
+      "phoneme-length": 1,
+      "sign": "SONOR",
+      "subunit": 1
+    },
+    "m": {
+      "phoneme-length": 1,
+      "sign": "SONOR",
+      "subunit": 1
+    },
+    "n": {
+      "phoneme-length": 1,
+      "sign": "SONOR",
+      "subunit": 1
+    },
+    "ń": {
+      "phoneme-length": 1,
+      "sign": "SONOR",
+      "subunit": 0
+    },
+    "o": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "ó": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "p": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 1
+    },
+    "r": {
+      "phoneme-length": 1,
+      "sign": "SONOR",
+      "subunit": 1
+    },
+    "ř": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "s": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "š": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "t": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 1
+    },
+    "u": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "w": {
+      "phoneme-length": 1,
+      "sign": "SONOR",
+      "subunit": 1
+    },
+    "y": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "z": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "ž": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "ź": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
     }
-  ],
-  "uppercase": [
-    "A", "B", "C", "Č", "Ć", "D", "E", "Ě", "F", "G", "H", "I", "J", "K", "L", "Ł", "M", "N", "Ń", "O", "Ó", "P", "R", "Ř", "S", "Š", "T", "U", "W", "Y", "Z", "Ž", "Ź"
-  ],
-  "lowercase": [
-    {
-      "a": { "phoneme-length": 1, "sign": "VOWEL"},
-      "b": { "phoneme-length": -1, "sign": "CONS"},
-      "c": { "phoneme-length": -1, "sign": "CONS"},
-      "č": { "phoneme-length": 1, "sign": "CONS"},
-      "ć": { "phoneme-length": 1, "sign": "CONS"},
-      "d": { "phoneme-length": -1, "sign": "CONS"},
-      "e": { "phoneme-length": 1, "sign": "VOWEL"},
-      "ě": { "phoneme-length": 1, "sign": "VOWEL"},
-      "f": { "phoneme-length": 1, "sign": "CONS"},
-      "g": { "phoneme-length": 1, "sign": "CONS"},
-      "h": { "phoneme-length": -1, "sign": "CONS"},
-      "i": { "phoneme-length": 1, "sign": "VOWEL"},
-      "j": { "phoneme-length": 1, "sign": "SONOR"},
-      "k": { "phoneme-length": 1, "sign": "CONS"},
-      "l": { "phoneme-length": 1, "sign": "SONOR"},
-      "ł": { "phoneme-length": -1, "sign": "SONOR"},
-      "m": { "phoneme-length": -1, "sign": "SONOR"},
-      "n": { "phoneme-length": -1, "sign": "SONOR"},
-      "ń": { "phoneme-length": 1, "sign": "SONOR"},
-      "o": { "phoneme-length": 1, "sign": "VOWEL"},
-      "ó": { "phoneme-length": 1, "sign": "VOWEL"},
-      "p": { "phoneme-length": -1, "sign": "CONS"},
-      "r": { "phoneme-length": -1, "sign": "SONOR"},
-      "ř": { "phoneme-length": 1, "sign": "CONS"},
-      "s": { "phoneme-length": 1, "sign": "CONS"},
-      "š": { "phoneme-length": 1, "sign": "CONS"},
-      "t": { "phoneme-length": -1, "sign": "CONS"},
-      "u": { "phoneme-length": 1, "sign": "VOWEL"},
-      "w": { "phoneme-length": -1, "sign": "SONOR"},
-      "y": { "phoneme-length": 1, "sign": "VOWEL"},
-      "z": { "phoneme-length": 1, "sign": "CONS"},
-      "ž": { "phoneme-length": 1, "sign": "CONS"},
-      "ź": { "phoneme-length": 1, "sign": "CONS"}
-    }
-  ],
-  "VOWEL": [
-    "a", "e", "ě", "i", "o", "ó", "u", "y"
-  ],
-  "SONOR": [
-    "j", "l", "ł", "m", "n", "ń", "r", "w"
-  ],
-  "CONS": [
-    "b", "c", "č", "ć", "d", "f", "g", "h", "k", "p", "ř", "s", "š", "t", "z", "ž", "ź"
-  ],
-  "special_signs": [],
-  "digraphs": [],
-  "phonotype_changes": [
-    {
-      "l": {
-        "preceding": "CONS",
-        "following": "",
-        "becomes": "VOWEL"
-      }
-    }
-  ],
-  "zero-syllable_words": [
-    {
-      "k": "to_following",
-      "w": "to_following",
-      "z": "to_following"
-    }
-  ],
-  "special_sound_length": [
-    {
+  },
+  "clusters": {
+    "ł": {
       "h": {
-        "0": {
-          "preceding": ["j", "l", "ł", "m", "n", "ń", "r", "w", "b", "c", "č", "ć", "d", "f", "g", "h", "k", "p", "ř", "s", "š", "t", "z", "ž", "ź"],
-          "following": ["", "j", "l", "ł", "m", "n", "ń", "r", "w", "b", "c", "č", "ć", "d", "f", "g", "h", "k", "p", "ř", "s", "š", "t", "z", "ž", "ź"]
+        "except_in_subword": [],
+        "only_in_subword": [],
+        "length": 1,
+        "phonotype": "CONS"
+      }
+    },
+    "p": {
+      "j": {
+        "except_in_subword": [],
+        "only_in_subword": [],
+        "length": 1,
+        "phonotype": "CONS"
+      }
+    },
+    "b": {
+      "j": {
+        "except_in_subword": [],
+        "only_in_subword": [],
+        "length": 1,
+        "phonotype": "CONS"
+      }
+    },
+    "w": {
+      "j": {
+        "except_in_subword": [],
+        "only_in_subword": [],
+        "length": 1,
+        "phonotype": "SONOR"
+      }
+    },
+    "m": {
+      "j": {
+        "except_in_subword": [],
+        "only_in_subword": [],
+        "length": 1,
+        "phonotype": "SONOR"
+      }
+    },
+    "r": {
+      "j": {
+        "except_in_subword": [],
+        "only_in_subword": [],
+        "length": 1,
+        "phonotype": "SONOR"
+      }
+    },
+    "n": {
+      "j": {
+        "except_in_subword": [],
+        "only_in_subword": [],
+        "length": 1,
+        "phonotype": "SONOR"
+      }
+    },
+    "d": {
+      "z": {
+        "except_in_subword": [],
+        "only_in_subword": [],
+        "length": 1,
+        "phonotype": "CONS"
+      },
+      "ź": {
+        "except_in_subword": [],
+        "only_in_subword": [],
+        "length": 1,
+        "phonotype": "CONS"
+      }
+    },
+    "c": {
+      "h": {
+        "except_in_subword": [],
+        "only_in_subword": [],
+        "length": 1,
+        "phonotype": "CONS"
+      }
+    },
+    "t": {
+      "ř": {
+        "except_in_subword": [],
+        "only_in_subword": [],
+        "length": 1,
+        "phonotype": "CONS"
+      }
+    }
+  },
+  "phonotype_changes": {
+    "l": {
+      "preceding": "CONS",
+      "following": "NONE",
+      "becomes": "VOWEL",
+      "only_in_word": [],
+      "included_in_word": []
+    }
+  },
+  "text_changes": {},
+  "zero-syllable_words": {
+    "k": "to_following",
+    "w": "to_following",
+    "z": "to_following"
+  },
+  "special_sound_length": {
+    "h": {
+      "0": {
+        "preceding": {
+          "signs": ["NONE", "CONS", "SONOR", "SPEC", "VOWEL"],
+          "letters": []
         },
-        "1": {
-          "preceding": ["", "a", "e", "ě", "i", "o", "ó", "u", "y"],
-          "following": ["a", "e", "ě", "i", "o", "ó", "u", "y"]
-        },
-        "2": {
-          "preceding": [],
-          "following": []
+        "following": {
+          "signs": ["NONE", "CONS", "SONOR", "SPEC"],
+          "letters": []
         }
       },
-      "ł": {
-        "0": {
-          "preceding": ["", "a", "e", "ě", "i", "o", "ó", "u", "y", "j", "l", "ł", "m", "n", "ń", "r", "w", "b", "c", "č", "ć", "d", "f", "g", "h", "k", "p", "ř", "s", "š", "t", "z", "ž", "ź"],
-          "following": ["h"]
+      "1": {
+        "preceding": {
+          "signs": ["NONE", "VOWEL"],
+          "letters": []
         },
-        "1": {
-          "preceding": ["", "a", "e", "ě", "i", "o", "ó", "u", "y", "j", "l", "ł", "m", "n", "ń", "r", "w", "b", "c", "č", "ć", "d", "f", "g", "h", "k", "p", "ř", "s", "š", "t", "z", "ž", "ź"],
-          "following": ["", "a", "e", "ě", "i", "o", "ó", "u", "y", "j", "l", "ł", "m", "n", "ń", "r", "w", "b", "c", "č", "ć", "d", "f", "g", "k", "p", "ř", "s", "š", "t", "z", "ž", "ź"]
-        },
-        "2": {
-          "preceding": [],
-          "following": []
+        "following": {
+          "signs": ["VOWEL"],
+          "letters": []
         }
       },
-      "p": {
-        "0": {
-          "preceding": ["", "a", "e", "ě", "i", "o", "ó", "u", "y", "j", "l", "ł", "m", "n", "ń", "r", "w", "b", "c", "č", "ć", "d", "f", "g", "h", "k", "p", "ř", "s", "š", "t", "z", "ž", "ź"],
-          "following": ["j"]
+      "2": {
+        "preceding": {
+          "signs": [],
+          "letters": []
         },
-        "1": {
-          "preceding": ["", "a", "e", "ě", "i", "o", "ó", "u", "y", "j", "l", "ł", "m", "n", "ń", "r", "w", "b", "c", "č", "ć", "d", "f", "g", "h", "k", "p", "ř", "s", "š", "t", "z", "ž", "ź"],
-          "following": ["", "a", "e", "ě", "i", "o", "ó", "u", "y", "l", "ł", "m", "n", "ń", "r", "w", "b", "c", "č", "ć", "d", "f", "g", "h", "k", "p", "ř", "s", "š", "t", "z", "ž", "ź"]
-        },
-        "2": {
-          "preceding": [],
-          "following": []
-        }
-      },
-      "b": {
-        "0": {
-          "preceding": ["", "a", "e", "ě", "i", "o", "ó", "u", "y", "j", "l", "ł", "m", "n", "ń", "r", "w", "b", "c", "č", "ć", "d", "f", "g", "h", "k", "p", "ř", "s", "š", "t", "z", "ž", "ź"],
-          "following": ["j"]
-        },
-        "1": {
-          "preceding": ["", "a", "e", "ě", "i", "o", "ó", "u", "y", "j", "l", "ł", "m", "n", "ń", "r", "w", "b", "c", "č", "ć", "d", "f", "g", "h", "k", "p", "ř", "s", "š", "t", "z", "ž", "ź"],
-          "following": ["", "a", "e", "ě", "i", "o", "ó", "u", "y", "l", "ł", "m", "n", "ń", "r", "w", "b", "c", "č", "ć", "d", "f", "g", "h", "k", "p", "ř", "s", "š", "t", "z", "ž", "ź"]
-        },
-        "2": {
-          "preceding": [],
-          "following": []
-        }
-      },
-      "w": {
-        "0": {
-          "preceding": ["", "a", "e", "ě", "i", "o", "ó", "u", "y", "j", "l", "ł", "m", "n", "ń", "r", "w", "b", "c", "č", "ć", "d", "f", "g", "h", "k", "p", "ř", "s", "š", "t", "z", "ž", "ź"],
-          "following": ["j"]
-        },
-        "1": {
-          "preceding": ["", "a", "e", "ě", "i", "o", "ó", "u", "y", "j", "l", "ł", "m", "n", "ń", "r", "w", "b", "c", "č", "ć", "d", "f", "g", "h", "k", "p", "ř", "s", "š", "t", "z", "ž", "ź"],
-          "following": ["", "a", "e", "ě", "i", "o", "ó", "u", "y", "l", "ł", "m", "n", "ń", "r", "w", "b", "c", "č", "ć", "d", "f", "g", "h", "k", "p", "ř", "s", "š", "t", "z", "ž", "ź"]
-        },
-        "2": {
-          "preceding": [],
-          "following": []
-        }
-      },
-      "m": {
-        "0": {
-          "preceding": ["", "a", "e", "ě", "i", "o", "ó", "u", "y", "j", "l", "ł", "m", "n", "ń", "r", "w", "b", "c", "č", "ć", "d", "f", "g", "h", "k", "p", "ř", "s", "š", "t", "z", "ž", "ź"],
-          "following": ["j"]
-        },
-        "1": {
-          "preceding": ["", "a", "e", "ě", "i", "o", "ó", "u", "y", "j", "l", "ł", "m", "n", "ń", "r", "w", "b", "c", "č", "ć", "d", "f", "g", "h", "k", "p", "ř", "s", "š", "t", "z", "ž", "ź"],
-          "following": ["", "a", "e", "ě", "i", "o", "ó", "u", "y", "l", "ł", "m", "n", "ń", "r", "w", "b", "c", "č", "ć", "d", "f", "g", "h", "k", "p", "ř", "s", "š", "t", "z", "ž", "ź"]
-        },
-        "2": {
-          "preceding": [],
-          "following": []
-        }
-      },
-      "r": {
-        "0": {
-          "preceding": ["", "a", "e", "ě", "i", "o", "ó", "u", "y", "j", "l", "ł", "m", "n", "ń", "r", "w", "b", "c", "č", "ć", "d", "f", "g", "h", "k", "p", "ř", "s", "š", "t", "z", "ž", "ź"],
-          "following": ["j"]
-        },
-        "1": {
-          "preceding": ["", "a", "e", "ě", "i", "o", "ó", "u", "y", "j", "l", "ł", "m", "n", "ń", "r", "w", "b", "c", "č", "ć", "d", "f", "g", "h", "k", "p", "ř", "s", "š", "t", "z", "ž", "ź"],
-          "following": ["", "a", "e", "ě", "i", "o", "ó", "u", "y", "l", "ł", "m", "n", "ń", "r", "w", "b", "c", "č", "ć", "d", "f", "g", "h", "k", "p", "ř", "s", "š", "t", "z", "ž", "ź"]
-        },
-        "2": {
-          "preceding": [],
-          "following": []
-        }
-      },
-      "n": {
-        "0": {
-          "preceding": ["", "a", "e", "ě", "i", "o", "ó", "u", "y", "j", "l", "ł", "m", "n", "ń", "r", "w", "b", "c", "č", "ć", "d", "f", "g", "h", "k", "p", "ř", "s", "š", "t", "z", "ž", "ź"],
-          "following": ["j"]
-        },
-        "1": {
-          "preceding": ["", "a", "e", "ě", "i", "o", "ó", "u", "y", "j", "l", "ł", "m", "n", "ń", "r", "w", "b", "c", "č", "ć", "d", "f", "g", "h", "k", "p", "ř", "s", "š", "t", "z", "ž", "ź"],
-          "following": ["", "a", "e", "ě", "i", "o", "ó", "u", "y", "l", "ł", "m", "n", "ń", "r", "w", "b", "c", "č", "ć", "d", "f", "g", "h", "k", "p", "ř", "s", "š", "t", "z", "ž", "ź"]
-        },
-        "2": {
-          "preceding": [],
-          "following": []
-        }
-      },
-      "d": {
-        "0": {
-          "preceding": ["", "a", "e", "ě", "i", "o", "ó", "u", "y", "j", "l", "ł", "m", "n", "ń", "r", "w", "b", "c", "č", "ć", "d", "f", "g", "h", "k", "p", "ř", "s", "š", "t", "z", "ž", "ź"],
-          "following": ["z", "ź"]
-        },
-        "1": {
-          "preceding": ["", "a", "e", "ě", "i", "o", "ó", "u", "y", "j", "l", "ł", "m", "n", "ń", "r", "w", "b", "c", "č", "ć", "d", "f", "g", "h", "k", "p", "ř", "s", "š", "t", "z", "ž", "ź"],
-          "following": ["", "a", "e", "ě", "i", "o", "ó", "u", "y", "j", "l", "ł", "m", "n", "ń", "r", "w", "b", "c", "č", "ć", "d", "f", "g", "h", "k", "p", "ř", "s", "š", "t", "z"]
-        },
-        "2": {
-          "preceding": [],
-          "following": []
-        }
-      },
-      "c": {
-        "0": {
-          "preceding": ["", "a", "e", "ě", "i", "o", "ó", "u", "y", "j", "l", "ł", "m", "n", "ń", "r", "w", "b", "c", "č", "ć", "d", "f", "g", "h", "k", "p", "ř", "s", "š", "t", "z", "ž", "ź"],
-          "following": ["h"]
-        },
-        "1": {
-          "preceding": ["", "a", "e", "ě", "i", "o", "ó", "u", "y", "j", "l", "ł", "m", "n", "ń", "r", "w", "b", "c", "č", "ć", "d", "f", "g", "h", "k", "p", "ř", "s", "š", "t", "z", "ž", "ź"],
-          "following": ["", "a", "e", "ě", "i", "o", "ó", "u", "y", "j", "l", "ł", "m", "n", "ń", "r", "w", "b", "c", "č", "ć", "d", "f", "g", "k", "p", "ř", "s", "š", "t", "z", "ž", "ź"]
-        },
-        "2": {
-          "preceding": [],
-          "following": []
-        }
-      },
-      "t": {
-        "0": {
-          "preceding": ["", "a", "e", "ě", "i", "o", "ó", "u", "y", "j", "l", "ł", "m", "n", "ń", "r", "w", "b", "c", "č", "ć", "d", "f", "g", "h", "k", "p", "ř", "s", "š", "t", "z", "ž", "ź"],
-          "following": ["ř"]
-        },
-        "1": {
-          "preceding": ["", "a", "e", "ě", "i", "o", "ó", "u", "y", "j", "l", "ł", "m", "n", "ń", "r", "w", "b", "c", "č", "ć", "d", "f", "g", "h", "k", "p", "ř", "s", "š", "t", "z", "ž", "ź"],
-          "following": ["", "a", "e", "ě", "i", "o", "ó", "u", "y", "j", "l", "ł", "m", "n", "ń", "r", "w", "b", "c", "č", "ć", "d", "f", "g", "h", "k", "p", "s", "š", "t", "z", "ž", "ź"]
-        },
-        "2": {
-          "preceding": [],
-          "following": []
+        "following": {
+          "signs": [],
+          "letters": []
         }
       }
     }
-  ]
+  }
 }
