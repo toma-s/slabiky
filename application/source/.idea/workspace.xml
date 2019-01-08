@@ -1,0 +1,1599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1c776398-976c-4db9-8d07-7df642730609" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Modules$read_module.coverage" NAME="read_module Coverage Results" MODIFIED="1541181715676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Modules$Slabiky.coverage" NAME="Slabiky Coverage Results" MODIFIED="1541201617999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Modules$InitTerminateModule.coverage" NAME="InitTerminateModule Coverage Results" MODIFIED="1541763918130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Modules$edit_module.coverage" NAME="edit_module Coverage Results" MODIFIED="1541601129007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Modules$Main.coverage" NAME="Main Coverage Results" MODIFIED="1541702441511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Modules$read_module__1_.coverage" NAME="read_module (1) Coverage Results" MODIFIED="1541269666675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Modules$init_terminate_module.coverage" NAME="init_terminate_module Coverage Results" MODIFIED="1544297873536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Modules$udielatko.coverage" NAME="udielatko Coverage Results" MODIFIED="1541606621081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/conf" />
+    <SUITE FILE_PATH="coverage/Modules$test_conf.coverage" NAME="test_conf Coverage Results" MODIFIED="1541945638285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1072189042">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="20" />
+          <entry key="project.open.time.0" value="7" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="5" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="22" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="JavaScript-modules-diagram/T:/OneDrive - Univerzita Komenskeho v Bratislave/UK/TIS/Projekt/Modules" value="5" />
+          <entry key="json" value="18" />
+          <entry key="md" value="1" />
+          <entry key="puml" value="1" />
+          <entry key="py" value="270" />
+          <entry key="txt" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="1" />
+          <entry key="JSON" value="18" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="PlantUML file" value="1" />
+          <entry key="Python" value="257" />
+          <entry key="UML" value="22" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="219" />
+          <entry key="json" value="1042" />
+          <entry key="py" value="17590" />
+          <entry key="txt" value="126" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSON" value="1042" />
+          <entry key="PLAIN_TEXT" value="345" />
+          <entry key="Python" value="17976" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Slabiky">
+      <favorite_root url="uml://Python/#T:/OneDrive - Univerzita Komenskeho v Bratislave/UK/TIS/Projekt/Modules/pipe.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clean_module.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/constants.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/count_module.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-108">
+              <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/init_terminate_module.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="51" column="27" lean-forward="true" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phonotype_module.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/syllabify_module.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thread_module.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/word.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="UML Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>buffer_at</find>
+      <find>sound</find>
+      <find>join</find>
+      <find>signs</find>
+      <find>eva</find>
+      <find>eval</find>
+      <find>buffer</find>
+      <find>lower</find>
+      <find>zero</find>
+      <find>spec</find>
+      <find>syll</find>
+      <find>dat</find>
+      <find>const</find>
+      <find>cycle</find>
+      <find>is_runn</find>
+      <find>.is_runn</find>
+      <find>clea</find>
+      <find>.text</find>
+      <find>.syll</find>
+      <find>file_name</find>
+      <find>Phonot</find>
+      <find>punct</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>sign</replace>
+      <replace>._is_runn</replace>
+      <replace>._text</replace>
+      <replace>._syll</replace>
+      <replace>file_path</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/conf/config_files/conf_sl_lat.json" />
+        <option value="$PROJECT_DIR$/conf/config_files/conf_hr_lat.json" />
+        <option value="$PROJECT_DIR$/conf/config_files/conf_hsb_lat.json" />
+        <option value="$PROJECT_DIR$/End.py" />
+        <option value="$PROJECT_DIR$/Main.py" />
+        <option value="$PROJECT_DIR$/get_text_data.py" />
+        <option value="$PROJECT_DIR$/SyllabifyModule1.py" />
+        <option value="$PROJECT_DIR$/CleanModule1.py" />
+        <option value="$PROJECT_DIR$/edit_module.py" />
+        <option value="$PROJECT_DIR$/WordPhonotype.py" />
+        <option value="$PROJECT_DIR$/WordCounted.py" />
+        <option value="$PROJECT_DIR$/WordCounts.py" />
+        <option value="$PROJECT_DIR$/ResultModule1.py" />
+        <option value="$PROJECT_DIR$/WordFreqs.py" />
+        <option value="$PROJECT_DIR$/InitTerminateModule.py" />
+        <option value="$PROJECT_DIR$/Pipe.py" />
+        <option value="$PROJECT_DIR$/Syllable.py" />
+        <option value="$PROJECT_DIR$/WriteModule.py" />
+        <option value="$PROJECT_DIR$/Word/Word.py" />
+        <option value="$PROJECT_DIR$/word/WordLensFreqs.py" />
+        <option value="$PROJECT_DIR$/Word.py" />
+        <option value="$PROJECT_DIR$/WordLengths.py" />
+        <option value="$PROJECT_DIR$/Module.py" />
+        <option value="$PROJECT_DIR$/ExcelModule.py" />
+        <option value="$PROJECT_DIR$/ResultModule.py" />
+        <option value="$PROJECT_DIR$/ThreadModule.py" />
+        <option value="$PROJECT_DIR$/WordRaw.py" />
+        <option value="$PROJECT_DIR$/word_lengths.py" />
+        <option value="$PROJECT_DIR$/CountModule.py" />
+        <option value="$PROJECT_DIR$/WordLensFreqs.py" />
+        <option value="$PROJECT_DIR$/WordPhonotypes.py" />
+        <option value="$PROJECT_DIR$/CleanModule.py" />
+        <option value="$PROJECT_DIR$/WordSyllables.py" />
+        <option value="$PROJECT_DIR$/SyllabifyModule.py" />
+        <option value="$PROJECT_DIR$/ReadModule.py" />
+        <option value="$PROJECT_DIR$/ConfigData.py" />
+        <option value="$PROJECT_DIR$/test_conf.py" />
+        <option value="$PROJECT_DIR$/write_module.py" />
+        <option value="$PROJECT_DIR$/table_module.py" />
+        <option value="$PROJECT_DIR$/sound_module.py" />
+        <option value="$PROJECT_DIR$/word.py" />
+        <option value="$PROJECT_DIR$/result_module.py" />
+        <option value="$PROJECT_DIR$/read_module.py" />
+        <option value="$PROJECT_DIR$/init_terminate_module.py" />
+        <option value="$PROJECT_DIR$/constants.py" />
+        <option value="$PROJECT_DIR$/config_data.py" />
+        <option value="$PROJECT_DIR$/clean_module.py" />
+        <option value="$PROJECT_DIR$/phonotype_module.py" />
+        <option value="$PROJECT_DIR$/syllabify_module.py" />
+        <option value="$PROJECT_DIR$/count_module.py" />
+        <option value="$PROJECT_DIR$/thread_module.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Modules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="T:\OneDrive - Univerzita Komenskeho v Bratislave\UK\TIS\Projekt\Modules\word" />
+      <recent name="T:\OneDrive - Univerzita Komenskeho v Bratislave\UK\TIS\Projekt\Modules\Word" />
+      <recent name="T:\OneDrive - Univerzita Komenskeho v Bratislave\UK\TIS\Projekt\Modules\inputs" />
+      <recent name="T:\OneDrive - Univerzita Komenskeho v Bratislave\UK\TIS\Projekt\Modules" />
+      <recent name="T:\OneDrive - Univerzita Komenskeho v Bratislave\UK\TIS\Projekt\Modules\conf" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.init_terminate_module">
+    <configuration name="InitTerminateModule" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Modules" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="T:\OneDrive - Univerzita Komenskeho v Bratislave\UK\TIS\Projekt\Modules\init_terminate_module.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Modules" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="init_terminate_module" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Modules" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/init_terminate_module.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_conf" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Modules" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_conf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="udielatko" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Modules" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/conf" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/conf/udielatko.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.udielatko" />
+      <item itemvalue="Python.Main" />
+      <item itemvalue="Python.InitTerminateModule" />
+      <item itemvalue="Python.test_conf" />
+      <item itemvalue="Python.init_terminate_module" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.init_terminate_module" />
+        <item itemvalue="Python.test_conf" />
+        <item itemvalue="Python.InitTerminateModule" />
+        <item itemvalue="Python.Main" />
+        <item itemvalue="Python.udielatko" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c776398-976c-4db9-8d07-7df642730609" name="Default Changelist" comment="" />
+      <created>1541155377972</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541155377972</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="0" width="1552" height="840" extended-state="1" />
+    <layout>
+      <window_info id="Favorites" order="0" sideWeight="0.5027933" side_tool="true" weight="0.20939597" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.6852207" visible="true" weight="0.20643431" />
+      <window_info id="Structure" order="2" sideWeight="0.31477928" side_tool="true" weight="0.21514745" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="4" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32960895" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.36864406" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.39664805" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32960895" />
+      <window_info anchor="right" id="Database" order="0" weight="0.3295302" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="2" weight="0.3295302" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.24966443" />
+      <window_info anchor="right" id="PlantUML" order="5" weight="0.32997987" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/conf/config_files/conf_ru_cyr.json" />
+    <entry file="file://$PROJECT_DIR$/conf/config_files/conf_sl_lat.json" />
+    <entry file="file://$PROJECT_DIR$/conf/config_files/conf_sr_cyr.json" />
+    <entry file="file://$PROJECT_DIR$/conf/config_files/conf_sr_lat.json" />
+    <entry file="file://$PROJECT_DIR$/conf/config_files/conf_uk_cyr.json" />
+    <entry file="file://$PROJECT_DIR$/conf/config_files/conf_hsb_lat.json" />
+    <entry file="file://$PROJECT_DIR$/conf/udielatko.py" />
+    <entry file="file://$PROJECT_DIR$/Main.py" />
+    <entry file="file://$PROJECT_DIR$/get_text_data.py" />
+    <entry file="file://$PROJECT_DIR$/edit_module.py" />
+    <entry file="file://$PROJECT_DIR$/ResultModule1.py" />
+    <entry file="file://$PROJECT_DIR$/SyllabifyModule1.py" />
+    <entry file="file://$PROJECT_DIR$/CleanModule1.py" />
+    <entry file="file://$PROJECT_DIR$/final_module.py" />
+    <entry file="file://$PROJECT_DIR$/Slabiky.py" />
+    <entry file="uml://Python/#T:/OneDrive - Univerzita Komenskeho v Bratislave/UK/TIS/Projekt/Modules/CleanModule.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#T:/OneDrive - Univerzita Komenskeho v Bratislave/UK/TIS/Projekt/Modules/CleanModule.py</OriginalElement>
+          <nodes>
+            <node x="36.5" y="80.0">Module.Module</node>
+            <node x="7.0" y="240.0">CleanModule.CleanModule</node>
+            <node x="0.0" y="160.0">ThreadModule.ThreadModule</node>
+            <node x="62.0" y="0.0">object</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Module.Module" target="object">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ThreadModule.ThreadModule" target="Module.Module">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="CleanModule.CleanModule" target="ThreadModule.ThreadModule">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-284.0" y="32.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Syllable.py" />
+    <entry file="file://$PROJECT_DIR$/Word/__init__.py" />
+    <entry file="uml://Python/#T:/OneDrive - Univerzita Komenskeho v Bratislave/UK/TIS/Projekt/Modules/InitTerminateModule.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#T:/OneDrive - Univerzita Komenskeho v Bratislave/UK/TIS/Projekt/Modules/InitTerminateModule.py</OriginalElement>
+          <nodes>
+            <node x="760.5" y="80.0">Module.Module</node>
+            <node x="225.5" y="80.0">Word.Word</node>
+            <node x="800.1953125" y="160.0">InitTerminateModule.InitTerminateModule</node>
+            <node x="803.0" y="240.0">CountModule.CountModule</node>
+            <node x="996.5" y="80.0">End.End</node>
+            <node x="190.0" y="240.0">SyllabifyModule.SyllabifyModule</node>
+            <node x="610.1953125" y="160.0">ExcelModule.ExcelModule</node>
+            <node x="0.0" y="240.0">ReadModule.ReadModule</node>
+            <node x="610.0" y="240.0">WriteModule.WriteModule</node>
+            <node x="401.19531249999994" y="160.0">ThreadModule.ThreadModule</node>
+            <node x="206.19531249999994" y="160.0">WordLengths.WordLengths</node>
+            <node x="896.5" y="80.0">Pipe.Pipe</node>
+            <node x="786.0" y="0.0">object</node>
+            <node x="1076.1953125" y="160.0">ResultModule.ResultModule</node>
+            <node x="415.0" y="240.0">CleanModule.CleanModule</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="ReadModule.ReadModule" target="ThreadModule.ThreadModule">
+              <point x="0.0" y="-15.0" />
+              <point x="85.0" y="210.0" />
+              <point x="420.0953125" y="210.0" />
+              <point x="-75.59999999999997" y="15.0" />
+            </edge>
+            <edge source="ResultModule.ResultModule" target="Module.Module">
+              <point x="0.0" y="-15.0" />
+              <point x="1165.6953125" y="130.0" />
+              <point x="862.0" y="130.0" />
+              <point x="43.5" y="15.0" />
+            </edge>
+            <edge source="Word.Word" target="object">
+              <point x="0.0" y="-15.0" />
+              <point x="272.0" y="50.0" />
+              <point x="792.5" y="50.0" />
+              <point x="-26.0" y="15.0" />
+            </edge>
+            <edge source="Pipe.Pipe" target="object">
+              <point x="0.0" y="-15.0" />
+              <point x="936.5" y="60.0" />
+              <point x="831.5" y="60.0" />
+              <point x="13.0" y="15.0" />
+            </edge>
+            <edge source="WriteModule.WriteModule" target="ThreadModule.ThreadModule">
+              <point x="0.0" y="-15.0" />
+              <point x="696.5" y="220.0" />
+              <point x="533.4953125" y="220.0" />
+              <point x="37.80000000000001" y="15.0" />
+            </edge>
+            <edge source="CleanModule.CleanModule" target="ThreadModule.ThreadModule">
+              <point x="5.6843418860808015E-14" y="-15.0" />
+              <point x="502.50000000000006" y="220.0" />
+              <point x="495.69531249999994" y="220.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="ExcelModule.ExcelModule" target="Module.Module">
+              <point x="0.0" y="-15.0" />
+              <point x="695.1953125" y="140.0" />
+              <point x="804.0" y="140.0" />
+              <point x="-14.5" y="15.0" />
+            </edge>
+            <edge source="WordLengths.WordLengths" target="object">
+              <point x="43.75" y="-15.0" />
+              <point x="337.44531249999994" y="140.0" />
+              <point x="329.0" y="140.0" />
+              <point x="329.0" y="60.0" />
+              <point x="805.5" y="60.0" />
+              <point x="-13.0" y="15.0" />
+            </edge>
+            <edge source="Module.Module" target="object">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="SyllabifyModule.SyllabifyModule" target="ThreadModule.ThreadModule">
+              <point x="0.0" y="-15.0" />
+              <point x="292.5" y="220.0" />
+              <point x="457.89531249999993" y="220.0" />
+              <point x="-37.80000000000001" y="15.0" />
+            </edge>
+            <edge source="CountModule.CountModule" target="ThreadModule.ThreadModule">
+              <point x="0.0" y="-15.0" />
+              <point x="892.0" y="210.0" />
+              <point x="571.2953125" y="210.0" />
+              <point x="75.60000000000008" y="15.0" />
+            </edge>
+            <edge source="ThreadModule.ThreadModule" target="Module.Module">
+              <point x="-5.6843418860808015E-14" y="-15.0" />
+              <point x="495.6953124999999" y="130.0" />
+              <point x="775.0" y="130.0" />
+              <point x="-43.5" y="15.0" />
+            </edge>
+            <edge source="InitTerminateModule.InitTerminateModule" target="Module.Module">
+              <point x="0.0" y="-15.0" />
+              <point x="928.1953125" y="140.0" />
+              <point x="833.0" y="140.0" />
+              <point x="14.5" y="15.0" />
+            </edge>
+            <edge source="End.End" target="object">
+              <point x="0.0" y="-15.0" />
+              <point x="1033.5" y="50.0" />
+              <point x="844.5" y="50.0" />
+              <point x="26.0" y="15.0" />
+            </edge>
+            <edge source="WordLengths.WordLengths" target="Word.Word">
+              <point x="-43.75" y="-15.0" />
+              <point x="249.94531249999994" y="140.0" />
+              <point x="272.0" y="140.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7908704883227177" x="1245.0" y="399.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#T:/OneDrive - Univerzita Komenskeho v Bratislave/UK/TIS/Projekt/Modules/Word.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#T:/OneDrive - Univerzita Komenskeho v Bratislave/UK/TIS/Projekt/Modules/Word.py</OriginalElement>
+          <nodes>
+            <node x="1075.4131578947367" y="1155.0">ReadModule.ReadModule</node>
+            <node x="1047.6631578947367" y="543.0">Pipe.Pipe</node>
+            <node x="0.0" y="909.0">WordRaw.WordRaw</node>
+            <node x="1612.4131578947367" y="1166.0">WriteModule.WriteModule</node>
+            <node x="1759.9999999999998" y="975.5">InitTerminateModule.InitTerminateModule</node>
+            <node x="1111.1631578947367" y="0.0">object</node>
+            <node x="618.4131578947367" y="1166.0">CleanModule.CleanModule</node>
+            <node x="196.9999999999999" y="909.0">WordPhonotypes.WordPhonotypes</node>
+            <node x="1277.6631578947367" y="675.5">End.End</node>
+            <node x="446.9999999999999" y="909.0">WordSyllables.WordSyllables</node>
+            <node x="1145.9999999999998" y="898.0">ThreadModule.ThreadModule</node>
+            <node x="1640.6631578947367" y="664.5">Module.Module</node>
+            <node x="1387.4131578947367" y="1177.0">SyllabifyModule.SyllabifyModule</node>
+            <node x="2036.0" y="931.0">ResultModule.ResultModule</node>
+            <node x="1354.9999999999998" y="909.0">ExcelModule.ExcelModule</node>
+            <node x="486.91315789473686" y="664.5">Word.Word</node>
+            <node x="818.4131578947367" y="1155.0">CountModule.CountModule</node>
+            <node x="700.9999999999999" y="909.0">WordLensFreqs.WordLensFreqs</node>
+            <node x="915.9999999999999" y="909.0">WordLengths.WordLengths</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="ResultModule.ResultModule" target="Module.Module">
+              <point x="0.0" y="-70.5" />
+              <point x="2125.5" y="868.0" />
+              <point x="1742.1631578947367" y="868.0" />
+              <point x="43.5" y="26.0" />
+            </edge>
+            <edge source="ReadModule.ReadModule" target="ThreadModule.ThreadModule">
+              <point x="0.0" y="-81.5" />
+              <point x="1221.4131578947367" y="1135.0" />
+              <point x="1240.4999999999998" y="1135.0" />
+              <point x="0.0" y="103.5" />
+            </edge>
+            <edge source="Word.Word" target="object">
+              <point x="0.0" y="-26.0" />
+              <point x="544.9131578947369" y="518.0" />
+              <point x="1141.7881578947367" y="518.0" />
+              <point x="-91.875" y="246.5" />
+            </edge>
+            <edge source="Pipe.Pipe" target="object">
+              <point x="0.0" y="-147.5" />
+              <point x="1152.6631578947367" y="518.0" />
+              <point x="1203.0381578947367" y="518.0" />
+              <point x="-30.625" y="246.5" />
+            </edge>
+            <edge source="WriteModule.WriteModule" target="ThreadModule.ThreadModule">
+              <point x="0.0" y="-70.5" />
+              <point x="1715.9131578947367" y="1125.0" />
+              <point x="1316.0999999999997" y="1125.0" />
+              <point x="75.59999999999991" y="103.5" />
+            </edge>
+            <edge source="CleanModule.CleanModule" target="ThreadModule.ThreadModule">
+              <point x="0.0" y="-70.5" />
+              <point x="708.4131578947367" y="1125.0" />
+              <point x="1164.8999999999999" y="1125.0" />
+              <point x="-75.59999999999991" y="103.5" />
+            </edge>
+            <edge source="ExcelModule.ExcelModule" target="Module.Module">
+              <point x="0.0" y="-92.5" />
+              <point x="1547.4999999999998" y="878.0" />
+              <point x="1684.1631578947367" y="878.0" />
+              <point x="-14.5" y="26.0" />
+            </edge>
+            <edge source="WordRaw.WordRaw" target="Word.Word">
+              <point x="0.0" y="-92.5" />
+              <point x="88.5" y="868.0" />
+              <point x="498.5131578947369" y="868.0" />
+              <point x="-46.39999999999998" y="26.0" />
+            </edge>
+            <edge source="Module.Module" target="object">
+              <point x="0.0" y="-26.0" />
+              <point x="1698.6631578947367" y="518.0" />
+              <point x="1325.5381578947367" y="518.0" />
+              <point x="91.875" y="246.5" />
+            </edge>
+            <edge source="SyllabifyModule.SyllabifyModule" target="ThreadModule.ThreadModule">
+              <point x="0.0" y="-59.5" />
+              <point x="1489.9131578947367" y="1135.0" />
+              <point x="1278.2999999999997" y="1135.0" />
+              <point x="37.799999999999955" y="103.5" />
+            </edge>
+            <edge source="WordPhonotypes.WordPhonotypes" target="Word.Word">
+              <point x="0.0" y="-92.5" />
+              <point x="311.9999999999999" y="878.0" />
+              <point x="521.7131578947368" y="878.0" />
+              <point x="-23.200000000000045" y="26.0" />
+            </edge>
+            <edge source="CountModule.CountModule" target="ThreadModule.ThreadModule">
+              <point x="0.0" y="-81.5" />
+              <point x="936.9131578947367" y="1135.0" />
+              <point x="1202.6999999999998" y="1135.0" />
+              <point x="-37.799999999999955" y="103.5" />
+            </edge>
+            <edge source="InitTerminateModule.InitTerminateModule" target="Module.Module">
+              <point x="0.0" y="-26.0" />
+              <point x="1887.9999999999998" y="878.0" />
+              <point x="1713.1631578947367" y="878.0" />
+              <point x="14.5" y="26.0" />
+            </edge>
+            <edge source="ThreadModule.ThreadModule" target="Module.Module">
+              <point x="0.0" y="-103.5" />
+              <point x="1240.4999999999998" y="868.0" />
+              <point x="1655.1631578947367" y="868.0" />
+              <point x="-43.5" y="26.0" />
+            </edge>
+            <edge source="WordLensFreqs.WordLensFreqs" target="Word.Word">
+              <point x="0.0" y="-92.5" />
+              <point x="798.4999999999999" y="868.0" />
+              <point x="568.1131578947369" y="868.0" />
+              <point x="23.200000000000045" y="26.0" />
+            </edge>
+            <edge source="End.End" target="object">
+              <point x="0.0" y="-15.0" />
+              <point x="1314.6631578947367" y="518.0" />
+              <point x="1264.2881578947367" y="518.0" />
+              <point x="30.625" y="246.5" />
+            </edge>
+            <edge source="WordSyllables.WordSyllables" target="Word.Word">
+              <point x="0.0" y="-92.5" />
+              <point x="563.9999999999999" y="878.0" />
+              <point x="544.9131578947369" y="878.0" />
+              <point x="0.0" y="26.0" />
+            </edge>
+            <edge source="WordLengths.WordLengths" target="Word.Word">
+              <point x="0.0" y="-92.5" />
+              <point x="1020.9999999999999" y="858.0" />
+              <point x="591.3131578947368" y="858.0" />
+              <point x="46.39999999999998" y="26.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="1094.0" y="1020.0" />
+          <SelectedNodes>
+            <node>WordRaw.WordRaw</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/word_lengths.py" />
+    <entry file="file://$PROJECT_DIR$/WordLensFreqs.py" />
+    <entry file="file://$PROJECT_DIR$/WordPhonotypes.py" />
+    <entry file="file://$PROJECT_DIR$/WordSyllables.py" />
+    <entry file="file://$PROJECT_DIR$/WordRaw.py" />
+    <entry file="uml://Python/#T:/OneDrive - Univerzita Komenskeho v Bratislave/UK/TIS/Projekt/Modules/Module.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#T:/OneDrive - Univerzita Komenskeho v Bratislave/UK/TIS/Projekt/Modules/Module.py</OriginalElement>
+          <nodes>
+            <node x="484.0" y="899.0">word.WordLensFreqs</node>
+            <node x="846.5868421052633" y="1145.0">read_module.ReadModule</node>
+            <node x="1615.5868421052633" y="1156.0">WriteModule.WriteModule</node>
+            <node x="1354.0" y="921.0">result_module.ResultModule</node>
+            <node x="1101.5868421052633" y="0.0">object</node>
+            <node x="1960.0" y="965.5">init_terminate_module.InitTerminateModule</node>
+            <node x="618.5868421052633" y="1167.0">syllabify_module.SyllabifyModule</node>
+            <node x="1555.0" y="899.0">excel_module.ExcelModule</node>
+            <node x="1143.0" y="888.0">thread_module.ThreadModule</node>
+            <node x="1548.0868421052633" y="653.5">module.Module</node>
+            <node x="532.0868421052633" y="664.5">word.Word</node>
+            <node x="893.0" y="899.0">word.WordPhonotypes</node>
+            <node x="0.0" y="899.0">word.WordSyllables</node>
+            <node x="1358.5868421052633" y="1145.0">count_module.CountModule</node>
+            <node x="1684.0868421052633" y="543.0">pipe.Pipe</node>
+            <node x="1158.5868421052633" y="1156.0">clean_module.CleanModule</node>
+            <node x="696.0" y="899.0">word.WordRaw</node>
+            <node x="1129.5868421052633" y="675.5">end.End</node>
+            <node x="254.0" y="899.0">word.WordLengths</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="result_module.ResultModule" target="module.Module">
+              <point x="0.0" y="-70.5" />
+              <point x="1444.5" y="868.0" />
+              <point x="1591.5868421052633" y="868.0" />
+              <point x="-14.5" y="37.0" />
+            </edge>
+            <edge source="syllabify_module.SyllabifyModule" target="thread_module.ThreadModule">
+              <point x="0.0" y="-59.5" />
+              <point x="722.5868421052633" y="1115.0" />
+              <point x="1162.1" y="1115.0" />
+              <point x="-76.40000000000009" y="103.5" />
+            </edge>
+            <edge source="end.End" target="object">
+              <point x="0.0" y="-15.0" />
+              <point x="1166.5868421052633" y="523.0" />
+              <point x="1193.4618421052633" y="523.0" />
+              <point x="-30.625" y="246.5" />
+            </edge>
+            <edge source="init_terminate_module.InitTerminateModule" target="module.Module">
+              <point x="0.0" y="-26.0" />
+              <point x="2091.5" y="858.0" />
+              <point x="1649.5868421052633" y="858.0" />
+              <point x="43.5" y="37.0" />
+            </edge>
+            <edge source="word.WordLengths" target="word.Word">
+              <point x="0.0" y="-92.5" />
+              <point x="359.0" y="868.0" />
+              <point x="566.8868421052632" y="868.0" />
+              <point x="-23.19999999999999" y="26.0" />
+            </edge>
+            <edge source="word.WordLensFreqs" target="word.Word">
+              <point x="0.0" y="-92.5" />
+              <point x="580.0" y="868.0" />
+              <point x="590.0868421052633" y="868.0" />
+              <point x="0.0" y="26.0" />
+            </edge>
+            <edge source="WriteModule.WriteModule" target="thread_module.ThreadModule">
+              <point x="0.0" y="-70.5" />
+              <point x="1719.0868421052633" y="1115.0" />
+              <point x="1314.9" y="1115.0" />
+              <point x="76.40000000000009" y="103.5" />
+            </edge>
+            <edge source="thread_module.ThreadModule" target="module.Module">
+              <point x="0.0" y="-103.5" />
+              <point x="1238.5" y="858.0" />
+              <point x="1562.5868421052633" y="858.0" />
+              <point x="-43.5" y="37.0" />
+            </edge>
+            <edge source="module.Module" target="object">
+              <point x="0.0" y="-37.0" />
+              <point x="1606.0868421052633" y="523.0" />
+              <point x="1254.7118421052633" y="523.0" />
+              <point x="30.625" y="246.5" />
+            </edge>
+            <edge source="word.WordRaw" target="word.Word">
+              <point x="0.0" y="-92.5" />
+              <point x="784.5" y="868.0" />
+              <point x="613.2868421052633" y="868.0" />
+              <point x="23.200000000000045" y="26.0" />
+            </edge>
+            <edge source="clean_module.CleanModule" target="thread_module.ThreadModule">
+              <point x="0.0" y="-70.5" />
+              <point x="1248.5868421052633" y="1125.0" />
+              <point x="1238.5" y="1125.0" />
+              <point x="0.0" y="103.5" />
+            </edge>
+            <edge source="excel_module.ExcelModule" target="module.Module">
+              <point x="0.0" y="-92.5" />
+              <point x="1747.5" y="868.0" />
+              <point x="1620.5868421052633" y="868.0" />
+              <point x="14.5" y="37.0" />
+            </edge>
+            <edge source="word.Word" target="object">
+              <point x="0.0" y="-26.0" />
+              <point x="590.0868421052633" y="523.0" />
+              <point x="1132.2118421052633" y="523.0" />
+              <point x="-91.875" y="246.5" />
+            </edge>
+            <edge source="pipe.Pipe" target="object">
+              <point x="0.0" y="-147.5" />
+              <point x="1789.0868421052633" y="513.0" />
+              <point x="1315.9618421052633" y="513.0" />
+              <point x="91.875" y="246.5" />
+            </edge>
+            <edge source="count_module.CountModule" target="thread_module.ThreadModule">
+              <point x="-1.1368683772161603E-13" y="-81.5" />
+              <point x="1477.0868421052633" y="1125.0" />
+              <point x="1276.7" y="1125.0" />
+              <point x="38.200000000000045" y="103.5" />
+            </edge>
+            <edge source="word.WordPhonotypes" target="word.Word">
+              <point x="0.0" y="-92.5" />
+              <point x="1008.0" y="858.0" />
+              <point x="636.4868421052632" y="858.0" />
+              <point x="46.39999999999998" y="26.0" />
+            </edge>
+            <edge source="read_module.ReadModule" target="thread_module.ThreadModule">
+              <point x="0.0" y="-81.5" />
+              <point x="992.5868421052633" y="1125.0" />
+              <point x="1200.3" y="1125.0" />
+              <point x="-38.200000000000045" y="103.5" />
+            </edge>
+            <edge source="word.WordSyllables" target="word.Word">
+              <point x="0.0" y="-92.5" />
+              <point x="117.0" y="858.0" />
+              <point x="543.6868421052633" y="858.0" />
+              <point x="-46.39999999999998" y="26.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8" x="280.0" y="818.0" />
+          <SelectedNodes>
+            <node>module.Module</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/end.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pipe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#T:/OneDrive - Univerzita Komenskeho v Bratislave/UK/TIS/Projekt/Modules/thread_module.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#T:/OneDrive - Univerzita Komenskeho v Bratislave/UK/TIS/Projekt/Modules/thread_module.py</OriginalElement>
+          <nodes>
+            <node x="1626.0" y="976.0">table_module.TableModule</node>
+            <node x="433.4605263157895" y="1233.0">write_module.WriteModule</node>
+            <node x="1142.0" y="1009.0">result_module.ResultModule</node>
+            <node x="1229.9605263157896" y="0.0">object</node>
+            <node x="1294.4605263157896" y="697.5">module.Module</node>
+            <node x="1343.0" y="1042.5">init_terminate_module.InitTerminateModule</node>
+            <node x="654.4605263157895" y="1244.5">syllabify_module.SyllabifyModule</node>
+            <node x="371.2105263157895" y="708.5">word.Word</node>
+            <node x="427.0" y="976.0">word.WordPhonotypes</node>
+            <node x="882.4605263157895" y="1211.0">read_module.ReadModule</node>
+            <node x="677.0" y="976.0">word.WordSyllables</node>
+            <node x="1430.4605263157896" y="543.0">config_data.ConfigData</node>
+            <node x="1388.4605263157896" y="1222.0">count_module.CountModule</node>
+            <node x="141.21052631578948" y="587.0">pipe.Pipe</node>
+            <node x="1188.4605263157896" y="1233.0">clean_module.CleanModule</node>
+            <node x="931.0" y="976.0">thread_module.ThreadModule</node>
+            <node x="230.0" y="976.0">word.WordRaw</node>
+            <node x="1678.4605263157896" y="719.5">end.End</node>
+            <node x="0.0" y="976.0">word.WordLengths</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="result_module.ResultModule" target="module.Module">
+              <point x="0.0" y="-59.5" />
+              <point x="1232.5" y="956.0" />
+              <point x="1337.9605263157896" y="956.0" />
+              <point x="-14.5" y="37.0" />
+            </edge>
+            <edge source="syllabify_module.SyllabifyModule" target="thread_module.ThreadModule">
+              <point x="0.0" y="-48.0" />
+              <point x="758.4605263157895" y="1191.0" />
+              <point x="988.3" y="1191.0" />
+              <point x="-38.200000000000045" y="92.5" />
+            </edge>
+            <edge source="write_module.WriteModule" target="thread_module.ThreadModule">
+              <point x="0.0" y="-59.5" />
+              <point x="533.9605263157895" y="1181.0" />
+              <point x="950.1" y="1181.0" />
+              <point x="-76.39999999999998" y="92.5" />
+            </edge>
+            <edge source="end.End" target="object">
+              <point x="0.0" y="-15.0" />
+              <point x="1715.4605263157896" y="513.0" />
+              <point x="1450.4605263157896" y="513.0" />
+              <point x="98.0" y="246.5" />
+            </edge>
+            <edge source="init_terminate_module.InitTerminateModule" target="module.Module">
+              <point x="0.0" y="-26.0" />
+              <point x="1474.5" y="956.0" />
+              <point x="1366.9605263157896" y="956.0" />
+              <point x="14.5" y="37.0" />
+            </edge>
+            <edge source="word.WordLengths" target="word.Word">
+              <point x="0.0" y="-92.5" />
+              <point x="105.0" y="946.0" />
+              <point x="385.7105263157895" y="946.0" />
+              <point x="-43.5" y="26.0" />
+            </edge>
+            <edge source="thread_module.ThreadModule" target="module.Module">
+              <point x="0.0" y="-92.5" />
+              <point x="1026.5" y="946.0" />
+              <point x="1308.9605263157896" y="946.0" />
+              <point x="-43.5" y="37.0" />
+            </edge>
+            <edge source="module.Module" target="object">
+              <point x="0.0" y="-37.0" />
+              <point x="0.0" y="246.5" />
+            </edge>
+            <edge source="word.WordRaw" target="word.Word">
+              <point x="0.0" y="-92.5" />
+              <point x="318.5" y="956.0" />
+              <point x="414.7105263157895" y="956.0" />
+              <point x="-14.5" y="26.0" />
+            </edge>
+            <edge source="clean_module.CleanModule" target="thread_module.ThreadModule">
+              <point x="0.0" y="-59.5" />
+              <point x="1278.4605263157896" y="1191.0" />
+              <point x="1064.7" y="1191.0" />
+              <point x="38.200000000000045" y="92.5" />
+            </edge>
+            <edge source="word.Word" target="object">
+              <point x="0.0" y="-26.0" />
+              <point x="429.2105263157895" y="523.0" />
+              <point x="1303.4605263157896" y="523.0" />
+              <point x="-49.0" y="246.5" />
+            </edge>
+            <edge source="count_module.CountModule" target="thread_module.ThreadModule">
+              <point x="0.0" y="-70.5" />
+              <point x="1503.9605263157896" y="1181.0" />
+              <point x="1102.9" y="1181.0" />
+              <point x="76.40000000000009" y="92.5" />
+            </edge>
+            <edge source="pipe.Pipe" target="object">
+              <point x="0.0" y="-147.5" />
+              <point x="246.21052631578948" y="513.0" />
+              <point x="1254.4605263157896" y="513.0" />
+              <point x="-98.0" y="246.5" />
+            </edge>
+            <edge source="word.WordPhonotypes" target="word.Word">
+              <point x="0.0" y="-92.5" />
+              <point x="542.0" y="956.0" />
+              <point x="443.7105263157895" y="956.0" />
+              <point x="14.5" y="26.0" />
+            </edge>
+            <edge source="config_data.ConfigData" target="object">
+              <point x="0.0" y="-191.5" />
+              <point x="1544.4605263157896" y="523.0" />
+              <point x="1401.4605263157896" y="523.0" />
+              <point x="49.0" y="246.5" />
+            </edge>
+            <edge source="read_module.ReadModule" target="thread_module.ThreadModule">
+              <point x="0.0" y="-81.5" />
+              <point x="1025.4605263157896" y="1191.0" />
+              <point x="1026.5" y="1191.0" />
+              <point x="0.0" y="92.5" />
+            </edge>
+            <edge source="table_module.TableModule" target="module.Module">
+              <point x="0.0" y="-92.5" />
+              <point x="1818.5" y="946.0" />
+              <point x="1395.9605263157896" y="946.0" />
+              <point x="43.5" y="37.0" />
+            </edge>
+            <edge source="word.WordSyllables" target="word.Word">
+              <point x="0.0" y="-92.5" />
+              <point x="794.0" y="946.0" />
+              <point x="472.7105263157895" y="946.0" />
+              <point x="43.5" y="26.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="1191.0" y="763.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#T:/OneDrive - Univerzita Komenskeho v Bratislave/UK/TIS/Projekt/Modules/module.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#T:/OneDrive - Univerzita Komenskeho v Bratislave/UK/TIS/Projekt/Modules/module.py</OriginalElement>
+          <nodes>
+            <node x="1142.0" y="976.0">table_module.TableModule</node>
+            <node x="581.75" y="1244.0">write_module.WriteModule</node>
+            <node x="1598.0" y="1009.0">result_module.ResultModule</node>
+            <node x="970.5" y="0.0">object</node>
+            <node x="1652.5" y="697.5">module.Module</node>
+            <node x="1843.0" y="998.0">init_terminate_module.InitTerminateModule</node>
+            <node x="802.75" y="1255.5">syllabify_module.SyllabifyModule</node>
+            <node x="430.0" y="708.5">word.Word</node>
+            <node x="0.0" y="987.0">word.WordPhonotypes</node>
+            <node x="2197.0" y="987.0">read_module.ReadModule</node>
+            <node x="250.0" y="987.0">word.WordSyllables</node>
+            <node x="1788.5" y="543.0">config_data.ConfigData</node>
+            <node x="1030.75" y="1233.0">count_module.CountModule</node>
+            <node x="1281.75" y="1244.0">clean_module.CleanModule</node>
+            <node x="931.0" y="987.0">thread_module.ThreadModule</node>
+            <node x="988.0" y="587.0">pipe.Pipe</node>
+            <node x="734.0" y="987.0">word.WordRaw</node>
+            <node x="894.0" y="719.5">end.End</node>
+            <node x="504.0" y="987.0">word.WordLengths</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="result_module.ResultModule" target="module.Module">
+              <point x="0.0" y="-70.5" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="read_module.ReadModule" target="module.Module">
+              <point x="0.0" y="-92.5" />
+              <point x="2340.0" y="946.0" />
+              <point x="1756.9" y="946.0" />
+              <point x="46.40000000000009" y="37.0" />
+            </edge>
+            <edge source="syllabify_module.SyllabifyModule" target="thread_module.ThreadModule">
+              <point x="0.0" y="-48.0" />
+              <point x="906.75" y="1213.0" />
+              <point x="1002.625" y="1213.0" />
+              <point x="-23.875" y="92.5" />
+            </edge>
+            <edge source="write_module.WriteModule" target="thread_module.ThreadModule">
+              <point x="0.0" y="-59.5" />
+              <point x="682.25" y="1203.0" />
+              <point x="954.875" y="1203.0" />
+              <point x="-71.625" y="92.5" />
+            </edge>
+            <edge source="end.End" target="object">
+              <point x="0.0" y="-15.0" />
+              <point x="931.0" y="523.0" />
+              <point x="1044.0" y="523.0" />
+              <point x="-49.0" y="246.5" />
+            </edge>
+            <edge source="init_terminate_module.InitTerminateModule" target="module.Module">
+              <point x="0.0" y="-81.5" />
+              <point x="2010.0" y="956.0" />
+              <point x="1733.7" y="956.0" />
+              <point x="23.200000000000045" y="37.0" />
+            </edge>
+            <edge source="word.WordLengths" target="word.Word">
+              <point x="0.0" y="-92.5" />
+              <point x="609.0" y="956.0" />
+              <point x="502.5" y="956.0" />
+              <point x="14.5" y="26.0" />
+            </edge>
+            <edge source="thread_module.ThreadModule" target="module.Module">
+              <point x="0.0" y="-92.5" />
+              <point x="1026.5" y="946.0" />
+              <point x="1664.1" y="946.0" />
+              <point x="-46.40000000000009" y="37.0" />
+            </edge>
+            <edge source="module.Module" target="object">
+              <point x="0.0" y="-37.0" />
+              <point x="1710.5" y="523.0" />
+              <point x="1142.0" y="523.0" />
+              <point x="49.0" y="246.5" />
+            </edge>
+            <edge source="word.WordRaw" target="word.Word">
+              <point x="0.0" y="-92.5" />
+              <point x="822.5" y="946.0" />
+              <point x="531.5" y="946.0" />
+              <point x="43.5" y="26.0" />
+            </edge>
+            <edge source="clean_module.CleanModule" target="thread_module.ThreadModule">
+              <point x="0.0" y="-59.5" />
+              <point x="1371.75" y="1203.0" />
+              <point x="1098.125" y="1203.0" />
+              <point x="71.625" y="92.5" />
+            </edge>
+            <edge source="word.Word" target="object">
+              <point x="0.0" y="-26.0" />
+              <point x="488.0" y="513.0" />
+              <point x="995.0" y="513.0" />
+              <point x="-98.0" y="246.5" />
+            </edge>
+            <edge source="pipe.Pipe" target="object">
+              <point x="0.0" y="-147.5" />
+              <point x="0.0" y="246.5" />
+            </edge>
+            <edge source="count_module.CountModule" target="thread_module.ThreadModule">
+              <point x="0.0" y="-70.5" />
+              <point x="1146.25" y="1213.0" />
+              <point x="1050.375" y="1213.0" />
+              <point x="23.875" y="92.5" />
+            </edge>
+            <edge source="config_data.ConfigData" target="object">
+              <point x="1.1368683772161603E-13" y="-191.5" />
+              <point x="1872.0" y="513.0" />
+              <point x="1191.0" y="513.0" />
+              <point x="98.0" y="246.5" />
+            </edge>
+            <edge source="word.WordPhonotypes" target="word.Word">
+              <point x="0.0" y="-92.5" />
+              <point x="115.0" y="946.0" />
+              <point x="444.5" y="946.0" />
+              <point x="-43.5" y="26.0" />
+            </edge>
+            <edge source="table_module.TableModule" target="module.Module">
+              <point x="0.0" y="-103.5" />
+              <point x="1360.0" y="956.0" />
+              <point x="1687.3" y="956.0" />
+              <point x="-23.200000000000045" y="37.0" />
+            </edge>
+            <edge source="word.WordSyllables" target="word.Word">
+              <point x="0.0" y="-92.5" />
+              <point x="367.0" y="956.0" />
+              <point x="473.5" y="956.0" />
+              <point x="-14.5" y="26.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.5" x="428.0" y="689.0" />
+          <SelectedNodes>
+            <node>word.WordLengths</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/table_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sound_module.py" />
+    <entry file="file://$PROJECT_DIR$/Class Diagram.puml" />
+    <entry file="uml://JavaScript-modules-diagram/T:/OneDrive - Univerzita Komenskeho v Bratislave/UK/TIS/Projekt/Modules">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="600.0" y="327.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/write_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Slabiky.png" />
+    <entry file="uml://Python/#T:/OneDrive - Univerzita Komenskeho v Bratislave/UK/TIS/Projekt/Modules/word.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#T:/OneDrive - Univerzita Komenskeho v Bratislave/UK/TIS/Projekt/Modules/word.py</OriginalElement>
+          <nodes>
+            <node x="" y="">result_module.ResultModule</node>
+            <node x="" y="">write_module.WriteModule</node>
+            <node x="" y="">count_module.CountModule</node>
+            <node x="" y="">module.Module</node>
+            <node x="" y="">word.Word</node>
+            <node x="" y="">syllabify_module.SyllabifyModule</node>
+            <node x="" y="">read_module.ReadModule</node>
+            <node x="" y="">table_module.TableModule</node>
+            <node x="" y="">end.End</node>
+            <node x="" y="">thread_module.ThreadModule</node>
+            <node x="" y="">pipe.Pipe</node>
+            <node x="" y="">clean_module.CleanModule</node>
+            <node x="" y="">object</node>
+            <node x="" y="">phonotype_module.PhonotypeModule</node>
+            <node x="" y="">config_data.ConfigData</node>
+            <node x="" y="">init_terminate_module.InitTerminateModule</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="679.0" y="282.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#T:/OneDrive - Univerzita Komenskeho v Bratislave/UK/TIS/Projekt/Modules/pipe.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#T:/OneDrive - Univerzita Komenskeho v Bratislave/UK/TIS/Projekt/Modules/pipe.py</OriginalElement>
+          <nodes>
+            <node x="680.0" y="157.0">result_module.ResultModule</node>
+            <node x="0.0" y="392.0">write_module.WriteModule</node>
+            <node x="449.0" y="381.0">count_module.CountModule</node>
+            <node x="1034.0" y="0.0">module.Module</node>
+            <node x="765.0" y="671.0">word.SyllablesPhonotypes</node>
+            <node x="221.0" y="403.5">syllabify_module.SyllabifyModule</node>
+            <node x="1243.0" y="569.0">word.Word</node>
+            <node x="1185.0" y="671.0">word.TextPunctuation</node>
+            <node x="1735.0" y="135.0">read_module.ReadModule</node>
+            <node x="1279.0" y="124.0">table_module.TableModule</node>
+            <node x="764.0000000000005" y="571.0">end.End</node>
+            <node x="469.0" y="135.0">thread_module.ThreadModule</node>
+            <node x="955.0" y="392.0">clean_module.CleanModule</node>
+            <node x="159.99999999999994" y="573.0">config_data.ConfigData</node>
+            <node x="700.0" y="392.0">phonotype_module.PhonotypeModule</node>
+            <node x="1019.0" y="704.0">word.Text</node>
+            <node x="1667.0" y="671.0">word.TextPhonotypes</node>
+            <node x="925.0" y="146.0">init_terminate_module.InitTerminateModule</node>
+            <node x="1437.0" y="671.0">word.SyllablesLengths</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="phonotype_module.PhonotypeModule" target="thread_module.ThreadModule">
+              <point x="0.0" y="-59.5" />
+              <point x="817.5" y="361.0" />
+              <point x="602.6999999999999" y="361.0" />
+              <point x="38.19999999999993" y="92.5" />
+            </edge>
+            <edge source="result_module.ResultModule" target="module.Module">
+              <point x="0.0" y="-70.5" />
+              <point x="792.5" y="104.0" />
+              <point x="1068.8" y="104.0" />
+              <point x="-23.200000000000045" y="37.0" />
+            </edge>
+            <edge source="write_module.WriteModule" target="thread_module.ThreadModule">
+              <point x="0.0" y="-59.5" />
+              <point x="100.5" y="351.0" />
+              <point x="488.1" y="351.0" />
+              <point x="-76.39999999999998" y="92.5" />
+            </edge>
+            <edge source="syllabify_module.SyllabifyModule" target="thread_module.ThreadModule">
+              <point x="0.0" y="-48.0" />
+              <point x="325.0" y="361.0" />
+              <point x="526.3" y="361.0" />
+              <point x="-38.200000000000045" y="92.5" />
+            </edge>
+            <edge source="read_module.ReadModule" target="module.Module">
+              <point x="0.0" y="-92.5" />
+              <point x="1878.0" y="94.0" />
+              <point x="1138.4" y="94.0" />
+              <point x="46.40000000000009" y="37.0" />
+            </edge>
+            <edge source="word.TextPhonotypes" target="word.Word">
+              <point x="0.0" y="-92.5" />
+              <point x="1782.0" y="641.0" />
+              <point x="1347.4" y="641.0" />
+              <point x="46.40000000000009" y="26.0" />
+            </edge>
+            <edge source="word.TextPunctuation" target="word.Word">
+              <point x="0.0" y="-92.5" />
+              <point x="0.0" y="26.0" />
+            </edge>
+            <edge source="init_terminate_module.InitTerminateModule" target="module.Module">
+              <point x="0.0" y="-81.5" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="thread_module.ThreadModule" target="module.Module">
+              <point x="0.0" y="-92.5" />
+              <point x="564.5" y="94.0" />
+              <point x="1045.6" y="94.0" />
+              <point x="-46.40000000000009" y="37.0" />
+            </edge>
+            <edge source="clean_module.CleanModule" target="thread_module.ThreadModule">
+              <point x="0.0" y="-59.5" />
+              <point x="1045.0" y="351.0" />
+              <point x="640.9" y="351.0" />
+              <point x="76.39999999999998" y="92.5" />
+            </edge>
+            <edge source="count_module.CountModule" target="thread_module.ThreadModule">
+              <point x="0.0" y="-70.5" />
+              <point x="0.0" y="92.5" />
+            </edge>
+            <edge source="word.SyllablesLengths" target="word.Word">
+              <point x="0.0" y="-92.5" />
+              <point x="1542.0" y="651.0" />
+              <point x="1324.2" y="651.0" />
+              <point x="23.200000000000045" y="26.0" />
+            </edge>
+            <edge source="word.SyllablesPhonotypes" target="word.Word">
+              <point x="0.0" y="-92.5" />
+              <point x="882.0" y="641.0" />
+              <point x="1254.6000000000001" y="641.0" />
+              <point x="-46.39999999999998" y="26.0" />
+            </edge>
+            <edge source="word.Text" target="word.Word">
+              <point x="0.0" y="-59.5" />
+              <point x="1092.0" y="651.0" />
+              <point x="1277.8" y="651.0" />
+              <point x="-23.200000000000045" y="26.0" />
+            </edge>
+            <edge source="table_module.TableModule" target="module.Module">
+              <point x="0.0" y="-103.5" />
+              <point x="1497.0" y="104.0" />
+              <point x="1115.2" y="104.0" />
+              <point x="23.200000000000045" y="37.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.5840274375306223" x="1011.0" y="445.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/word.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/init_terminate_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="51" column="27" lean-forward="true" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clean_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phonotype_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syllabify_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/count_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
