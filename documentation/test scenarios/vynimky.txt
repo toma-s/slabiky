@@ -1,0 +1,62 @@
+﻿Čeština
+
+except (clusters)
+pouze → pou-ze
+použil → po-u-žil 
+
+only (clusters)
+farmaceutický → fa-rma-ceu-ti-cký
+neurčitý → ne-ur-či-tý
+
+no special cases (clusters)
+automatický → au-to-ma-ti-cký
+
+preced-foll (phonotyp change)
+vlna → vl-na
+
+only in word (phonotype change)
+osm → o-sm
+
+text change
+biologie -> bi-jo-lo-gi-je
+
+zero syllable (foll)
+s rozpadem → srozpadem
+
+2 length (lenght change prece)
+vědomí -> vě-do-mí (dĺžka prvej slabiky je 3, lebo v pred ě)
+
+letter length
+sex → sex (x má dva zvuky, preto dĺžka slabiky je 4)
+_____________________________________
+horná srbčina
+
+none (fonotype change)
+wrobl → wro-bl
+
+0 length (lenght change foll)
+sněh → sněh (h je zamlčané, preto dĺžka slabiky je 3)
+
+ukrajincina
+
+zero syllable (pre)
+українського ж → українськогож
+
+
+є, ю, я represent two phonemes if they are at the beginning of a word, 
+or if the follow a vowel (see the list above), an apostrophe, or a soft sign; 
+otherwise they represent one phoneme
+
+jedno-slabičné slová
+
+
+
+
+
+
+"slovo" → slovo
+
+au-
+tomatický → automatický
+
+au5to → 
