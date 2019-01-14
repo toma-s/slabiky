@@ -1,5 +1,5 @@
-from table_module import TableModule
-from module import Module
+from application.source.table_module import TableModule
+from application.source.module import Module
 
 
 class ResultModule(Module):

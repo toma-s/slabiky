@@ -1,8 +1,8 @@
 import time
 
-from end import End
-from thread_module import ThreadModule
-from word import Text
+from application.source.end import End
+from application.source.thread_module import ThreadModule
+from application.source.word import Text
 
 
 class CleanModule(ThreadModule):

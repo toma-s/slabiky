@@ -1,4 +1,4 @@
-from module import Module
+from application.source.module import Module
 
 
 class TableModule(Module):

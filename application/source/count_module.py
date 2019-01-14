@@ -1,9 +1,9 @@
 import time
 
-from end import End
-from result_module import ResultModule
-from thread_module import ThreadModule
-from word import SyllablesLengths
+from application.source.end import End
+from application.source.result_module import ResultModule
+from application.source.thread_module import ThreadModule
+from application.source.word import SyllablesLengths
 
 
 class CountModule(ThreadModule):
