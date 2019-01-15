@@ -30,7 +30,7 @@ class ReadModule(Module):
             pipe_out.put(word)
             pipe_out.notify()
             pipe_out.release()
-            # time.sleep(1)
+
         pipe_out.acquire()
         pipe_out.put(End())
         pipe_out.notify()

@@ -11,9 +11,9 @@ from application.tests_modules.test_clean_module import expected_outputs
 from application.tests_modules.test_clean_module.test_module import TestModule
 
 
-class TestCleanBelarussian(unittest.TestCase):
+class TestClean(unittest.TestCase):
 
-    def test_clean_words_be(self):
+    def test_clean_words(self):
         words = get_items_from_read_module()
 
         read_clean_pipe = Pipe(queue.Queue(), threading.Condition())
@@ -42,8 +42,8 @@ class TestCleanBelarussian(unittest.TestCase):
         self.assertCountEqual(result, expected_outputs.expected_out_be)
         self.assertListEqual(result, expected_outputs.expected_out_be)
 
-    def test_clean_threading_be(self):
-        result = get_items_from_read_clean_modules()
+    def test_clean_threading(self):
+        result = get_items_from_read_clean_modules_threads()
 
         self.assertCountEqual(result, expected_outputs.expected_out_be)
         self.assertEqual(result, expected_outputs.expected_out_be)
@@ -59,7 +59,7 @@ def get_items_from_read_module():
     return read_module.read()
 
 
-def get_items_from_read_clean_modules():
+def get_items_from_read_clean_modules_threads():
     read_clean_pipe = Pipe(queue.Queue(), threading.Condition())
     clean_test_pipe = Pipe(queue.Queue(), threading.Condition())
     file_path = '../../tests/short_texts/belarussian_short_text.txt'
