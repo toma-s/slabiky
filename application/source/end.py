@@ -4,7 +4,7 @@ class End:
         pass
 
     def __repr__(self):
-        return 'End'
+        return 'End()'
 
     def __eq__(self, other):
         if isinstance(other, End):

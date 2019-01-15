@@ -46,6 +46,15 @@ class Text(Word):
         super(Word).__init__()
         self._text = text
 
+    def __repr__(self):
+        return 'Text(\'{}\')'.format(self.get_text())
+        # return '\'{}\''.format(self.get_text())
+
+    def __eq__(self, other):
+        if not isinstance(other, Text):
+            return False
+        return self.get_text() == other.get_text()
+
     def get_text(self):
         return self._text
 

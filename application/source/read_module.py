@@ -26,12 +26,11 @@ class ReadModule(Module):
             if isinstance(word, End):
                 print('Read Module: Sending the End')
             else:
-                print('Read Module: Sending word with text "{}"'
-                      .format(''.join(word.get_text())))
+                print('Read Module: Sending word with text "{}"'.format(''.join(word.get_text())))
             pipe_out.put(word)
             pipe_out.notify()
             pipe_out.release()
-            time.sleep(3)
+            # time.sleep(1)
         pipe_out.acquire()
         pipe_out.put(End())
         pipe_out.notify()

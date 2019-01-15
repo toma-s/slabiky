@@ -5,7 +5,8 @@ from application.source.constants import *
 
 class ConfigData(object):
     def __init__(self, file_path):
-        data = json.load(open("" + file_path + "", encoding='utf-8'))
+        with open(file_path, mode='r', encoding='utf-8') as json_data:
+            data = json.load(json_data)
 
         """language"""
         # string

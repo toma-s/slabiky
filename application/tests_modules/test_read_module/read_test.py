@@ -13,7 +13,7 @@ class TestReadBelarussian(unittest.TestCase):
         read_clean_pipe = Pipe(queue.Queue(), threading.Condition())
         file_path = '../../tests/short_texts/belarussian_short_text.txt'
         encoding = 'utf-8'
-        data = 'config/conf_be_cyr.json'
+        data = '../../../config/conf_be_cyr.json'
 
         read_module = ReadModule([read_clean_pipe], file_path, encoding, data)
         result = read_module.read()
