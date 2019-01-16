@@ -2,82 +2,133 @@ import queue
 import threading
 import unittest
 
+from application.source import constants
+from application.source.config_data import ConfigData
 from application.source.end import End
 from application.source.pipe import *
-from application.source.read_module import ReadModule
 from application.source.clean_module import CleanModule
 from application.source.word import Text, TextPunctuation
-from application.tests_modules.test_clean_module import expected_outputs
-from application.tests_modules.test_clean_module.test_module import TestModule
+
+
+data = ConfigData('../../../config/conf_uk_cyr.json')
+pipe_in = Pipe(queue.Queue(), threading.Condition())
+pipe_out = Pipe(queue.Queue(), threading.Condition())
+module = CleanModule([pipe_in, pipe_out], data)
+
+
+def run_through_module(words):
+
+    result = []
+
+    for word in words:
+        print('word:', word)
+        pipe_in.acquire()
+        pipe_in.put(word)
+        pipe_in.notify()
+        pipe_in.release()
+
+    while True:
+        pipe_out.acquire()
+        if pipe_out.empty():
+            pipe_out.wait()
+        cleaned_word = pipe_out.get()
+        print('cleaned_word:', cleaned_word)
+        result.append(cleaned_word)
+        pipe_out.release()
+
+        if isinstance(cleaned_word, End):
+            break
+
+    return result
 
 
 class TestClean(unittest.TestCase):
 
-    def test_clean_words(self):
-        words = get_items_from_read_module()
+    @classmethod
+    def setUpClass(cls):
+        module.start()
 
-        read_clean_pipe = Pipe(queue.Queue(), threading.Condition())
-        clean_phono_pipe = Pipe(queue.Queue(), threading.Condition())
-        data = '../../../config/conf_be_cyr.json'
+    @classmethod
+    def tearDownClass(cls):
+        module.join()
 
-        clean_module = CleanModule([read_clean_pipe, clean_phono_pipe], data)
-        result = []
-        prec, curr, foll = None, None, None
-        for word in words:
-            if word is None:
-                continue
-            prec = curr
-            curr = foll
-            foll = word
-            if isinstance(curr, TextPunctuation):
-                cleaned = clean_module.clean([prec, curr, foll])
-                prec = cleaned[0]
-                curr = cleaned[1]
-                foll = cleaned[2]
-                if curr:
-                    result.append(Text(curr.get_text()))
-            if isinstance(word, End):
-                result.append(word)
+    def test_clean_end(self):
+        words = [End()]
 
-        self.assertCountEqual(result, expected_outputs.expected_out_be)
-        self.assertListEqual(result, expected_outputs.expected_out_be)
+        result = run_through_module(words)
+        print(result)
 
-    def test_clean_threading(self):
-        result = get_items_from_read_clean_modules_threads()
+        self.assertEqual(result, [End()])
 
-        self.assertCountEqual(result, expected_outputs.expected_out_be)
-        self.assertEqual(result, expected_outputs.expected_out_be)
+    def test_clean_capital(self):
+        words = [TextPunctuation('а', [None]),
+                 TextPunctuation('зПольским', [None, None, None, None, None, None, None, None, None]),
+                 End()]
 
+        result = run_through_module(words)
+        print(result)
 
-def get_items_from_read_module():
-    read_clean_pipe = Pipe(queue.Queue(), threading.Condition())
-    file_path = '../../tests/short_texts/belarussian_short_text.txt'
-    encoding = 'utf-8'
-    data = '../../../config/conf_be_cyr.json'
+        self.assertEqual(result, [Text('а'), Text('зпольским'), End()])
 
-    read_module = ReadModule([read_clean_pipe], file_path, encoding, data)
-    return read_module.read()
+    def test_clean_non_alphabet(self):
+        words = [TextPunctuation('а', [None]),
+                 TextPunctuation('dummy', [None, None, None, None, None]),
+                 End()]
 
+        result = run_through_module(words)
+        print(result)
 
-def get_items_from_read_clean_modules_threads():
-    read_clean_pipe = Pipe(queue.Queue(), threading.Condition())
-    clean_test_pipe = Pipe(queue.Queue(), threading.Condition())
-    file_path = '../../tests/short_texts/belarussian_short_text.txt'
-    encoding = 'utf-8'
-    data = '../../../config/conf_be_cyr.json'
+        self.assertEqual(result, [Text('а'), End()])
 
-    read_module = ReadModule([read_clean_pipe], file_path, encoding, data)
-    clean_module = CleanModule([read_clean_pipe, clean_test_pipe], data)
-    test_module = TestModule([clean_test_pipe])
+    def test_clean_punctuation_only(self):
+        words = [TextPunctuation('а', [None]),
+                 TextPunctuation('—', [constants.PUNCT]),
+                 End()]
 
-    read_module.run()
-    clean_module.start()
-    test_module.start()
+        result = run_through_module(words)
+        print(result)
 
-    clean_module.join()
-    test_module.join()
+        self.assertEqual(result, [Text('а'), End()])
 
-    return test_module.received
+    def test_clean_punctuation_within(self):
+        words = [TextPunctuation('а', [None]),
+                 TextPunctuation('сло!во', [None, None, None, constants.PUNCT, None, None]),
+                 End()]
+
+        result = run_through_module(words)
+        print(result)
+
+        self.assertEqual(result, [Text('а'), End()])
+
+    def test_clean_quotation(self):
+        words = [TextPunctuation('а', [None]),
+                 TextPunctuation('«слово»', [constants.PUNCT, None, None, None, None, None, constants.PUNCT]),
+                 End()]
+
+        result = run_through_module(words)
+        print(result)
+
+        self.assertEqual(result, [Text('а'), Text('слово'), End()])
+
+    def test_clean_hyphen(self):
+        words = [TextPunctuation('а', [None]),
+                 TextPunctuation('сло-во', [None, None, None, constants.HYPHEN, None, None]),
+                 End()]
+
+        result = run_through_module(words)
+        print(result)
+
+        self.assertEqual(result, [Text('а'), Text('слово'), End()])
+
+    def test_clean_hyphen_punctuation(self):
+        words = [TextPunctuation('а', [None]),
+                 TextPunctuation('сло-во!', [None, None, None, constants.HYPHEN, None, None, constants.PUNCT]),
+                 End()]
+
+        result = run_through_module(words)
+        print(result)
+
+        self.assertEqual(result, [Text('а'), Text('слово'), End()])
 
 
 if __name__ == '__main__':
