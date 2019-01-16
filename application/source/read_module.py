@@ -1,9 +1,11 @@
-import time
-
 from application.source import constants
 from application.source.end import End
 from application.source.word import TextPunctuation
 from application.source.module import Module
+
+punctuation = ['-', '—', '―', '.', ',', ':', ';', '?', '!', '[', ']', '(', ')', '{', '}', '⟨', '⟩', '‹', '›', '«', '»',
+               '“', '”', '"', '"', '‚', '‘', '"']
+spaces = [' ', '\n', '\t', '\r']
 
 
 class ReadModule(Module):
@@ -54,7 +56,7 @@ class ReadModule(Module):
                         words.append(word)
                     words.append(End())
                     break
-                if sym in [' ', '\n', '\t', '\r']:
+                if sym in spaces:
                     if len(buffer_text):
                         if dash[0] and sym != ' ':
                             buffer_signs[-1] = constants.HYPHEN
@@ -79,8 +81,7 @@ def to_buffer(sym, dash) -> tuple:
         to_signs.append(constants.PUNCT)
         dash[0] = True
         return to_text, to_signs
-    if sym in ['.', ',', ':', ';', '?', '!', '[', ']', '(', ')', '{', '}', '⟨', '⟩',
-               '—', '―', '‹', '›', '«', '»', '“', '”', '"', '"', '‚', '‘']:
+    if sym in punctuation:
         to_text.append(sym)
         to_signs.append(constants.PUNCT)
         return to_text, to_signs
