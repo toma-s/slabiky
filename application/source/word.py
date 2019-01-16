@@ -13,6 +13,7 @@ class TextPunctuation(Word):
         self._punctuation = punctuation
 
     def __repr__(self):
+        # return 'TextPunctuation(\'{}\', {})'.format(self.get_text(), self.get_punctuation())
         representation = ['[']
         for i in range(len(self.get_text())):
             representation.append('(\'{}\': {})'.format(self.get_text()[i], self.get_punctuation()[i]))
@@ -47,8 +48,8 @@ class Text(Word):
         self._text = text
 
     def __repr__(self):
-        return 'Text(\'{}\')'.format(self.get_text())
-        # return '\'{}\''.format(self.get_text())
+        # return 'Text(\'{}\')'.format(self.get_text())
+        return '\'{}\''.format(self.get_text())
 
     def __eq__(self, other):
         if not isinstance(other, Text):

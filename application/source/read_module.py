@@ -32,31 +32,6 @@ class ReadModule(Module):
         send_word(End(), pipe_out)
         print('Read Module: Finished')
 
-
-    # def run(self):
-    #     pipe_out = self._pipes[0]
-    #
-    #     print('Read Module: Started reading the input')
-    #     words = self.read()
-    #     print('Read Module: Finished reading the input')
-    #
-    #     for word in words:
-    #         pipe_out.acquire()
-    #         if isinstance(word, End):
-    #             print('Read Module: Sending the End')
-    #         else:
-    #             print('Read Module: Sending word with text "{}"'.format(''.join(word.get_text())))
-    #         pipe_out.put(word)
-    #         pipe_out.notify()
-    #         pipe_out.release()
-    #
-    #     pipe_out.acquire()
-    #     pipe_out.put(End())
-    #     pipe_out.notify()
-    #     pipe_out.release()
-    #
-    #     print('Read Module: Finished working')
-
     def read(self) -> list:
 
         words = []
