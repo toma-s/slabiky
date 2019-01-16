@@ -9,6 +9,7 @@ spaces = [' ', '\n', '\t', '\r']
 
 
 class ReadModule(Module):
+
     def __init__(self, pipes, file_path, encoding, data):
         super(Module).__init__()
         self._pipes = pipes
@@ -24,21 +25,37 @@ class ReadModule(Module):
         print('Read Module: Finished reading the input')
 
         for word in words:
-            pipe_out.acquire()
-            if isinstance(word, End):
-                print('Read Module: Sending the End')
-            else:
-                print('Read Module: Sending word with text "{}"'.format(''.join(word.get_text())))
-            pipe_out.put(word)
-            pipe_out.notify()
-            pipe_out.release()
+            print('Read Module: Sending word with text "{}"'.format(''.join(word.get_text())))
+            send_word(word, pipe_out)
 
-        pipe_out.acquire()
-        pipe_out.put(End())
-        pipe_out.notify()
-        pipe_out.release()
+        print('Read Module: Sending the End')
+        send_word(End(), pipe_out)
+        print('Read Module: Finished')
 
-        print('Read Module: Finished working')
+
+    # def run(self):
+    #     pipe_out = self._pipes[0]
+    #
+    #     print('Read Module: Started reading the input')
+    #     words = self.read()
+    #     print('Read Module: Finished reading the input')
+    #
+    #     for word in words:
+    #         pipe_out.acquire()
+    #         if isinstance(word, End):
+    #             print('Read Module: Sending the End')
+    #         else:
+    #             print('Read Module: Sending word with text "{}"'.format(''.join(word.get_text())))
+    #         pipe_out.put(word)
+    #         pipe_out.notify()
+    #         pipe_out.release()
+    #
+    #     pipe_out.acquire()
+    #     pipe_out.put(End())
+    #     pipe_out.notify()
+    #     pipe_out.release()
+    #
+    #     print('Read Module: Finished working')
 
     def read(self) -> list:
 
@@ -54,7 +71,7 @@ class ReadModule(Module):
                     if len(buffer_text):
                         word = TextPunctuation(''.join(buffer_text), buffer_signs)
                         words.append(word)
-                    words.append(End())
+                    # words.append(End())
                     break
                 if sym in spaces:
                     if len(buffer_text):
@@ -89,3 +106,10 @@ def to_buffer(sym, dash) -> tuple:
     to_signs.append(None)
 
     return to_text, to_signs
+
+
+def send_word(word, pipe_out):
+    pipe_out.acquire()
+    pipe_out.put(word)
+    pipe_out.notify()
+    pipe_out.release()
