@@ -5,8 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/source/clean_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/application/source/clean_module.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/tests_modules/test_clean_module/clean_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/application/tests_modules/test_clean_module/clean_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/tests_modules/test_clean_module/expected_outputs.py" beforeDir="false" afterPath="$PROJECT_DIR$/application/tests_modules/test_clean_module/expected_outputs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/tests_modules/test_read_module/read_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/application/tests_modules/test_read_module/read_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/tests_modules/test_clean_module/expected_outputs.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,17 +14,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/slabiky$Unittests_for_clean_test_TestClean_test_clean_punctuation_within.coverage" NAME="Unittests for clean_test.TestClean.test_clean_punctuation_within Coverage Results" MODIFIED="1547646112951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_clean_module" />
+    <SUITE FILE_PATH="coverage/slabiky$Unittests_for_clean_test_TestClean_test_clean_punctuation_within.coverage" NAME="Unittests for clean_test.TestClean.test_clean_punctuation_within Coverage Results" MODIFIED="1547649675756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_clean_module" />
     <SUITE FILE_PATH="coverage/slabiky$Unittests_for_clean_test_TestClean_test_t.coverage" NAME="Unittests for clean_test.TestClean.test_t Coverage Results" MODIFIED="1547645885970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_clean_module" />
     <SUITE FILE_PATH="coverage/slabiky$Unittests_for_read_test_TestRead_test_read_threads.coverage" NAME="Unittests for read_test.TestRead.test_read_threads Coverage Results" MODIFIED="1547547676789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_read_module" />
     <SUITE FILE_PATH="coverage/slabiky$Unittests_for_read_test_TestReadBelarussian_test_read_text_pl.coverage" NAME="Unittests for read_test.TestReadBelarussian.test_read_text_pl Coverage Results" MODIFIED="1547490463174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_read_module" />
-    <SUITE FILE_PATH="coverage/slabiky$Unittests_for_clean_test_TestClean_test_clean_quotation.coverage" NAME="Unittests for clean_test.TestClean.test_clean_quotation Coverage Results" MODIFIED="1547646116852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_clean_module" />
+    <SUITE FILE_PATH="coverage/slabiky$Unittests_for_clean_test_TestClean_test_clean_quotation.coverage" NAME="Unittests for clean_test.TestClean.test_clean_quotation Coverage Results" MODIFIED="1547649679913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_clean_module" />
     <SUITE FILE_PATH="coverage/slabiky$Unittests_for_read_test_TestReadBelarussian_test_test.coverage" NAME="Unittests for read_test.TestReadBelarussian.test_test Coverage Results" MODIFIED="1547490996797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_read_module" />
     <SUITE FILE_PATH="coverage/slabiky$Unittests_in_read_test_py.coverage" NAME="Unittests in read_test.py Coverage Results" MODIFIED="1547484231200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_read_module" />
-    <SUITE FILE_PATH="coverage/slabiky$Unittests_for_clean_test_TestClean_test_clean_hyphen_punctuation.coverage" NAME="Unittests for clean_test.TestClean.test_clean_hyphen_punctuation Coverage Results" MODIFIED="1547646121473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_clean_module" />
-    <SUITE FILE_PATH="coverage/slabiky$Unittests_for_clean_test_TestClean_test_clean_hyphen.coverage" NAME="Unittests for clean_test.TestClean.test_clean_hyphen Coverage Results" MODIFIED="1547646119221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_clean_module" />
+    <SUITE FILE_PATH="coverage/slabiky$Unittests_for_clean_test_TestClean_test_clean_hyphen_punctuation.coverage" NAME="Unittests for clean_test.TestClean.test_clean_hyphen_punctuation Coverage Results" MODIFIED="1547649684666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_clean_module" />
+    <SUITE FILE_PATH="coverage/slabiky$Unittests_for_clean_test_TestClean_test_clean_hyphen.coverage" NAME="Unittests for clean_test.TestClean.test_clean_hyphen Coverage Results" MODIFIED="1547649682630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_clean_module" />
     <SUITE FILE_PATH="coverage/slabiky$Unittests_for_read_test_ReadBelarussian.coverage" NAME="Unittests for read_test.ReadBelarussian Coverage Results" MODIFIED="1547484105924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_read_module" />
-    <SUITE FILE_PATH="coverage/slabiky$Unittests_for_clean_test_TestClean_test_clean_non_alphabet.coverage" NAME="Unittests for clean_test.TestClean.test_clean_non_alphabet Coverage Results" MODIFIED="1547646309055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_clean_module" />
+    <SUITE FILE_PATH="coverage/slabiky$Unittests_for_clean_test_TestClean_test_clean_non_alphabet.coverage" NAME="Unittests for clean_test.TestClean.test_clean_non_alphabet Coverage Results" MODIFIED="1547649670181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_clean_module" />
     <SUITE FILE_PATH="coverage/slabiky$Unittests_for_read_test_TestReadBelarussian_test_read_text_ru.coverage" NAME="Unittests for read_test.TestReadBelarussian.test_read_text_ru Coverage Results" MODIFIED="1547490539747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_read_module" />
     <SUITE FILE_PATH="coverage/slabiky$Unittests_for_read_test_TestRead.coverage" NAME="Unittests for read_test.TestRead Coverage Results" MODIFIED="1547547685493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_read_module" />
     <SUITE FILE_PATH="coverage/slabiky$Unittests_for_read_test_TestReadBelarussian_test_read_dummy.coverage" NAME="Unittests for read_test.TestReadBelarussian.test_read_dummy Coverage Results" MODIFIED="1547488221030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_read_module" />
@@ -35,21 +34,23 @@
     <SUITE FILE_PATH="coverage/slabiky$Unittests_for_clean_test_TestCleanFunction_test_clean_punctuation_only.coverage" NAME="Unittests for clean_test.TestCleanFunction.test_clean_punctuation_only Coverage Results" MODIFIED="1547630875362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_clean_module" />
     <SUITE FILE_PATH="coverage/slabiky$Unittests_for_read_test_TestReadBelarussian_test_read_text_bg.coverage" NAME="Unittests for read_test.TestReadBelarussian.test_read_text_bg Coverage Results" MODIFIED="1547489706294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_read_module" />
     <SUITE FILE_PATH="coverage/slabiky$Unittests_for_clean_test_TestCleanBelarussian_test_clean_threading_be.coverage" NAME="Unittests for clean_test.TestCleanBelarussian.test_clean_threading_be Coverage Results" MODIFIED="1547513022627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_clean_module" />
-    <SUITE FILE_PATH="coverage/slabiky$Unittests_for_clean_test_TestClean_test_clean_end.coverage" NAME="Unittests for clean_test.TestClean.test_clean_end Coverage Results" MODIFIED="1547646303078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_clean_module" />
+    <SUITE FILE_PATH="coverage/slabiky$Unittests_for_clean_test_TestClean_test_clean_end.coverage" NAME="Unittests for clean_test.TestClean.test_clean_end Coverage Results" MODIFIED="1547649665507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_clean_module" />
     <SUITE FILE_PATH="coverage/slabiky$Unittests_for_clean_test_TestCleanFunction_test_clean_end.coverage" NAME="Unittests for clean_test.TestCleanFunction.test_clean_end Coverage Results" MODIFIED="1547630576133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_clean_module" />
     <SUITE FILE_PATH="coverage/slabiky$Unittests_for_clean_test_TestCleanThreading_test_clean_threading.coverage" NAME="Unittests for clean_test.TestCleanThreading.test_clean_threading Coverage Results" MODIFIED="1547627297697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_clean_module" />
     <SUITE FILE_PATH="coverage/slabiky$Unittests_for_read_test_TestReadBelarussian_test_read_text_be.coverage" NAME="Unittests for read_test.TestReadBelarussian.test_read_text_be Coverage Results" MODIFIED="1547489486911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_read_module" />
     <SUITE FILE_PATH="coverage/slabiky$Unittests_for_read_test_TestReadBelarussian_test_read_text_hr.coverage" NAME="Unittests for read_test.TestReadBelarussian.test_read_text_hr Coverage Results" MODIFIED="1547490363972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_read_module" />
     <SUITE FILE_PATH="coverage/slabiky$Unittests_for_clean_test_TestCleanBelarussian.coverage" NAME="Unittests for clean_test.TestCleanBelarussian Coverage Results" MODIFIED="1547513048753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_clean_module" />
-    <SUITE FILE_PATH="coverage/slabiky$Unittests_for_clean_test_TestClean_test_clean_capital.coverage" NAME="Unittests for clean_test.TestClean.test_clean_capital Coverage Results" MODIFIED="1547647007118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_clean_module" />
+    <SUITE FILE_PATH="coverage/slabiky$Unittests_for_clean_test_TestClean_test_clean_capital.coverage" NAME="Unittests for clean_test.TestClean.test_clean_capital Coverage Results" MODIFIED="1547649989062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_clean_module" />
     <SUITE FILE_PATH="coverage/slabiky$Unittests_for_read_test_TestReadBelarussian_test_read_text_BE.coverage" NAME="Unittests for read_test.TestReadBelarussian.test_read_text_BE Coverage Results" MODIFIED="1547488934018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_read_module" />
     <SUITE FILE_PATH="coverage/slabiky$Unittests_for_clean_test_TestCleanFunction_test_clean_punctuation_within.coverage" NAME="Unittests for clean_test.TestCleanFunction.test_clean_punctuation_within Coverage Results" MODIFIED="1547630877472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_clean_module" />
     <SUITE FILE_PATH="coverage/slabiky$Unittests_for_read_test_TestReadBelarussian_test_read_text_dsb.coverage" NAME="Unittests for read_test.TestReadBelarussian.test_read_text_dsb Coverage Results" MODIFIED="1547490279985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_read_module" />
-    <SUITE FILE_PATH="coverage/slabiky$Unittests_for_clean_test_TestClean.coverage" NAME="Unittests for clean_test.TestClean Coverage Results" MODIFIED="1547647012324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_clean_module" />
+    <SUITE FILE_PATH="coverage/slabiky$Unittests_for_clean_test_TestClean_test_union_with_prec.coverage" NAME="Unittests for clean_test.TestClean.test_union_with_prec Coverage Results" MODIFIED="1547649692179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_clean_module" />
+    <SUITE FILE_PATH="coverage/slabiky$Unittests_for_clean_test_TestClean.coverage" NAME="Unittests for clean_test.TestClean Coverage Results" MODIFIED="1547647123220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_clean_module" />
     <SUITE FILE_PATH="coverage/slabiky$Unittests_for_clean_test_TestCleanBelarussian_test_clean_words_be.coverage" NAME="Unittests for clean_test.TestCleanBelarussian.test_clean_words_be Coverage Results" MODIFIED="1547511860047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_clean_module" />
     <SUITE FILE_PATH="coverage/slabiky$Unittests_in_clean_test_py.coverage" NAME="Unittests in clean_test.py Coverage Results" MODIFIED="1547646124710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_clean_module" />
     <SUITE FILE_PATH="coverage/slabiky$Unittests_for_clean_test_TestClean_test_clean_punctuation.coverage" NAME="Unittests for clean_test.TestClean.test_clean_punctuation Coverage Results" MODIFIED="1547630006531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_clean_module" />
-    <SUITE FILE_PATH="coverage/slabiky$Unittests_for_clean_test_TestClean_test_clean_punctuation_only.coverage" NAME="Unittests for clean_test.TestClean.test_clean_punctuation_only Coverage Results" MODIFIED="1547646110709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_clean_module" />
+    <SUITE FILE_PATH="coverage/slabiky$Unittests_for_clean_test_TestClean_test_clean_punctuation_only.coverage" NAME="Unittests for clean_test.TestClean.test_clean_punctuation_only Coverage Results" MODIFIED="1547649673051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_clean_module" />
+    <SUITE FILE_PATH="coverage/slabiky$Unittests_for_clean_test_TestClean_test_union_with_foll.coverage" NAME="Unittests for clean_test.TestClean.test_union_with_foll Coverage Results" MODIFIED="1547649689361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_clean_module" />
     <SUITE FILE_PATH="coverage/slabiky$Unittests_for_clean_test_TestCleanFunction.coverage" NAME="Unittests for clean_test.TestCleanFunction Coverage Results" MODIFIED="1547630879934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/application/tests_modules/test_clean_module" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -70,14 +71,14 @@
         <counts>
           <entry key="JSON" value="62" />
           <entry key="PLAIN_TEXT" value="18" />
-          <entry key="Python" value="40" />
+          <entry key="Python" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="456" />
           <entry key="PLAIN_TEXT" value="33" />
-          <entry key="Python" value="8078" />
+          <entry key="Python" value="8897" />
         </counts>
       </usages-collector>
     </session>
@@ -87,8 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/source/clean_module.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-40">
-              <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+            <state relative-caret-position="480">
+              <caret line="45" column="55" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -99,8 +100,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/tests_modules/test_clean_module/clean_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-940">
-              <caret line="28" column="15" lean-forward="true" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+            <state relative-caret-position="440">
+              <caret line="64" column="42" selection-start-line="64" selection-start-column="42" selection-end-line="64" selection-end-column="42" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -111,8 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/tests_modules/test_read_module/expected_outputs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="2692" />
+            <state relative-caret-position="160">
+              <caret line="5" column="404" selection-start-line="5" selection-start-column="404" selection-end-line="5" selection-end-column="404" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -123,8 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/source/word.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1060">
-              <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+            <state>
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -146,18 +147,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="320">
               <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/tests_modules/test_clean_module/expected_outputs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -343,22 +332,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for clean_test.TestClean">
-    <configuration name="Unittests for clean_test.TestClean" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="slabiky" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/application/tests_modules/test_clean_module" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;clean_test.TestClean&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests for clean_test.TestClean.test_clean_capital">
     <configuration name="Unittests for clean_test.TestClean.test_clean_capital" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="slabiky" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -374,7 +348,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for clean_test.TestClean.test_clean_end" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for clean_test.TestClean.test_clean_hyphen" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="slabiky" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -385,11 +359,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;clean_test.TestClean.test_clean_end&quot;" />
+      <option name="_new_target" value="&quot;clean_test.TestClean.test_clean_hyphen&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for clean_test.TestClean.test_clean_non_alphabet" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for clean_test.TestClean.test_clean_hyphen_punctuation" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="slabiky" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -400,11 +374,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;clean_test.TestClean.test_clean_non_alphabet&quot;" />
+      <option name="_new_target" value="&quot;clean_test.TestClean.test_clean_hyphen_punctuation&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in clean_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for clean_test.TestClean.test_union_with_foll" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="slabiky" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -415,24 +389,39 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/application/tests_modules/test_clean_module/clean_test.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;clean_test.TestClean.test_union_with_foll&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for clean_test.TestClean.test_union_with_prec" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="slabiky" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/application/tests_modules/test_clean_module" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;clean_test.TestClean.test_union_with_prec&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests in clean_test.py" />
-      <item itemvalue="Python tests.Unittests for clean_test.TestClean" />
-      <item itemvalue="Python tests.Unittests for clean_test.TestClean.test_clean_end" />
+      <item itemvalue="Python tests.Unittests for clean_test.TestClean.test_clean_hyphen" />
+      <item itemvalue="Python tests.Unittests for clean_test.TestClean.test_clean_hyphen_punctuation" />
+      <item itemvalue="Python tests.Unittests for clean_test.TestClean.test_union_with_prec" />
+      <item itemvalue="Python tests.Unittests for clean_test.TestClean.test_union_with_foll" />
       <item itemvalue="Python tests.Unittests for clean_test.TestClean.test_clean_capital" />
-      <item itemvalue="Python tests.Unittests for clean_test.TestClean.test_clean_non_alphabet" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for clean_test.TestClean" />
         <item itemvalue="Python tests.Unittests for clean_test.TestClean.test_clean_capital" />
-        <item itemvalue="Python tests.Unittests for clean_test.TestClean.test_clean_non_alphabet" />
-        <item itemvalue="Python tests.Unittests for clean_test.TestClean.test_clean_end" />
-        <item itemvalue="Python tests.Unittests in clean_test.py" />
+        <item itemvalue="Python tests.Unittests for clean_test.TestClean.test_union_with_prec" />
+        <item itemvalue="Python tests.Unittests for clean_test.TestClean.test_union_with_foll" />
+        <item itemvalue="Python tests.Unittests for clean_test.TestClean.test_clean_hyphen_punctuation" />
+        <item itemvalue="Python tests.Unittests for clean_test.TestClean.test_clean_hyphen" />
       </list>
     </recent_temporary>
   </component>
@@ -450,46 +439,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_clean_test_TestClean - 2019.01.16 at 14h 51m 27s.xml">
-      <configuration name="Unittests for clean_test.TestClean" configurationId="tests" />
+    <history-entry file="Unittests_for_clean_test_TestClean_test_clean_punctuation_only - 2019.01.16 at 15h 41m 13s.xml">
+      <configuration name="Unittests for clean_test.TestClean.test_clean_punctuation_only" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_clean_test_TestClean_test_clean_capital - 2019.01.16 at 14h 52m 18s.xml">
+    <history-entry file="Unittests_for_clean_test_TestClean_test_clean_punctuation_within - 2019.01.16 at 15h 41m 16s.xml">
+      <configuration name="Unittests for clean_test.TestClean.test_clean_punctuation_within" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_clean_test_TestClean_test_clean_quotation - 2019.01.16 at 15h 41m 20s.xml">
+      <configuration name="Unittests for clean_test.TestClean.test_clean_quotation" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_clean_test_TestClean_test_clean_hyphen - 2019.01.16 at 15h 41m 22s.xml">
+      <configuration name="Unittests for clean_test.TestClean.test_clean_hyphen" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_clean_test_TestClean_test_clean_hyphen_punctuation - 2019.01.16 at 15h 41m 25s.xml">
+      <configuration name="Unittests for clean_test.TestClean.test_clean_hyphen_punctuation" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_clean_test_TestClean_test_union_with_prec - 2019.01.16 at 15h 41m 27s.xml">
+      <configuration name="Unittests for clean_test.TestClean.test_union_with_prec" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_clean_test_TestClean_test_union_with_foll - 2019.01.16 at 15h 41m 29s.xml">
+      <configuration name="Unittests for clean_test.TestClean.test_union_with_foll" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_clean_test_TestClean_test_union_with_prec - 2019.01.16 at 15h 41m 32s.xml">
+      <configuration name="Unittests for clean_test.TestClean.test_union_with_prec" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_clean_test_TestClean_test_clean_capital - 2019.01.16 at 15h 45m 49s.xml">
       <configuration name="Unittests for clean_test.TestClean.test_clean_capital" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_clean_test_TestClean_test_clean_capital - 2019.01.16 at 14h 52m 24s.xml">
+    <history-entry file="Unittests_for_clean_test_TestClean_test_clean_capital - 2019.01.16 at 15h 46m 29s.xml">
       <configuration name="Unittests for clean_test.TestClean.test_clean_capital" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_clean_test_TestClean_test_clean_capital - 2019.01.16 at 14h 54m 45s.xml">
-      <configuration name="Unittests for clean_test.TestClean.test_clean_capital" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_clean_test_TestClean_test_clean_capital - 2019.01.16 at 14h 55m 31s.xml">
-      <configuration name="Unittests for clean_test.TestClean.test_clean_capital" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_clean_test_TestClean_test_clean_capital - 2019.01.16 at 14h 55m 48s.xml">
-      <configuration name="Unittests for clean_test.TestClean.test_clean_capital" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_clean_test_TestClean_test_clean_capital - 2019.01.16 at 14h 55m 58s.xml">
-      <configuration name="Unittests for clean_test.TestClean.test_clean_capital" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_clean_test_TestClean - 2019.01.16 at 14h 56m 07s.xml">
-      <configuration name="Unittests for clean_test.TestClean" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_clean_test_TestClean_test_clean_capital - 2019.01.16 at 14h 56m 47s.xml">
-      <configuration name="Unittests for clean_test.TestClean.test_clean_capital" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_clean_test_TestClean - 2019.01.16 at 14h 57m 16s.xml">
-      <configuration name="Unittests for clean_test.TestClean" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20469798" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
-      <window_info active="true" anchor="bottom" x="1982" y="98" width="1091" height="691" id="Run" order="2" type="FLOATING" visible="true" weight="0.36871508" />
+      <window_info active="true" anchor="bottom" x="1981" y="98" width="1092" height="691" id="Run" order="2" type="FLOATING" visible="true" weight="0.36871508" />
       <window_info anchor="bottom" x="2032" y="59" width="1012" height="731" id="Debug" order="3" type="FLOATING" weight="0.39944133" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -498,7 +488,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.25698325" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.25977653" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -691,13 +681,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/tests/short_texts/short.txt" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/threading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="1026" selection-start-line="1026" selection-end-line="1026" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/tests_modules/test_clean_module/test_module.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -715,13 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/source/word.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1060">
-          <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/source/init_terminate_module.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
@@ -729,13 +705,6 @@
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/source/write_module.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -766,16 +735,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/tests_modules/test_read_module/expected_outputs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="2692" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/tests_modules/test_clean_module/expected_outputs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -786,10 +745,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/source/write_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/tests_modules/test_read_module/expected_outputs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="5" column="404" selection-start-line="5" selection-start-column="404" selection-end-line="5" selection-end-column="404" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/source/word.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="864" selection-start-line="864" selection-end-line="864" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/source/clean_module.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
-          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+        <state relative-caret-position="480">
+          <caret line="45" column="55" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
@@ -798,8 +788,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/tests_modules/test_clean_module/clean_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-940">
-          <caret line="28" column="15" lean-forward="true" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+        <state relative-caret-position="440">
+          <caret line="64" column="42" selection-start-line="64" selection-start-column="42" selection-end-line="64" selection-end-column="42" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>

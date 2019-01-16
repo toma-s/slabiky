@@ -21,7 +21,6 @@ def run_through_module(words):
     result = []
 
     for word in words:
-        print('word:', word)
         pipe_in.acquire()
         pipe_in.put(word)
         pipe_in.notify()
@@ -32,7 +31,6 @@ def run_through_module(words):
         if pipe_out.empty():
             pipe_out.wait()
         cleaned_word = pipe_out.get()
-        print('cleaned_word:', cleaned_word)
         result.append(cleaned_word)
         pipe_out.release()
 
@@ -56,27 +54,22 @@ class TestClean(unittest.TestCase):
         words = [End()]
 
         result = run_through_module(words)
-        print(result)
 
         self.assertEqual(result, [End()])
 
     def test_clean_capital(self):
-        words = [TextPunctuation('а', [None]),
-                 TextPunctuation('зПольским', [None, None, None, None, None, None, None, None, None]),
+        words = [TextPunctuation('до', [None, None]),
+                 TextPunctuation('Києва', [None, None, None, None, None]),
                  End()]
-
         result = run_through_module(words)
-        print(result)
 
-        self.assertEqual(result, [Text('а'), Text('зпольским'), End()])
+        self.assertEqual(result, [Text('до'), Text('києва'), End()])
 
     def test_clean_non_alphabet(self):
         words = [TextPunctuation('а', [None]),
-                 TextPunctuation('dummy', [None, None, None, None, None]),
+                 TextPunctuation('foreign', [None, None, None, None, None, None, None]),
                  End()]
-
         result = run_through_module(words)
-        print(result)
 
         self.assertEqual(result, [Text('а'), End()])
 
@@ -84,9 +77,7 @@ class TestClean(unittest.TestCase):
         words = [TextPunctuation('а', [None]),
                  TextPunctuation('—', [constants.PUNCT]),
                  End()]
-
         result = run_through_module(words)
-        print(result)
 
         self.assertEqual(result, [Text('а'), End()])
 
@@ -94,9 +85,7 @@ class TestClean(unittest.TestCase):
         words = [TextPunctuation('а', [None]),
                  TextPunctuation('сло!во', [None, None, None, constants.PUNCT, None, None]),
                  End()]
-
         result = run_through_module(words)
-        print(result)
 
         self.assertEqual(result, [Text('а'), End()])
 
@@ -104,9 +93,7 @@ class TestClean(unittest.TestCase):
         words = [TextPunctuation('а', [None]),
                  TextPunctuation('«слово»', [constants.PUNCT, None, None, None, None, None, constants.PUNCT]),
                  End()]
-
         result = run_through_module(words)
-        print(result)
 
         self.assertEqual(result, [Text('а'), Text('слово'), End()])
 
@@ -114,9 +101,7 @@ class TestClean(unittest.TestCase):
         words = [TextPunctuation('а', [None]),
                  TextPunctuation('сло-во', [None, None, None, constants.HYPHEN, None, None]),
                  End()]
-
         result = run_through_module(words)
-        print(result)
 
         self.assertEqual(result, [Text('а'), Text('слово'), End()])
 
@@ -124,11 +109,26 @@ class TestClean(unittest.TestCase):
         words = [TextPunctuation('а', [None]),
                  TextPunctuation('сло-во!', [None, None, None, constants.HYPHEN, None, None, constants.PUNCT]),
                  End()]
-
         result = run_through_module(words)
-        print(result)
 
         self.assertEqual(result, [Text('а'), Text('слово'), End()])
+
+    def test_union_with_prec(self):
+        words = [TextPunctuation('українського', [None, None, None, None, None, None,
+                                                  None, None, None, None, None, None]),
+                 TextPunctuation('ж', [None]),
+                 End()]
+        result = run_through_module(words)
+
+        self.assertEqual(result, [Text('українськогож'), End()])
+
+    def test_union_with_foll(self):
+        words = [TextPunctuation('з', [None]),
+                 TextPunctuation('собою', [None, None, None, None, None]),
+                 End()]
+        result = run_through_module(words)
+
+        self.assertEqual(result, [Text('зсобою'), End()])
 
 
 if __name__ == '__main__':

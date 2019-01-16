@@ -6,7 +6,7 @@ from application.source.word import Text, TextPunctuation
 
 class CleanModule(ThreadModule):
 
-    running = False
+    is_running = False
 
     def __init__(self, pipes, data):
         super().__init__(pipes)
@@ -18,58 +18,35 @@ class CleanModule(ThreadModule):
     def run(self):
         pipe_in = self.get_pipes()[0]
         pipe_out = self.get_pipes()[1]
-        self.running = True
+        self.is_running = True
+        curr, foll = None, None
 
-        prec, curr, foll = None, None, None
-
-        while self.running:
-            pipe_in.acquire()
-            if pipe_in.empty():
-                print('Clean Module: No word yet, waiting')
-                pipe_in.wait()
-            prec, curr = curr, foll
-            foll = pipe_in.get()
-            pipe_in.release()
-
+        while self.is_running:
+            curr, foll = foll, get_word(pipe_in)
+            self.is_end(foll)
             if not curr:
-                if isinstance(foll, End):
-                    print('Clean Module: Got to the End, sending')
-                    pipe_out.acquire()
-                    pipe_out.put(foll)
-                    pipe_out.notify()
-                    pipe_out.release()
-                    print('Clean Module: Finished working')
-                    self.running = False
+                continue
 
-                if isinstance(foll, TextPunctuation):
-                    print('Clean Module: Got a word with text "{}", waiting for the next one'
-                          .format(''.join(foll.get_text())))
-                    continue
+            print('Clean Module: Cleaning a word with text "{}"'.format(curr.get_text()))
+            cleaned_words = self.clean([curr, foll])
+            curr, foll = cleaned_words[0], cleaned_words[1]
+            print('Clean Module: Cleaned word with text "{}"'.format(curr.get_text()))
+            if not curr:
+                continue
 
-            print('Clean Module: Cleaning a word with text "{}"'.format(''.join(curr.get_text())))
+            send_word(Text(curr.get_text()), pipe_out)
 
-            cleaned_words = self.clean([prec, curr, foll])
-            curr, foll = cleaned_words[1], cleaned_words[2]
+        print('Clean Module: Got to the End, sending End')
+        send_word(foll, pipe_out)
+        print('Clean Module: Finished')
 
-            if curr:
-                print('Clean Module: Cleaned word with text "{}", sending'.format(curr.get_text()))
-                pipe_out.acquire()
-                pipe_out.put(Text(curr.get_text()))
-                pipe_out.notify()
-                pipe_out.release()
-
-            if isinstance(foll, End):
-                print('Clean Module: Got to the End, sending')
-                pipe_out.acquire()
-                pipe_out.put(foll)
-                pipe_out.notify()
-                pipe_out.release()
-                print('Clean Module: Finished working')
-                self.running = False
+    def is_end(self, word):
+        if isinstance(word, End):
+            self.is_running = False
 
     def clean(self, words: list) -> list:
 
-        prec, curr, foll = words[0], words[1], words[2]
+        curr, foll = words[0], words[1]
         buffer_text, buffer_signs = [], []
         punctuation_to_erase = ['.', ',', ':', ';', '?', '!', '[', ']', '(', ')', '{', '}',
                                 '⟨', '⟩', '‹', '›', '«', '»', '“', '”', '"', '"', '‚', '‘', '"']
@@ -83,25 +60,25 @@ class CleanModule(ThreadModule):
                 if sym in punctuation_to_erase:
                     continue
                 elif sym in ['—', '―']:
-                    return [prec, None, foll]
+                    return [None, foll]
 
             if sign == constants.HYPHEN:
                 try:
                     next_sym = curr.get_text()[i + 1]
                     continue
                 except IndexError:
-                    return [prec, None, foll]
+                    return [None, foll]
 
             if sign == constants.PUNCT and sym not in dashes:
                 for j in range(i + 1, len(curr.get_text())):
                     next_sign = curr.get_punctuation()[j]
                     if next_sign != constants.PUNCT:
-                        return [prec, None, foll]
-                return [prec, TextPunctuation(''.join(buffer_text), buffer_signs), foll]
+                        return [None, foll]
+                return [TextPunctuation(''.join(buffer_text), buffer_signs), foll]
 
             sym_low = sym.lower()
             if sym_low not in self.get_data().letters:
-                return [prec, None, foll]
+                return [None, foll]
 
             buffer_text.append(sym_low)
             buffer_signs.append(sign)
@@ -117,9 +94,9 @@ class CleanModule(ThreadModule):
             if buffer_attach['attachment'] == 'to_following':
                 foll.set_text(curr.get_text() + foll.get_text())
                 foll.set_punctuation(curr.get_punctuation() + foll.get_punctuation())
-                return [prec, None, foll]
+                return [None, foll]
 
-        return [prec, TextPunctuation(''.join(buffer_text), buffer_signs), foll]
+        return [TextPunctuation(''.join(buffer_text), buffer_signs), foll]
 
     def is_zero_syll(self, text: str) -> bool:
         word = text[0]
@@ -135,3 +112,20 @@ class CleanModule(ThreadModule):
         buffer_attach['text'] = text
         buffer_attach['sign'] = sign
         return buffer_attach
+
+
+def send_word(word, pipe_out):
+    pipe_out.acquire()
+    pipe_out.put(word)
+    pipe_out.notify()
+    pipe_out.release()
+
+
+def get_word(pipe_in):
+    pipe_in.acquire()
+    if pipe_in.empty():
+        print('Clean Module: No word yet, waiting\n')
+        pipe_in.wait()
+    word = pipe_in.get()
+    pipe_in.release()
+    return word
