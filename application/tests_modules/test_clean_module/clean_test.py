@@ -50,14 +50,14 @@ class TestClean(unittest.TestCase):
     def tearDownClass(cls):
         module.join()
 
-    def test_clean_end(self):
+    def test_end(self):
         words = [End()]
 
         result = run_through_module(words)
 
         self.assertEqual(result, [End()])
 
-    def test_clean_capital(self):
+    def test_capital(self):
         words = [TextPunctuation('до', [None, None]),
                  TextPunctuation('Києва', [None, None, None, None, None]),
                  End()]
@@ -65,7 +65,7 @@ class TestClean(unittest.TestCase):
 
         self.assertEqual(result, [Text('до'), Text('києва'), End()])
 
-    def test_clean_non_alphabet(self):
+    def test_non_alphabet(self):
         words = [TextPunctuation('а', [None]),
                  TextPunctuation('foreign', [None, None, None, None, None, None, None]),
                  End()]
@@ -73,7 +73,7 @@ class TestClean(unittest.TestCase):
 
         self.assertEqual(result, [Text('а'), End()])
 
-    def test_clean_punctuation_only(self):
+    def test_punctuation_only(self):
         words = [TextPunctuation('а', [None]),
                  TextPunctuation('—', [constants.PUNCT]),
                  End()]
@@ -81,7 +81,7 @@ class TestClean(unittest.TestCase):
 
         self.assertEqual(result, [Text('а'), End()])
 
-    def test_clean_punctuation_within(self):
+    def test_punctuation_within(self):
         words = [TextPunctuation('а', [None]),
                  TextPunctuation('сло!во', [None, None, None, constants.PUNCT, None, None]),
                  End()]
@@ -89,7 +89,7 @@ class TestClean(unittest.TestCase):
 
         self.assertEqual(result, [Text('а'), End()])
 
-    def test_clean_quotation(self):
+    def test_quotation(self):
         words = [TextPunctuation('а', [None]),
                  TextPunctuation('«слово»', [constants.PUNCT, None, None, None, None, None, constants.PUNCT]),
                  End()]
@@ -97,7 +97,7 @@ class TestClean(unittest.TestCase):
 
         self.assertEqual(result, [Text('а'), Text('слово'), End()])
 
-    def test_clean_hyphen(self):
+    def test_hyphen(self):
         words = [TextPunctuation('а', [None]),
                  TextPunctuation('сло-во', [None, None, None, constants.HYPHEN, None, None]),
                  End()]
@@ -105,7 +105,15 @@ class TestClean(unittest.TestCase):
 
         self.assertEqual(result, [Text('а'), Text('слово'), End()])
 
-    def test_clean_hyphen_punctuation(self):
+    def test_hypnen_at_the_end(self):
+        words = [TextPunctuation('а', [None]),
+                 TextPunctuation('сло-', [None, None, None, constants.HYPHEN]),
+                 End()]
+        result = run_through_module(words)
+
+        self.assertEqual(result, [Text('а'), End()])
+
+    def test_hyphen_punctuation(self):
         words = [TextPunctuation('а', [None]),
                  TextPunctuation('сло-во!', [None, None, None, constants.HYPHEN, None, None, constants.PUNCT]),
                  End()]

@@ -3,6 +3,10 @@ from application.source.end import End
 from application.source.thread_module import ThreadModule
 from application.source.word import Text, TextPunctuation
 
+hyphen_dashes = ['-', '—', '―']
+dashes = ['—', '―']
+punctuation_to_erase = ['.', ',', ':', ';', '?', '!', '[', ']', '(', ')', '{', '}', '⟨', '⟩', '‹', '›', '«', '»',
+                        '“', '”', '"', '"', '‚', '‘', '"']
 
 class CleanModule(ThreadModule):
 
@@ -30,9 +34,10 @@ class CleanModule(ThreadModule):
             print('Clean Module: Cleaning a word with text "{}"'.format(curr.get_text()))
             cleaned_words = self.clean([curr, foll])
             curr, foll = cleaned_words[0], cleaned_words[1]
-            print('Clean Module: Cleaned word with text "{}"'.format(curr.get_text()))
             if not curr:
+                print('Clean Module: Ignored the word')
                 continue
+            print('Clean Module: Cleaned word with text "{}"'.format(curr.get_text()))
 
             send_word(Text(curr.get_text()), pipe_out)
 
@@ -48,9 +53,6 @@ class CleanModule(ThreadModule):
 
         curr, foll = words[0], words[1]
         buffer_text, buffer_signs = [], []
-        punctuation_to_erase = ['.', ',', ':', ';', '?', '!', '[', ']', '(', ')', '{', '}',
-                                '⟨', '⟩', '‹', '›', '«', '»', '“', '”', '"', '"', '‚', '‘', '"']
-        dashes = ['-', '—', '―']
 
         for i in range(len(curr.get_text())):
             sym = curr.get_text()[i]
@@ -59,17 +61,16 @@ class CleanModule(ThreadModule):
             if not len(buffer_text) and sign == constants.PUNCT:
                 if sym in punctuation_to_erase:
                     continue
-                elif sym in ['—', '―']:
+                elif sym in dashes:
                     return [None, foll]
 
             if sign == constants.HYPHEN:
-                try:
-                    next_sym = curr.get_text()[i + 1]
-                    continue
-                except IndexError:
+                if len(curr.get_text()) == i + 1:
                     return [None, foll]
+                else:
+                    continue
 
-            if sign == constants.PUNCT and sym not in dashes:
+            if sign == constants.PUNCT and sym not in hyphen_dashes:
                 for j in range(i + 1, len(curr.get_text())):
                     next_sign = curr.get_punctuation()[j]
                     if next_sign != constants.PUNCT:
