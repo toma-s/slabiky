@@ -237,7 +237,7 @@
     },
     "o": {
       "u" : {
-        "except_in_subword": ["pouč,", "pouka,", "pouká,", "poukl,", "poulič,", "poum,", "použ,", "poupr,", "pouráž,", "pousm,", "pous,", "poute,", "pouvaž,", "pouzen,", "douč,", "douprav,", "doužív,", "douzov,", "doupřesn,", "doudit,", "doudí"],
+        "except_in_subword": ["pouč", "pouka", "pouká", "poukl", "poulič", "poum", "použ", "poupr", "pouráž", "pousm", "pous", "poute", "pouvaž", "pouzen", "douč", "douprav", "doužív", "douzov", "doupřesn", "doudit", "doudí"],
         "only_in_subword": [],
         "length": 1,
         "phonotype": "VOWEL"
@@ -246,7 +246,7 @@
     "e": {
       "u": {
         "except_in_subword": [],
-        "only_in_subword": ["eufemi,", "eufor,", "euro,", "eutan,", "farmaceut,", "feud,", "koloseu,", "koreu,", "leuk,", "linoleu,", "mauzoleu,", "muzeu,", "neutral,", "neutrál,", "pneum,", "pseudo,", "terapeut,", "eufon,", "eunuch,", "eunuš,", "zeugm,", "jubilee"],
+        "only_in_subword": ["eufemi", "eufor", "euro", "eutan", "farmaceut", "feud", "koloseu", "koreu", "leuk", "linoleu", "mauzoleu", "muzeu", "neutral", "neutrál", "pneum", "pseudo", "terapeut", "eufon", "eunuch", "eunuš", "zeugm", "jubilee"],
         "length": 1,
         "phonotype": "VOWEL"
       }
@@ -313,7 +313,7 @@
       "1": {
         "preceding": {
           "signs": ["NONE", "VOWEL", "SPEC"],
-          "letters": ["j", "l", "n", "ň", "r", "c,", "č", "d", "ď", "g", "h", "k", "q", "ř", "s", "š", "t", "ť", "w", "x", "z", "ž"]
+          "letters": ["j", "l", "n", "ň", "r", "c", "č", "d", "ď", "g", "h", "k", "q", "ř", "s", "š", "t", "ť", "w", "x", "z", "ž"]
           },
         "following": {
           "signs": ["CONS", "SONOR"],
