@@ -257,22 +257,19 @@
       "preceding": "CONS",
       "following": "CONS",
       "becomes": "VOWEL",
-      "only_in_word": [],
-      "included_in_word": []
+      "only_in_word": []
     },
     "r": {
       "preceding": "CONS",
       "following": "CONS",
       "becomes": "VOWEL",
-      "only_in_word": [],
-      "included_in_word": []
+      "only_in_word": []
     },
     "m": {
-      "preceding": "CONS",
-      "following": "NONE",
+      "preceding": "",
+      "following": "",
       "becomes": "VOWEL",
-      "only_in_word": ["sedm", "osm"],
-      "included_in_word": []
+      "only_in_word": ["sedm", "osm"]
     }
   },
   "text_changes": {
