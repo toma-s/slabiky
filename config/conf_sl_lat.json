@@ -142,8 +142,8 @@
   },
   "phonotype_changes": {
     "r": {
-      "preceding": "CONS",
-      "following": "CONS",
+      "preceding": ["CONS", "SONOR"],
+      "following": ["CONS", "SONOR"],
       "becomes": "VOWEL",
       "only_in_word": ["rž"]
     }
