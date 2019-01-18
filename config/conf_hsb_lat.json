@@ -260,11 +260,10 @@
   },
   "phonotype_changes": {
     "l": {
-      "preceding": "CONS",
+      "preceding": ["CONS", "SONOR"],
       "following": "NONE",
       "becomes": "VOWEL",
-      "only_in_word": [],
-      "included_in_word": []
+      "only_in_word": []
     }
   },
   "text_changes": {},
