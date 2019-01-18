@@ -266,8 +266,8 @@
       "only_in_word": []
     },
     "m": {
-      "preceding": "",
-      "following": "",
+      "preceding": [],
+      "following": [],
       "becomes": "VOWEL",
       "only_in_word": ["sedm", "osm"]
     }
