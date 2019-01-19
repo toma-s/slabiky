@@ -1,12 +1,11 @@
 import json
-
-from application.source.constants import *
+from application.source.constants import SONOR, CONS, VOWEL, SUBUNIT, SPEC
 
 
 class ConfigData(object):
     def __init__(self, file_path):
-        with open(file_path, mode='r', encoding='utf-8') as json_data:
-            data = json.load(json_data)
+        with open("" + file_path + "", encoding='utf-8') as config_file:
+            data = json.load(config_file)
 
         """language"""
         # string
@@ -37,10 +36,12 @@ class ConfigData(object):
         self.clusters = data['clusters']
         self.transform_clusters_phonotypes()
 
+
         """phonotype changes"""
         # dict
         self.phono_changes = data['phonotype_changes']
         self.transofrm_phono_changes_phonotypes()
+
 
         """text changes"""
         # dict
@@ -74,9 +75,9 @@ class ConfigData(object):
 
     def transofrm_phono_changes_phonotypes(self):
         for letter in self.phono_changes:
-            self.phono_changes[letter]['preceding'] = self.change_text_to_sign(self.phono_changes[letter]['preceding'])
-            self.phono_changes[letter]['following'] = self.change_text_to_sign(self.phono_changes[letter]['following'])
-            self.phono_changes[letter]['becomes'] = self.change_text_to_sign(self.phono_changes[letter]['becomes'])
+            self.phono_changes[letter]['preceding'] = self.change_array_of_texts_to_signs(self.phono_changes[letter]['preceding'])
+            self.phono_changes[letter]['following'] = self.change_array_of_texts_to_signs(self.phono_changes[letter]['following'])
+            self.phono_changes[letter]['becomes'] = self.change_array_of_texts_to_signs(self.phono_changes[letter]['becomes'])
 
     def change_array_of_texts_to_signs(self, array):
         signs = []
