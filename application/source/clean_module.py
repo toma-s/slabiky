@@ -85,13 +85,17 @@ class CleanModule(ThreadModule):
             buffer_text.append(sym_low)
             buffer_signs.append(sign)
 
-        if isinstance(foll, TextPunctuation) and len(foll.get_text()) == 1 and self.is_zero_syll(foll.get_text()):
-            buffer_attach = self.get_attachment(foll)
-            if buffer_attach['attachment'] == 'to_preceding':
-                buffer_text.append(foll.get_text())
-                buffer_signs.append(foll.get_punctuation())
-                foll = None
-        elif isinstance(curr, TextPunctuation) and len(curr.get_text()) == 1 and self.is_zero_syll(curr.get_text()):
+        curr = TextPunctuation(''.join(buffer_text), buffer_signs)
+
+        if isinstance(foll, TextPunctuation) and len(foll.get_text()) == 1:
+            foll_low = TextPunctuation(foll.get_text().lower(), foll.get_punctuation())
+            if self.is_zero_syll(foll_low.get_text()):
+                buffer_attach = self.get_attachment(foll_low)
+                if buffer_attach['attachment'] == 'to_preceding':
+                    buffer_text.append(foll_low.get_text())
+                    buffer_signs.append(foll_low.get_punctuation())
+                    foll = None
+        elif len(curr.get_text()) == 1 and self.is_zero_syll(curr.get_text()):
             buffer_attach = self.get_attachment(curr)
             if buffer_attach['attachment'] == 'to_following':
                 foll.set_text(curr.get_text() + foll.get_text())

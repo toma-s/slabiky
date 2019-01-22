@@ -3,10 +3,10 @@ import threading
 import unittest
 
 from application.source import constants
+from application.source.clean_module import CleanModule
 from application.source.config_data import ConfigData
 from application.source.end import End
 from application.source.pipe import *
-from application.source.clean_module import CleanModule
 from application.source.word import Text, TextPunctuation
 
 
@@ -45,10 +45,6 @@ class TestClean(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         module.start()
-
-    @classmethod
-    def tearDownClass(cls):
-        module.join()
 
     def test_end(self):
         words = [End()]
@@ -130,6 +126,15 @@ class TestClean(unittest.TestCase):
 
         self.assertEqual(result, [Text('українськогож'), End()])
 
+    def test_union_with_prec_upper(self):
+        words = [TextPunctuation('українського', [None, None, None, None, None, None,
+                                                  None, None, None, None, None, None]),
+                 TextPunctuation('Ж', [None]),
+                 End()]
+        result = run_through_module(words)
+
+        self.assertEqual(result, [Text('українськогож'), End()])
+
     def test_union_with_foll(self):
         words = [TextPunctuation('з', [None]),
                  TextPunctuation('собою', [None, None, None, None, None]),
@@ -137,6 +142,17 @@ class TestClean(unittest.TestCase):
         result = run_through_module(words)
 
         self.assertEqual(result, [Text('зсобою'), End()])
+
+    def test_union_with_foll_upper(self):
+        words = [TextPunctuation('З', [None]),
+                 TextPunctuation('собою', [None, None, None, None, None]),
+                 TextPunctuation('слово', [None, None, None, None, None]),
+                 TextPunctuation('слово', [None, None, None, None, None]),
+                 TextPunctuation('слово', [None, None, None, None, None]),
+                 End()]
+        result = run_through_module(words)
+
+        self.assertEqual(result, [Text('зсобою'), Text('слово'), Text('слово'), Text('слово'), End()])
 
 
 if __name__ == '__main__':
