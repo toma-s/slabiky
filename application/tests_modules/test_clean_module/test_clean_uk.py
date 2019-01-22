@@ -13,11 +13,11 @@ from application.source.word import Text, TextPunctuation
 data = ConfigData('../../../config/conf_uk_cyr.json')
 pipe_in = Pipe(queue.Queue(), threading.Condition())
 pipe_out = Pipe(queue.Queue(), threading.Condition())
-module = CleanModule([pipe_in, pipe_out], data)
 
 
 def run_through_module(words):
-
+    module = CleanModule([pipe_in, pipe_out], data)
+    module.start()
     result = []
 
     for word in words:
@@ -37,14 +37,11 @@ def run_through_module(words):
         if isinstance(cleaned_word, End):
             break
 
+    module.join()
     return result
 
 
 class TestClean(unittest.TestCase):
-
-    @classmethod
-    def setUpClass(cls):
-        module.start()
 
     def test_end(self):
         words = [End()]

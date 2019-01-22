@@ -16,14 +16,11 @@ data = ConfigData('../../config/conf_be_cyr.json')
 read_clean_pipe = Pipe(queue.Queue(), threading.Condition())
 clean_out_pipe = Pipe(queue.Queue(), threading.Condition())
 
-read_module = ReadModule([read_clean_pipe], file_path, encoding, data)
-clean_module = CleanModule([read_clean_pipe, clean_out_pipe], data)
-
 expected_result = [Text('у'), Text('беларускай'), Text('мове'), Text('зычныя'), Text('могуць'), Text('адрознівацца'), Text('даўжынёй'), Text('гучання'), Text('якая'), Text('паказвае'), Text('на'), Text('стык'), Text('марфем'), Text('пераважная'), Text('колькасць'), Text('гукаў'), Text('утвараюццаў'), Text('цэнтры'), Text('ротавай'), Text('поласці'), Text('пры'), Text('высокім'), Text('агульным'), Text('пад’ёме'), Text('языка'), Text('вялікае'), Text('знаходзіласяў'), Text('дынастычнай'), Text('уніі'), Text('зпольскім'), Text('каралеўствам'), End()]
 
 
 def get_from_module(pipe_out):
-
+    read_module = ReadModule([read_clean_pipe], file_path, encoding, data)
     read_module.run()
     result = []
 
@@ -42,7 +39,8 @@ def get_from_module(pipe_out):
 
 
 def run_through_module(words):
-
+    clean_module = CleanModule([read_clean_pipe, clean_out_pipe], data)
+    clean_module.start()
     result = []
 
     for word in words:
@@ -62,23 +60,16 @@ def run_through_module(words):
         if isinstance(cleaned_word, End):
             break
 
+    clean_module.join()
     return result
 
 
 class TestReadCleanModules(unittest.TestCase):
 
-    @classmethod
-    def setUpClass(cls):
-        read_module.run()
-        clean_module.start()
-
-    @classmethod
-    def tearDownClass(cls):
-        clean_module.join()
-
     def test_text(self):
         words = get_from_module(read_clean_pipe)
         result = run_through_module(words)
+        print(result)
 
         self.assertCountEqual(result, expected_result)
         self.assertListEqual(result, expected_result)
