@@ -254,20 +254,25 @@
   },
   "phonotype_changes": {
     "l": {
-      "preceding": "CONS",
-      "following": "CONS",
+      "preceding": ["CONS", "SONOR"],
+      "following": ["CONS", "SONOR"],
       "becomes": "VOWEL",
       "only_in_word": []
     },
     "r": {
-      "preceding": "CONS",
-      "following": "CONS",
+      "preceding": ["CONS", "SONOR"],
+      "following": ["CONS", "SONOR"],
       "becomes": "VOWEL",
       "only_in_word": []
     },
     "m": {
+<<<<<<< HEAD
       "preceding": "",
       "following": "",
+=======
+      "preceding": [],
+      "following": [],
+>>>>>>> cf37346d6079548859a3215dfd5fe720e5093583
       "becomes": "VOWEL",
       "only_in_word": ["sedm", "osm"]
     }
@@ -287,6 +292,21 @@
     },
     "iu": {
       "becomes": "iju"
+    },
+    "iá": {
+      "becomes": "ijá"
+    },
+    "ié": {
+      "becomes": "ijé"
+    },
+    "ií": {
+      "becomes": "ijí"
+    },
+    "ió": {
+      "becomes": "ijó"
+    },
+    "iú": {
+      "becomes": "ijú"
     }
   },
   "zero-syllable_words": {
