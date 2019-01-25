@@ -266,13 +266,8 @@
       "only_in_word": []
     },
     "m": {
-<<<<<<< HEAD
-      "preceding": "",
-      "following": "",
-=======
       "preceding": [],
       "following": [],
->>>>>>> cf37346d6079548859a3215dfd5fe720e5093583
       "becomes": "VOWEL",
       "only_in_word": ["sedm", "osm"]
     }
