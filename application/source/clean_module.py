@@ -5,8 +5,8 @@ from application.source.word import Text, TextPunctuation
 
 hyphen_dashes = ['-', '—', '―']
 dashes = ['—', '―']
-punctuation_to_erase = ['.', ',', ':', ';', '?', '!', '[', ']', '(', ')', '{', '}', '⟨', '⟩', '‹', '›', '«', '»',
-                        '“', '”', '"', '"', '‚', '‘', '"', '„']
+punctuation_to_erase = ['.', ',', ':', ';', '?', '!', '[', ']', '(', ')', '{', '}', '⟨', '⟩',
+                        '‹', '›', '«', '»', '“', '”', '„', '’', '‘', '‚']
 
 
 class CleanModule(ThreadModule):
