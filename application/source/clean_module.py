@@ -55,9 +55,15 @@ class CleanModule(ThreadModule):
         curr, foll = words[0], words[1]
         buffer_text, buffer_signs = [], []
 
+        if curr.get_text().isupper():
+            return [None, foll]
+
         for i in range(len(curr.get_text())):
             sym = curr.get_text()[i]
             sign = curr.get_punctuation()[i]
+
+            if sym == '.' and isinstance(foll, TextPunctuation) and not foll.get_text().istitle():
+                return [None, foll]
 
             if not len(buffer_text) and sign == constants.PUNCT:
                 if sym in punctuation_to_erase:
@@ -79,6 +85,7 @@ class CleanModule(ThreadModule):
                 return [TextPunctuation(''.join(buffer_text), buffer_signs), foll]
 
             sym_low = sym.lower()
+            xx = self.get_data().letters
             if sym_low not in self.get_data().letters:
                 return [None, foll]
 
