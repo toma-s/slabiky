@@ -9,15 +9,12 @@ from application.source.pipe import Pipe
 from application.source.read_module import ReadModule
 from application.source.word import Text
 
-# file_path = '../tests/short_texts/custom_text.txt'
 file_path = '../tests/short_texts/russian_short_text.txt'
 encoding = 'utf-8'
 data = ConfigData('../../config/conf_ru_cyr.json')
 
 read_clean_pipe = Pipe(queue.Queue(), threading.Condition())
 clean_out_pipe = Pipe(queue.Queue(), threading.Condition())
-
-# Россия, официально также Российская Федерация — государство в Восточной Европе, Центральной и Северной Азии. Территория России в рамках её конституционного устройства составляет 17 125 191 км²; население страны (в пределах её заявленной территории) составляет 146 880 432 чел. (2018). Занимает первое место в мире по территории, шестое — по объёму ВВП по ППС и девятое — по численности населения. Столица — Москва. Государственный язык — русский.
 
 expected_result = [Text('россия'), Text('официально'), Text('также'), Text('российская'), Text('федерация'), Text('государство'), Text('ввосточной'), Text('европе'), Text('центральной'), Text('и'), Text('северной'), Text('азии'), Text('территория'), Text('россии'), Text('врамках'), Text('её'), Text('конституционного'), Text('устройства'), Text('составляет'), Text('население'), Text('страны'), Text('впределах'), Text('её'), Text('заявленной'), Text('территории'), Text('составляет'), Text('занимает'), Text('первое'), Text('место'), Text('вмире'), Text('по'), Text('территории'), Text('шестое'), Text('по'), Text('объёму'), Text('по'), Text('и'), Text('девятое'), Text('по'), Text('численности'), Text('населения'), Text('столица'), Text('москва'), Text('государственный'), Text('язык'), Text('русский'), End()]
 

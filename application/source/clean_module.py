@@ -6,7 +6,7 @@ from application.source.word import Text, TextPunctuation
 hyphen_dashes = ['-', '—', '―']
 dashes = ['—', '―']
 punctuation_to_erase = ['.', ',', ':', ';', '?', '!', '[', ']', '(', ')', '{', '}', '⟨', '⟩', '‹', '›', '«', '»',
-                        '“', '”', '"', '"', '‚', '‘', '"']
+                        '“', '”', '"', '"', '‚', '‘', '"', '„']
 
 
 class CleanModule(ThreadModule):
@@ -85,7 +85,6 @@ class CleanModule(ThreadModule):
                 return [TextPunctuation(''.join(buffer_text), buffer_signs), foll]
 
             sym_low = sym.lower()
-            xx = self.get_data().letters
             if sym_low not in self.get_data().letters:
                 return [None, foll]
 

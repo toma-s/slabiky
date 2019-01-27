@@ -4,7 +4,7 @@ from application.source.word import TextPunctuation
 from application.source.module import Module
 
 punctuation = ['-', '—', '―', '.', ',', ':', ';', '?', '!', '[', ']', '(', ')', '{', '}', '⟨', '⟩', '‹', '›', '«', '»',
-               '“', '”', '"', '"', '‚', '‘', '"']
+               '“', '”', '"', '"', '‚', '‘', '"', '„']
 spaces = [' ', '\n', '\t', '\r']
 
 
