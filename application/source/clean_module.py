@@ -55,7 +55,7 @@ class CleanModule(ThreadModule):
         curr, foll = words[0], words[1]
         buffer_text, buffer_signs = [], []
 
-        if curr.get_text().isupper():
+        if len(curr.get_text()) != 1 and curr.get_text().isupper():
             return [None, foll]
 
         for i in range(len(curr.get_text())):
