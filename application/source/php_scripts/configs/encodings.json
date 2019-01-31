@@ -1,0 +1,28 @@
+{
+    "encodings": [
+		{
+			"option": "UTF-8",
+			"value": "UTF-8-sig"
+		},
+		{
+			"option": "ASCII",
+			"value": "ASCII"
+		},
+		{
+			"option": "Windows-1250",
+			"value": "Windows-1250"
+		},
+		{
+			"option": "Windows-1251",
+			"value": "Windows-1251"
+		},
+		{
+			"option": "UTF-16",
+			"value": "UTF-16"
+		},
+		{
+			"option": "UTF-32",
+			"value": "UTF-32"
+		}
+    ]
+}

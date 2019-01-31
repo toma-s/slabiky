@@ -1,0 +1,8 @@
+﻿Macedoinian:
+
+	Expected :	"ре-пу-бли-ка"    [1, 2, 0, 2, 0, 1, 2, 0, 2]
+	Actual   :  ""
+
+	Expected :	""
+	Actual   :  "од"	[2, 0]
+	
