@@ -1,0 +1,56 @@
+{
+	"languages": [
+		{
+			"option": "Belarussian",
+			"value": "conf_be_cyr"
+		},
+		{
+			"option": "Bulgarian",
+			"value": "conf_bg_cyr"
+		},
+		{
+			"option": "Czech",
+			"value": "conf_cs_lat"
+		},
+		{
+			"option": "Lower Sorbian",
+			"value": "conf_dsb_lat"
+		},
+		{
+			"option": "Croatian",
+			"value": "conf_hr_lat"
+		},
+		{
+			"option": "Upper sorbian",
+			"value": "conf_hsb_lat"
+		},
+		{
+			"option": "Polish",
+			"value": "conf_pl_lat"
+		},
+		{
+			"option": "Russian",
+			"value": "conf_ru_cyr"
+		},
+		{
+			"option": "Slovenian",
+			"value": "conf_sl_lat"
+		},
+		{
+			"option": "Serbian (cyrillic)",
+			"value": "conf_sr_cyr"
+		},
+		{
+			"option": "Serbian (latin)",
+			"value": "conf_sr_lat"
+		},
+		{
+			"option": "Ukrainian",
+			"value": "conf_uk_cyr"
+		},
+		{
+			"option": "Macedonian",
+			"value": "conf_mk_cyr"
+		}
+	]
+}
