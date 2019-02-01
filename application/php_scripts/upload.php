@@ -73,7 +73,7 @@ class Upload
         if ($textarea != "") {
             $this->fileName = explode(" ", $textarea)[0].".txt";
             $folderName = $this->mf->getRandomName($this->fileName);
-            $this->path = $this->mf->createfolder($this->SITE_ROOT."//temp_files/$folderName")."/";
+            $this->path = $this->mf->createfolder($this->SITE_ROOT."temp_files/$folderName")."/";
             $this->downloadFolderName = $this->mf->createfolder($this->path.substr($this->fileName, 0, -4));
 
             file_put_contents($this->path.$this->fileName, $textarea);
