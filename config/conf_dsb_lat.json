@@ -240,7 +240,7 @@
     },
     "c": {
       "h": {
-        "excep_subwordt": [],
+        "except_in_subword": [],
         "only_in_subword": [],
         "length": 1,
         "phonotype": "CONS"
