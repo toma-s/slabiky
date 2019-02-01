@@ -274,36 +274,41 @@
   },
   "special_sound_length": {
     "h": {
-      "0": {
-        "preceding": {
-          "signs": ["NONE", "CONS", "SONOR", "SPEC", "VOWEL"],
-          "letters": []
+      "0": [
+        {
+          "preceding": {
+            "signs":  ["NONE", "CONS", "SONOR", "SPEC", "VOWEL"],
+            "letters": []
+          },
+          "following": {
+            "signs": ["NONE", "CONS", "SONOR", "SPEC"],
+            "letters": []
+          }
         },
-        "following": {
-          "signs": ["NONE", "CONS", "SONOR", "SPEC"],
-          "letters": []
+        {
+          "preceding": {
+            "signs": ["CONS", "SONOR"],
+            "letters": []
+          },
+          "following": {
+            "signs": ["VOWEL"],
+            "letters": []
+          }
         }
-      },
-      "1": {
-        "preceding": {
-          "signs": ["NONE", "VOWEL"],
-          "letters": []
-        },
-        "following": {
-          "signs": ["VOWEL"],
-          "letters": []
+      ],
+      "1": [
+        {
+          "preceding": {
+            "signs": ["NONE", "VOWEL"],
+            "letters": []
+          },
+          "following": {
+            "signs": ["VOWEL"],
+            "letters": []
+          }
         }
-      },
-      "2": {
-        "preceding": {
-          "signs": [],
-          "letters": []
-        },
-        "following": {
-          "signs": [],
-          "letters": []
-        }
-      }
+      ],
+      "2": []
     }
   }
 }

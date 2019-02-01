@@ -179,133 +179,113 @@
     "с": "to_following"
   },
   "special_sound_length": {
-    "e": {
-      "0": {
-        "preceding": {
-          "signs": [],
-          "letters": []
-        },
-        "following": {
-          "signs": [],
-          "letters": []
+    "е": {
+      "0": [],
+      "1": [
+        {
+          "preceding": {
+            "signs": ["SONOR", "CONS"],
+            "letters": []
+          },
+          "following": {
+            "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+            "letters": []
+          }
         }
-      },
-      "1": {
-        "preceding": {
-          "signs": ["SONOR", "CONS"],
-          "letters": []
-        },
-        "following": {
-          "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
-          "letters": []
+      ],
+      "2": [
+        {
+          "preceding": {
+            "signs": ["NONE", "VOWEL", "SPEC"],
+            "letters": []
+          },
+          "following": {
+            "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+            "letters": []
+          }
         }
-      },
-      "2": {
-        "preceding": {
-          "signs": ["NONE", "VOWEL", "SPEC"],
-          "letters": []
-        },
-        "following": {
-          "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
-          "letters": []
-        }
-      }
+      ]
     },
     "ё": {
-      "0": {
-        "preceding": {
-          "signs": [],
-          "letters": []
-        },
-        "following": {
-          "signs": [],
-          "letters": []
+      "0": [],
+      "1": [
+        {
+          "preceding": {
+            "signs": ["SONOR", "CONS"],
+            "letters": []
+          },
+          "following": {
+            "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+            "letters": []
+          }
         }
-      },
-      "1": {
-        "preceding": {
-          "signs": ["SONOR", "CONS"],
-          "letters": []
-        },
-        "following": {
-          "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
-          "letters": []
+      ],
+      "2": [
+        {
+          "preceding": {
+            "signs": ["NONE", "VOWEL", "SPEC"],
+            "letters": []
+          },
+          "following": {
+            "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+            "letters": []
+          }
         }
-      },
-      "2": {
-        "preceding": {
-          "signs": ["NONE", "VOWEL", "SPEC"],
-          "letters": []
-        },
-        "following": {
-          "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
-          "letters": []
-        }
-      }
+      ]
     },
     "ю": {
-      "0": {
-        "preceding": {
-          "signs": [],
-          "letters": []
-        },
-        "following": {
-          "signs": [],
-          "letters": []
+      "0": [],
+      "1": [
+        {
+          "preceding": {
+            "signs": ["SONOR", "CONS"],
+            "letters": []
+          },
+          "following": {
+            "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+            "letters": []
+          }
         }
-      },
-      "1": {
-        "preceding": {
-          "signs": ["SONOR", "CONS"],
-          "letters": []
-        },
-        "following": {
-          "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
-          "letters": []
+      ],
+      "2": [
+        {
+          "preceding": {
+            "signs": ["NONE", "VOWEL", "SPEC"],
+            "letters": []
+          },
+          "following": {
+            "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+            "letters": []
+          }
         }
-      },
-      "2": {
-        "preceding": {
-          "signs": ["NONE", "VOWEL", "SPEC"],
-          "letters": []
-        },
-        "following": {
-          "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
-          "letters": []
-        }
-      }
+      ]
     },
     "я": {
-      "0": {
-        "preceding": {
-          "signs": [],
-          "letters": []
-        },
-        "following": {
-          "signs": [],
-          "letters": []
+      "0": [],
+      "1": [
+        {
+          "preceding": {
+            "signs": ["SONOR", "CONS"],
+            "letters": []
+          },
+          "following": {
+            "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+            "letters": []
+          }
         }
-      },
-      "1": {
-        "preceding": {
-          "signs": ["SONOR", "CONS"],
-          "letters": []
-        },
-        "following": {
-          "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
-          "letters": []
+      ],
+      "2": [
+        {
+          "preceding": {
+            "signs": ["NONE", "VOWEL", "SPEC"],
+            "letters": []
+          },
+          "following": {
+            "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+            "letters": []
+          }
         }
-      },
-      "2": {
-        "preceding": {
-          "signs": ["NONE", "VOWEL", "SPEC"],
-          "letters": []
-        },
-        "following": {
-          "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
-          "letters": []
-        }
-      }
+      ]
     }
   }
 }
