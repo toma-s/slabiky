@@ -19,7 +19,7 @@ $encodings = $lo->get_encodings();
     <h1>Analysis of linguistic data &mdash; Syllabification</h1>
 
     <nav>
-        <a href="file_index.php">Select a file </a>
+        <a href="index.php">Select a file </a>
         <a href="text_index.php" class="chosen">Insert the text </a>
     </nav>
 
