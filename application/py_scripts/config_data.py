@@ -1,6 +1,6 @@
 import json
+# from constants import *
 from constants import *
-
 
 class ConfigData(object):
     def __init__(self, file_path):

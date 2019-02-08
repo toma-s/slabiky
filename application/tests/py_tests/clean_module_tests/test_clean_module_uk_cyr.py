@@ -9,8 +9,7 @@ from end import End
 from pipe import *
 from word import Text, TextPunctuation
 
-
-data = ConfigData('../../../config/conf_uk_cyr.json')
+data = ConfigData('../../../py_scripts/configs/conf_uk_cyr.json')
 pipe_in = Pipe(queue.Queue(), threading.Condition())
 pipe_out = Pipe(queue.Queue(), threading.Condition())
 
@@ -150,6 +149,27 @@ class TestClean(unittest.TestCase):
         result = run_through_module(words)
 
         self.assertEqual(result, [Text('зсобою'), Text('слово'), Text('слово'), Text('слово'), End()])
+
+    def test_apostrophe_U0027(self):
+        words = [TextPunctuation('в\'ю', [None, None, None]),
+                 End()]
+        result = run_through_module(words)
+
+        self.assertEqual(result, [Text('в\'ю'), End()])
+
+    def test_apostrophe_U2019(self):
+        words = [TextPunctuation('в’ю', [None, None, None]),
+                 End()]
+        result = run_through_module(words)
+
+        self.assertEqual(result, [Text('в’ю'), End()])
+
+    def test_apostrophe_U02BC(self):
+        words = [TextPunctuation('вʼю', [None, None, None]),
+                 End()]
+        result = run_through_module(words)
+
+        self.assertEqual(result, [Text('вʼю'), End()])
 
 
 if __name__ == '__main__':

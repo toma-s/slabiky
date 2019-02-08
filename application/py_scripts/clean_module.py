@@ -8,6 +8,7 @@ dashes = ['—', '―']
 punctuation_to_erase = ['.', ',', ':', ';', '?', '!', '[', ']', '(', ')', '{', '}', '⟨', '⟩',
                         '‹', '›', '«', '»', '“', '”', '„', '’', '‘', '‚']
 
+
 class CleanModule(ThreadModule):
 
     is_running = False

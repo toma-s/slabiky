@@ -169,7 +169,17 @@
       "sign": "VOWEL",
       "subunit": 0
     },
+    "'": {
+      "phoneme-length": 0,
+      "sign": "SPEC",
+      "subunit": 0
+    },
     "’": {
+      "phoneme-length": 0,
+      "sign": "SPEC",
+      "subunit": 0
+    },
+    "ʼ": {
       "phoneme-length": 0,
       "sign": "SPEC",
       "subunit": 0

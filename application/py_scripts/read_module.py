@@ -5,7 +5,7 @@ from module import Module
 
 punctuation = ['-', '—', '―', '.', ',', ':', ';', '?', '!', '[', ']', '(', ')', '{', '}', '⟨', '⟩', '‹', '›', '«', '»',
                '“', '”', '"', '"', '‚', '‘', '"', '„']
-spaces = [' ', '\n', '\t', '\r']
+spaces = [' ', '\n', '\t', '\r', '﻿']
 
 
 class ReadModule(Module):
@@ -33,6 +33,7 @@ class ReadModule(Module):
         buffer_text = []
         buffer_signs = []
         dash = [False]
+        start = False
 
         with open(self._file_path, encoding=self._encoding) as input:
             while True:
@@ -41,9 +42,10 @@ class ReadModule(Module):
                     if len(buffer_text):
                         word = TextPunctuation(''.join(buffer_text), buffer_signs)
                         words.append(word)
-                    # words.append(End())
                     break
                 if sym in spaces:
+                    if not start:
+                        continue
                     if len(buffer_text):
                         if dash[0] and sym != ' ':
                             buffer_signs[-1] = constants.HYPHEN
@@ -53,6 +55,7 @@ class ReadModule(Module):
                     buffer_text = []
                     buffer_signs = []
                 else:
+                    start = True
                     dash[0] = False
                     to_text, to_signs = to_buffer(sym, dash)
                     buffer_text.extend(to_text)
