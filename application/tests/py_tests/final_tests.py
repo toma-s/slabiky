@@ -34,9 +34,9 @@ class FinalTests(unittest.TestCase):
         self.test()
 
     def test_belarussian(self):
-        path = 'C:/wamp64/www/tis/py_scripts/test_files/belarussian/'
+        path = 'C:/wamp64/www/tis/py_scripts/test_files/belarusian/'
 
-        init = InitTerminateModule('test_belarussian.txt', path, self.encoding,
+        init = InitTerminateModule('test_belarusian.txt', path, self.encoding,
                                    self.config_path + 'conf_be_cyr.json')
         init.run()
 

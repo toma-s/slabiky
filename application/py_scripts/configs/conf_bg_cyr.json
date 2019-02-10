@@ -1,6 +1,6 @@
 {
   "language": {
-    "name": "bulgarian",
+    "name": "Bulgarian",
     "writing_system": "cyrillic"
   },
   "lowercase": {
@@ -145,12 +145,12 @@
       "subunit": 0
     },
     "ю": {
-      "phoneme-length": 1,
+      "phoneme-length": -1,
       "sign": "VOWEL",
       "subunit": 0
     },
     "я": {
-      "phoneme-length": 1,
+      "phoneme-length": -1,
       "sign": "VOWEL",
       "subunit": 0
     }
