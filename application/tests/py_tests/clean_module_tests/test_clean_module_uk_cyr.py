@@ -2,7 +2,7 @@ import queue
 import threading
 import unittest
 
-from application.py_scripts import constants
+import constants
 from clean_module import CleanModule
 from config_data import ConfigData
 from end import End
