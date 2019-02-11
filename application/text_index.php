@@ -5,12 +5,22 @@ $languages = $lo->get_languages();
 $encodings = $lo->get_encodings();
 ?>
 <!DOCTYPE html>
-<html>
 <head>
     <meta charset="utf-8">
     <title>Syllabification</title>
     <link href="style/style.css" rel="stylesheet" media="all">
 </head>
+
+<script>
+    function validateForm() {
+        var text = document.forms["myform"]["text"].value;
+        text = text.trim(text);
+        if (text === "") {
+            alert("Please, enter the text.");
+            return false;
+        }
+    }
+</script>
 
 <body>
 
@@ -48,7 +58,7 @@ $encodings = $lo->get_encodings();
             <input type="submit" name="submit" value="Submit" form="myform">
         </div>
 
-        <form id="myform" action="php_scripts/upload.php" method="post" enctype="multipart/form-data"></form>
+        <form id="myform" action="php_scripts/upload.php" method="post" enctype="multipart/form-data" onsubmit="return validateForm()"></form>
 
     </div>
 
