@@ -96,7 +96,7 @@ class CleanModule(ThreadModule):
                     buffer_text.append(foll_low.get_text())
                     buffer_signs.append(foll_low.get_punctuation())
                     foll = None
-        elif len(curr.get_text()) == 1 and self.is_zero_syll(curr.get_text()):
+        elif isinstance(foll, TextPunctuation) and len(curr.get_text()) == 1 and self.is_zero_syll(curr.get_text()):
             buffer_attach = self.get_attachment(curr)
             if buffer_attach['attachment'] == 'to_following':
                 foll.set_text(curr.get_text() + foll.get_text())
