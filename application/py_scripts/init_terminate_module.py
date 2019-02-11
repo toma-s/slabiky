@@ -16,16 +16,16 @@ class InitTerminateModule(Module):
 
     def __init__(self, file_name, file_path, encoding, language):
         super().__init__()
-        self.data             = ConfigData(language)
-        self.file_name        = file_name
-        self.file_path        = file_path
-        self.encoding         = encoding
+        self.data = ConfigData(language)
+        self.file_name = file_name
+        self.file_path = file_path
+        self.encoding = encoding
 
-        self.pipe_read_clean  = Pipe(Queue(), Condition())
+        self.pipe_read_clean = Pipe(Queue(), Condition())
         self.pipe_clean_sound = Pipe(Queue(), Condition())
-        self.pipe_sound_syll  = Pipe(Queue(), Condition())
-        self.pipe_syll_count  = Pipe(Queue(), Condition())
-        self.pipe_count_txt   = Pipe(Queue(), Condition())
+        self.pipe_sound_syll = Pipe(Queue(), Condition())
+        self.pipe_syll_count = Pipe(Queue(), Condition())
+        self.pipe_count_txt = Pipe(Queue(), Condition())
 
     def run(self):
         data = self.data
@@ -36,8 +36,8 @@ class InitTerminateModule(Module):
         clean_module_pipes = [self.pipe_read_clean, self.pipe_clean_sound]
         clean_module = CleanModule(clean_module_pipes, data)
 
-        phonoype_module_pipes = [self.pipe_clean_sound, self.pipe_sound_syll]
-        phonotype_module = PhonotypeModule(phonoype_module_pipes, data)
+        phonotype_module_pipes = [self.pipe_clean_sound, self.pipe_sound_syll]
+        phonotype_module = PhonotypeModule(phonotype_module_pipes, data)
 
         syllabify_module_pipes = [self.pipe_sound_syll, self.pipe_syll_count]
         syllabify_module = SyllabifyModule(syllabify_module_pipes)

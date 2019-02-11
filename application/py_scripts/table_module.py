@@ -52,7 +52,6 @@ class TableModule(Module):
         self.write_row(sheet1, a, 2)
         wb.save(self._file_path + "number_of_length_of_syllables_without_repetition.xls")
 
-
     def write_two_names_of_colums(self, sheet1):
         sheet1.write(0, 0, "length of syllable")
         sheet1.write(0, 1, "multiplicity")

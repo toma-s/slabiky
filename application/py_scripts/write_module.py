@@ -20,7 +20,7 @@ class WriteModule(ThreadModule):
             word = pipe_in.get()
             pipe_in.release()
             if isinstance(word, End):
-                if (self._spacer == "" and self._lenghts == "" and self._syllables == ""):
+                if self._spacer == "" and self._lenghts == "" and self._syllables == "":
                     self._lenghts = "input error"
                     self._syllables = "input error"
                 self.write_to_file()
@@ -38,7 +38,7 @@ class WriteModule(ThreadModule):
             self._lenghts += "-"
         self.delete_last_char()
         self._count += 1
-        if (self._count == 1000):
+        if self._count == 1000:
             self.write_to_file()
             self.clear()
 
@@ -70,4 +70,3 @@ class WriteModule(ThreadModule):
         self._lenghts = ""
         self._count = 0
         self._spacer = ""
-

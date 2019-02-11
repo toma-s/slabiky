@@ -165,13 +165,12 @@ class CountModule(ThreadModule):
         return self.find_lenght_fulfilling_condition(following_letter, following_phonotype, letter, preceding_letter,
                                                      preceding_phonotype)
 
-    def find_lenght_fulfilling_condition(self, following_letter, following_phonotype, letter, preceding_letter,
-                                         preceding_phonotype):
+    def find_lenght_fulfilling_condition(self, following_letter, following_phonotype,
+                                         letter, preceding_letter, preceding_phonotype):
         for length in ("0", "1", "2"):
             for condition in self._data.spec_sound_len[letter][length]:
-            # condition = self._data.spec_sound_len[letter][length]
-                if self.condition_fulfilled(condition, following_letter, following_phonotype, preceding_letter,
-                                            preceding_phonotype):
+                if self.condition_fulfilled(condition, following_letter, following_phonotype,
+                                            preceding_letter, preceding_phonotype):
                     return int(length)
         return ERROR_LENGTH
 
@@ -218,4 +217,3 @@ class CountModule(ThreadModule):
                 following_phonotype in condition['following']['signs']) and \
                (preceding_letter in condition['preceding']['letters'] or
                 preceding_phonotype in condition['preceding']['signs'])
-

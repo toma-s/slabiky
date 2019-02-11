@@ -1,4 +1,4 @@
-CONS = 0  #(except syllabic consonants)
+CONS = 0
 SONOR = 1
 VOWEL = 2
 SPEC = 3  # special alphabet signs
@@ -8,5 +8,5 @@ PUNCT = 5
 HYPHEN = 6
 
 
-def get_conts(int):
-    return eval(int)
+def get_conts(num):
+    return eval(num)

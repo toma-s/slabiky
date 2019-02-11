@@ -12,19 +12,15 @@ class ResultModule(Module):
         self.map_wout_rep = {}
 
     def run(self):
-
-        # handling lengths and freqs ...
-        # ... got this gummy dict:
         for it in self._lens:
-            if (self._lens[it] in self.map_with_rep.keys()):
+            if self._lens[it] in self.map_with_rep.keys():
                 self.map_with_rep[self._lens[it]] += self._freqs[it]
             else:
                 self.map_with_rep[self._lens[it]] = self._freqs[it]
             
         for it in self._lens.values():
-            if (it in self.map_wout_rep.keys()):
+            if it in self.map_wout_rep.keys():
                 self.map_wout_rep[it] += 1
             else:
                 self.map_wout_rep[it] = 1
         TableModule(self._lens, self._freqs, self.map_with_rep, self.map_wout_rep, self._file_path).run()
-
