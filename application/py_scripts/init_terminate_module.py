@@ -16,7 +16,7 @@ class InitTerminateModule(Module):
 
     def __init__(self, file_name, file_path, encoding, language):
         super().__init__()
-        self.data             = ConfigData(language) # TODO
+        self.data             = ConfigData(language)
         self.file_name        = file_name
         self.file_path        = file_path
         self.encoding         = encoding
@@ -62,13 +62,6 @@ class InitTerminateModule(Module):
         write_module.join()
 
 
-##if __name__ == '__main__':
-main = InitTerminateModule(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4])
-#    main = InitTerminateModule('test.txt', 'C:/wamp64/www/tis/temp_files/test/', 'UTF-8-sig', 'C:/wamp64/www/tis/configs/conf_cs_lat.json')
-
-##main = InitTerminateModule('test_czech.txt', 'C:/wamp64/www/tis/temp_files/tmpe45a3818593caddae5e9fc8f5b9311de/', 'UTF-8', 'C:/wamp64/www/tis/configs/conf_cs_lat.json')
-       
-main.run()
-
-    
-
+if __name__ == '__main__':
+    main = InitTerminateModule(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4])
+    main.run()

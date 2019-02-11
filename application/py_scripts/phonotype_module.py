@@ -1,5 +1,3 @@
-import time
-
 from end import End
 from pipe import Pipe
 from thread_module import ThreadModule
@@ -17,40 +15,42 @@ class PhonotypeModule(ThreadModule):
         self.phono_changes   = data.phono_changes
         self.text_changes    = data.text_changes
         self.phonotypes      = []
+        self.running         = False
 
     def run(self):
         pipe_in = self.get_pipes()[0]
         pipe_out = self.get_pipes()[1]
-        while True:
-            pipe_in.acquire()
-            if pipe_in.empty():
-                pipe_in.wait()
-            word = pipe_in.get()
-            if (isinstance(word, End)):
-                pipe_out.acquire()
-                pipe_out.put(word)
-                pipe_out.notify()
-                pipe_out.release()
-                break
-            pipe_in.release()
+        self.running = True
 
-            if isinstance(word, End):
-                pipe_out.acquire()
-                pipe_out.put(word)
-                pipe_out.notify()
-                pipe_out.release()
-                break
-            else:
-                phono_word = self.set_phonotypes(word)
-                if phono_word is None:
-                    pass
-                if (VOWEL in phono_word.get_phonotypes()):
-                    pipe_out.acquire()
-                    pipe_out.put(phono_word)
-                    pipe_out.notify()
-                    pipe_out.release()
-                else:
-                    pass
+        while self.running:
+            self.handle_next_word(pipe_in, pipe_out)
+
+    def handle_next_word(self, pin, pout):
+        word = self.get_word(pin)
+        self.is_end(word, pout)
+        if self.running:
+            word = self.set_phonotypes(word)
+            if (VOWEL in word.get_phonotypes()):
+                self.send_word(word, pout)
+
+    def get_word(self, pin):
+        pin.acquire()
+        if pin.empty():
+            pin.wait()
+        word = pin.get()
+        pin.release()
+        return word
+
+    def is_end(self, word, pout):
+        if isinstance(word, End):
+            self.send_word(word, pout)
+            self.running = False
+
+    def send_word(self, word, pout):
+        pout.acquire()
+        pout.put(word)
+        pout.notify()
+        pout.release()
 
     def text_changes_func(self, word):
         text_changes = self.text_changes

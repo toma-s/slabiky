@@ -110,15 +110,15 @@ class CountModule(ThreadModule):
         return self._data.clusters[letter][next_letter]['length']
 
     def find_next_letter_and_phonotype_if_exist(self, index_of_letter):
-        index_of_letter = self.get_end_of_letter_index(index_of_letter)
+        index_of_letter = self.get_end_of_letter_index(index_of_letter, self.index_of_syllable)
         if self.is_last_letter_of_word(self.word.get_syllables(), index_of_letter):
             return NEXTS_DONT_EXIST
         next_letter_syllable_index, next_index = self.get_position_of_next_letter(index_of_letter,
                                                                                   self.index_of_syllable)
         return self.find_next_letter_and_phonotype_with_index(next_letter_syllable_index, next_index)
 
-    def get_end_of_letter_index(self, index_of_letter):
-        if self.is_subunit(self.word.get_phonotypes()[self.index_of_syllable], index_of_letter):
+    def get_end_of_letter_index(self, index_of_letter, index_of_syllable):
+        if self.is_subunit(self.word.get_phonotypes()[index_of_syllable], index_of_letter):
             index_of_letter += 1
         return index_of_letter
 
@@ -131,7 +131,7 @@ class CountModule(ThreadModule):
 
     def find_next_letter_and_phonotype_with_index(self, next_letter_syllable_index, next_letter_index):
         next_letter = self.word.get_syllables()[next_letter_syllable_index][next_letter_index]
-        next_letter_index = self.get_end_of_letter_index(next_letter_index)
+        next_letter_index = self.get_end_of_letter_index(next_letter_index, next_letter_syllable_index)
         next_phonotype = self.word.get_phonotypes()[next_letter_syllable_index][next_letter_index]
         return next_letter, next_phonotype
 
