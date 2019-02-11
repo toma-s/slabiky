@@ -64,16 +64,15 @@ class Upload
 
     private function process_text_input()
     {
-        $remove_signs = array('-', '—', '―', '—', '―', '.', ',', ':', ';', '?', '!', '[', ']', '(', ')', '{', '}',
-            '⟨', '⟩', '‹', '›', '«', '»', '“', '”', '„', '’', '‘', '‚');
-
-        $textarea = strip_tags($this->POST['text']);
-        $textarea = str_replace($remove_signs, '', $textarea);
+        $textarea = mb_convert_encoding($this->POST['text'], 'UTF-8');
+        $textarea = strip_tags($textarea);
+        $textarea = trim($textarea);
 
         if ($textarea != "") {
-            $this->fileName = explode(" ", $textarea)[0].".txt";
-            $folderName = $this->mf->getRandomName($this->fileName);
-            $this->path = $this->mf->createfolder($this->SITE_ROOT."temp_files/$folderName")."/";
+            $this->firstLetter = explode(" ", $textarea)[0];
+            $this->fileName = 'syllabification.txt';
+            $folderName = $this->mf->getRandomName($this->firstLetter);
+            $this->path = $this->mf->createfolder($this->SITE_ROOT."//temp_files/$folderName")."/";
             $this->downloadFolderName = $this->mf->createfolder($this->path.substr($this->fileName, 0, -4));
 
             file_put_contents($this->path.$this->fileName, $textarea);

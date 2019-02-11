@@ -1,7 +1,7 @@
 {
 	"languages": [
 		{
-			"option": "Belarussian",
+			"option": "Belarusian",
 			"value": "conf_be_cyr"
 		},
 		{
@@ -21,7 +21,7 @@
 			"value": "conf_hr_lat"
 		},
 		{
-			"option": "Upper sorbian",
+			"option": "Upper Sorbian",
 			"value": "conf_hsb_lat"
 		},
 		{
@@ -33,7 +33,7 @@
 			"value": "conf_ru_cyr"
 		},
 		{
-			"option": "Slovenian",
+			"option": "Slovene",
 			"value": "conf_sl_lat"
 		},
 		{

@@ -12,6 +12,21 @@ $encodings = $lo->get_encodings();
     <link href="style/style.css" rel="stylesheet" media="all">
 </head>
 
+<script>
+    function validateForm() {
+        var file_name = document.forms["myform"]["file"].value;
+        if (file_name === "") {
+            alert("Please, choose the file.");
+            return false;
+        }
+        var extension = file_name.split('.').pop();
+        if ( extension !== "txt") {
+            alert("Only txt extention is allowed.");
+            return false;
+        }
+    }
+</script>
+
 <body>
 
 <div class="content">
@@ -29,7 +44,7 @@ $encodings = $lo->get_encodings();
 
         <div class="inputFile">
             <input type="file" name="file" form="myform">
-            <p class="hint">Extension: .txt</p>
+            <p class="hint">Extension: txt</p>
         </div>
 
         <div class="properties">
@@ -60,7 +75,7 @@ $encodings = $lo->get_encodings();
             <input type="submit" name="submit" value="Submit" form="myform">
         </div>
 
-        <form id="myform" action="php_scripts/upload.php" method="post" enctype="multipart/form-data"></form>
+        <form id="myform" action="php_scripts/upload.php" method="post" enctype="multipart/form-data" onsubmit="return validateForm()"></form>
 
     </div>
 

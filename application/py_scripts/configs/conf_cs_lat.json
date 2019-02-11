@@ -316,11 +316,11 @@
       "1": [
         {
           "preceding": {
-            "signs": ["NONE", "VOWEL", "SPEC"],
+            "signs": ["VOWEL", "SPEC"],
             "letters": ["j", "l", "n", "ň", "r", "c", "č", "d", "ď", "g", "h", "k", "q", "ř", "s", "š", "t", "ť", "w", "x", "z", "ž"]
             },
           "following": {
-            "signs": ["CONS", "SONOR"],
+            "signs": ["CONS", "SONOR", "NONE"],
             "letters": []
           }
         }

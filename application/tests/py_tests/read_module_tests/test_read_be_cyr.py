@@ -11,7 +11,7 @@ from word import TextPunctuation
 
 
 file_path = '../test_files/belarusian/test_belarusian.txt'
-encoding = 'utf-8'
+encoding = 'utf-8-sig'
 data = ConfigData('../../../py_scripts/configs/conf_be_cyr.json')
 
 pipe_out = Pipe(queue.Queue(), threading.Condition())

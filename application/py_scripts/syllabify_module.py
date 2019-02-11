@@ -65,8 +65,10 @@ class SyllabifyModule(ThreadModule):
         syllabified_text = []
         first_letter_of_syllable_index = 0
         for phonotype_syllable in syllabified_phonotypes:
-            syllabified_text.append(self.get_syllable(text, first_letter_of_syllable_index, len(phonotype_syllable)))
-            first_letter_of_syllable_index = self.next_syllable_starting_index(first_letter_of_syllable_index, len(phonotype_syllable))
+            syllabified_text.append(self.get_syllable(text, first_letter_of_syllable_index,
+                                                      len(phonotype_syllable)))
+            first_letter_of_syllable_index = self.next_syllable_starting_index(
+                first_letter_of_syllable_index, len(phonotype_syllable))
         return syllabified_text
 
     def get_syllable(self, text, first_letter_of_syllable_index, length_of_syllable):
@@ -95,16 +97,20 @@ class SyllabifyModule(ThreadModule):
 
     def check_sonority_principle(self, partially_syllabified_phonotypes):
         for i in range(1, len(partially_syllabified_phonotypes)):
-            move_to_precedent_index = self.find_last_phonotype_in_syllable_breaking_principle(partially_syllabified_phonotypes[i])
+            move_to_precedent_index = self.find_last_phonotype_in_syllable_breaking_principle(
+                partially_syllabified_phonotypes[i])
             if self.letter_breaking_principle_exists(move_to_precedent_index):
-                self.move_phonotypes_breaking_principle(move_to_precedent_index, partially_syllabified_phonotypes, i)
+                self.move_phonotypes_breaking_principle(move_to_precedent_index,
+                                                        partially_syllabified_phonotypes, i)
         return partially_syllabified_phonotypes
 
     def find_last_phonotype_in_syllable_breaking_principle(self, phonotype_syllable):
         move_to_precedent_index = NO_PHONOTYPE_BREAKING_PRINCIPLE
         for j in range(len(phonotype_syllable) - 1):
-            next_index = self.find_index_of_next_phonotype(j, phonotype_syllable, len(phonotype_syllable) - 1)
-            if self.breakes_sonority_principle(phonotype_syllable[j], phonotype_syllable[next_index], j, move_to_precedent_index):
+            next_index = self.find_index_of_next_phonotype(j, phonotype_syllable,
+                                                           len(phonotype_syllable) - 1)
+            if self.breakes_sonority_principle(phonotype_syllable[j], phonotype_syllable[next_index], j,
+                                               move_to_precedent_index):
                 move_to_precedent_index = j
         return move_to_precedent_index
 
@@ -115,10 +121,12 @@ class SyllabifyModule(ThreadModule):
         return next_index
 
     def breakes_sonority_principle(self, phonotype, next_phonotype, phonotype_index, last_index_breaking_principle):
-        return (phonotype not in [SUBUNIT, SPEC] and  phonotype > next_phonotype) \
-               or (phonotype_index == 0 and phonotype == SPEC) or (phonotype == SPEC and phonotype_index == last_index_breaking_principle+1);
+        return (phonotype not in [SUBUNIT, SPEC] and phonotype > next_phonotype) \
+               or (phonotype_index == 0 and phonotype == SPEC) or (
+                           phonotype == SPEC and phonotype_index == last_index_breaking_principle + 1)
 
-    def move_phonotypes_breaking_principle(self, move_to_precedent_index, partially_syllabified_phonotypes, syllable_index):
+    def move_phonotypes_breaking_principle(self, move_to_precedent_index, partially_syllabified_phonotypes,
+                                           syllable_index):
         partially_syllabified_phonotypes[syllable_index - 1].extend(
             partially_syllabified_phonotypes[syllable_index][:move_to_precedent_index + 1])
         del partially_syllabified_phonotypes[syllable_index][:move_to_precedent_index + 1]
