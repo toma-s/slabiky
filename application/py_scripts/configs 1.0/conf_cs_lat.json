@@ -1,0 +1,342 @@
+{
+  "language": {
+    "name": "Czech",
+    "writing_system": "latin"
+  },
+  "lowercase": {
+    "a": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 1
+    },
+    "á": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "b": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "c": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 1
+    },
+    "č": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "d": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 1
+    },
+    "ď": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "e": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 1
+    },
+    "é": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "ě": {
+      "phoneme-length": -1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "f": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "g": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "h": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "i": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "í": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "j": {
+      "phoneme-length": 1,
+      "sign": "SONOR",
+      "subunit": 0
+    },
+    "k": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "l": {
+      "phoneme-length": 1,
+      "sign": "SONOR",
+      "subunit": 0
+    },
+    "m": {
+      "phoneme-length": 1,
+      "sign": "SONOR",
+      "subunit": 0
+    },
+    "n": {
+      "phoneme-length": 1,
+      "sign": "SONOR",
+      "subunit": 0
+    },
+    "ň": {
+      "phoneme-length": 1,
+      "sign": "SONOR",
+      "subunit": 0
+    },
+    "o": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 1
+    },
+    "ó": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "p": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "q": {
+      "phoneme-length": 2,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "r": {
+      "phoneme-length": 1,
+      "sign": "SONOR",
+      "subunit": 0
+    },
+    "ř": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "s": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "š": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "t": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "ť": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "u": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "ú": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "ů": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "v": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "w": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "x": {
+      "phoneme-length": 2,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "y": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "ý": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "z": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    },
+    "ž": {
+      "phoneme-length": 1,
+      "sign": "CONS",
+      "subunit": 0
+    }
+  },
+  "clusters": {
+    "c": {
+        "h": {
+          "except_in_subword": [],
+          "only_in_subword": [],
+          "length": 1,
+          "phonotype": "CONS"
+        }
+    },
+    "d": {
+      "ž": {
+        "except_in_subword": [],
+        "only_in_subword": [],
+        "length": 1,
+        "phonotype": "CONS"
+      }
+    },
+    "a": {
+      "u": {
+        "except_in_subword": [],
+        "only_in_subword": [],
+        "length": 1,
+        "phonotype": "VOWEL"
+      }
+    },
+    "o": {
+      "u" : {
+        "except_in_subword": ["pouč", "pouka", "pouká", "poukl", "poulič", "poum", "použ", "poupr", "pouráž", "pousm", "pous", "poute", "pouvaž", "pouzen", "douč", "douprav", "doužív", "douzov", "doupřesn", "doudit", "doudí"],
+        "only_in_subword": [],
+        "length": 1,
+        "phonotype": "VOWEL"
+      }
+    },
+    "e": {
+      "u": {
+        "except_in_subword": [],
+        "only_in_subword": ["eufemi", "eufor", "euro", "eutan", "farmaceut", "feud", "koloseu", "koreu", "leuk", "linoleu", "mauzoleu", "muzeu", "neutral", "neutrál", "pneum", "pseudo", "terapeut", "eufon", "eunuch", "eunuš", "zeugm", "jubilee"],
+        "length": 1,
+        "phonotype": "VOWEL"
+      }
+    }
+  },
+  "phonotype_changes": {
+    "l": {
+      "preceding": ["CONS", "SONOR"],
+      "following": ["CONS", "SONOR"],
+      "becomes": "VOWEL",
+      "only_in_word": []
+    },
+    "r": {
+      "preceding": ["CONS", "SONOR"],
+      "following": ["CONS", "SONOR"],
+      "becomes": "VOWEL",
+      "only_in_word": []
+    },
+    "m": {
+      "preceding": [],
+      "following": [],
+      "becomes": "VOWEL",
+      "only_in_word": ["sedm", "osm"]
+    }
+  },
+  "text_changes": {
+    "ia": {
+      "becomes": "ija"
+    },
+    "ie": {
+      "becomes": "ije"
+    },
+    "ii": {
+      "becomes": "iji"
+    },
+    "io": {
+      "becomes": "ijo"
+    },
+    "iu": {
+      "becomes": "iju"
+    },
+    "iá": {
+      "becomes": "ijá"
+    },
+    "ié": {
+      "becomes": "ijé"
+    },
+    "ií": {
+      "becomes": "ijí"
+    },
+    "ió": {
+      "becomes": "ijó"
+    },
+    "iú": {
+      "becomes": "ijú"
+    }
+  },
+  "zero-syllable_words": {
+    "k": "to_following",
+    "s": "to_following",
+    "v": "to_following",
+    "z": "to_following"
+  },
+  "special_sound_length": {
+    "ě": {
+      "0": [],
+      "1": [
+        {
+          "preceding": {
+            "signs": ["VOWEL", "SPEC"],
+            "letters": ["j", "l", "n", "ň", "r", "c", "č", "d", "ď", "g", "h", "k", "q", "ř", "s", "š", "t", "ť", "w", "x", "z", "ž"]
+            },
+          "following": {
+            "signs": ["CONS", "SONOR", "NONE"],
+            "letters": []
+          }
+        }
+      ],
+      "2": [
+        {
+          "preceding": {
+            "signs": [],
+            "letters": ["b", "f", "m", "p", "v"]
+            },
+          "following": {
+            "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+            "letters": []
+          }
+        }
+      ]
+    }
+  }
+}
