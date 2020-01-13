@@ -16,27 +16,27 @@
     },
     "b": {
       "phoneme-length": 1,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 0
     },
     "c": {
       "phoneme-length": 1,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 1
     },
     "č": {
       "phoneme-length": 1,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 0
     },
     "d": {
       "phoneme-length": 1,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 1
     },
     "ď": {
       "phoneme-length": 1,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 0
     },
     "e": {
@@ -56,17 +56,17 @@
     },
     "f": {
       "phoneme-length": 1,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 0
     },
     "g": {
       "phoneme-length": 1,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 0
     },
     "h": {
       "phoneme-length": 1,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 0
     },
     "i": {
@@ -81,32 +81,32 @@
     },
     "j": {
       "phoneme-length": 1,
-      "sign": "SONOR",
+      "sign": "GLIDE",
       "subunit": 0
     },
     "k": {
       "phoneme-length": 1,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 0
     },
     "l": {
       "phoneme-length": 1,
-      "sign": "SONOR",
+      "sign": "LIQUID",
       "subunit": 0
     },
     "m": {
       "phoneme-length": 1,
-      "sign": "SONOR",
+      "sign": "NASAL",
       "subunit": 0
     },
     "n": {
       "phoneme-length": 1,
-      "sign": "SONOR",
+      "sign": "NASAL",
       "subunit": 0
     },
     "ň": {
       "phoneme-length": 1,
-      "sign": "SONOR",
+      "sign": "NASAL",
       "subunit": 0
     },
     "o": {
@@ -121,42 +121,42 @@
     },
     "p": {
       "phoneme-length": 1,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 0
     },
     "q": {
       "phoneme-length": 2,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 0
     },
     "r": {
       "phoneme-length": 1,
-      "sign": "SONOR",
+      "sign": "LIQUID",
       "subunit": 0
     },
     "ř": {
       "phoneme-length": 1,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 0
     },
     "s": {
       "phoneme-length": 1,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 0
     },
     "š": {
       "phoneme-length": 1,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 0
     },
     "t": {
       "phoneme-length": 1,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 0
     },
     "ť": {
       "phoneme-length": 1,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 0
     },
     "u": {
@@ -176,17 +176,17 @@
     },
     "v": {
       "phoneme-length": 1,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 0
     },
     "w": {
       "phoneme-length": 1,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 0
     },
     "x": {
       "phoneme-length": 2,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 0
     },
     "y": {
@@ -201,30 +201,30 @@
     },
     "z": {
       "phoneme-length": 1,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 0
     },
     "ž": {
       "phoneme-length": 1,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 0
     }
   },
   "clusters": {
     "c": {
-        "h": {
-          "except_in_subword": [],
-          "only_in_subword": [],
-          "length": 1,
-          "phonotype": "CONS"
-        }
+      "h": {
+        "except_in_subword": [],
+        "only_in_subword": [],
+        "length": 1,
+        "phonotype": "OBSTR"
+      }
     },
     "d": {
       "ž": {
         "except_in_subword": [],
         "only_in_subword": [],
         "length": 1,
-        "phonotype": "CONS"
+        "phonotype": "OBSTR"
       }
     },
     "a": {
@@ -254,20 +254,38 @@
   },
   "phonotype_changes": {
     "l": {
-      "preceding": ["CONS", "SONOR"],
-      "following": ["CONS", "SONOR"],
+      "preceding": {
+        "signs": ["OBSTR", "GLIDE", "LIQUID", "NASAL"],
+        "letters": []
+      },
+      "following": {
+        "signs": ["OBSTR", "GLIDE", "LIQUID", "NASAL"],
+        "letters": []
+      },
       "becomes": "VOWEL",
       "only_in_word": []
     },
     "r": {
-      "preceding": ["CONS", "SONOR"],
-      "following": ["CONS", "SONOR"],
+      "preceding": {
+        "signs": ["OBSTR", "GLIDE", "LIQUID", "NASAL"],
+        "letters": []
+      },
+      "following": {
+        "signs": ["OBSTR", "GLIDE", "LIQUID", "NASAL"],
+        "letters": []
+      },
       "becomes": "VOWEL",
       "only_in_word": []
     },
     "m": {
-      "preceding": [],
-      "following": [],
+      "preceding": {
+        "signs": [],
+        "letters": []
+      },
+      "following": {
+        "signs": [],
+        "letters": []
+      },
       "becomes": "VOWEL",
       "only_in_word": ["sedm", "osm"]
     }
@@ -320,7 +338,7 @@
             "letters": ["j", "l", "n", "ň", "r", "c", "č", "d", "ď", "g", "h", "k", "q", "ř", "s", "š", "t", "ť", "w", "x", "z", "ž"]
             },
           "following": {
-            "signs": ["CONS", "SONOR", "NONE"],
+            "signs": ["OBSTR", "GLIDE", "LIQUID", "NASAL", "NONE"],
             "letters": []
           }
         }
@@ -332,7 +350,7 @@
             "letters": ["b", "f", "m", "p", "v"]
             },
           "following": {
-            "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+            "signs": ["NONE", "OBSTR", "GLIDE", "LIQUID", "NASAL", "VOWEL", "SPEC"],
             "letters": []
           }
         }

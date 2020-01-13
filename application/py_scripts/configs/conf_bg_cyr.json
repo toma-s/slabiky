@@ -11,22 +11,22 @@
     },
     "б": {
       "phoneme-length": 1,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 0
     },
     "в": {
       "phoneme-length": 1,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 0
     },
     "г": {
       "phoneme-length": 1,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 0
     },
     "д": {
       "phoneme-length": 1,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 1
     },
     "е": {
@@ -36,12 +36,12 @@
     },
     "ж": {
       "phoneme-length": 1,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 0
     },
     "з": {
       "phoneme-length": 1,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 0
     },
     "и": {
@@ -51,27 +51,27 @@
     },
     "й": {
       "phoneme-length": 1,
-      "sign": "SONOR",
+      "sign": "GLIDE",
       "subunit": 0
     },
     "к": {
       "phoneme-length": 1,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 0
     },
     "л": {
       "phoneme-length": 1,
-      "sign": "SONOR",
+      "sign": "LIQUID",
       "subunit": 0
     },
     "м": {
       "phoneme-length": 1,
-      "sign": "SONOR",
+      "sign": "NASAL",
       "subunit": 0
     },
     "н": {
       "phoneme-length": 1,
-      "sign": "SONOR",
+      "sign": "NASAL",
       "subunit": 0
     },
     "о": {
@@ -81,22 +81,22 @@
     },
     "п": {
       "phoneme-length": 1,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 0
     },
     "р": {
       "phoneme-length": 1,
-      "sign": "SONOR",
+      "sign": "LIQUID",
       "subunit": 0
     },
     "с": {
       "phoneme-length": 1,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 0
     },
     "т": {
       "phoneme-length": 1,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 0
     },
     "у": {
@@ -106,32 +106,32 @@
     },
     "ф": {
       "phoneme-length": 1,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 0
     },
     "х": {
       "phoneme-length": 1,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 0
     },
     "ц": {
       "phoneme-length": 1,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 0
     },
     "ч": {
       "phoneme-length": 1,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 0
     },
     "ш": {
       "phoneme-length": 1,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 0
     },
     "щ": {
       "phoneme-length": 2,
-      "sign": "CONS",
+      "sign": "OBSTR",
       "subunit": 0
     },
     "ъ": {
@@ -161,13 +161,13 @@
         "except_in_subword": [],
         "only_in_subword": [],
         "length": 1,
-        "phonotype": "CONS"
+        "phonotype": "OBSTR"
       },
       "з": {
         "except_in_subword": [],
         "only_in_subword": [],
         "length": 1,
-        "phonotype": "CONS"
+        "phonotype": "OBSTR"
       }
     }
   },
@@ -183,11 +183,11 @@
       "1": [
         {
           "preceding": {
-            "signs": ["CONS", "SONOR"],
+            "signs": ["OBSTR", "GLIDE", "LIQUID", "NASAL"],
             "letters": []
           },
           "following": {
-            "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+            "signs": ["NONE", "OBSTR", "GLIDE", "LIQUID", "NASAL", "VOWEL", "SPEC"],
             "letters": []
           }
         }
@@ -199,7 +199,7 @@
             "letters": []
           },
           "following": {
-            "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+            "signs": ["NONE", "OBSTR", "GLIDE", "LIQUID", "NASAL", "VOWEL", "SPEC"],
             "letters": []
           }
         }
@@ -210,11 +210,11 @@
       "1": [
         {
           "preceding": {
-            "signs": ["CONS", "SONOR"],
+            "signs": ["OBSTR", "GLIDE", "LIQUID", "NASAL"],
             "letters": []
           },
           "following": {
-            "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+            "signs": ["NONE", "OBSTR", "GLIDE", "LIQUID", "NASAL", "VOWEL", "SPEC"],
             "letters": []
           }
         }
@@ -226,7 +226,7 @@
             "letters": []
           },
           "following": {
-            "signs": ["NONE", "CONS", "SONOR", "VOWEL", "SPEC"],
+            "signs": ["NONE", "OBSTR", "GLIDE", "LIQUID", "NASAL", "VOWEL", "SPEC"],
             "letters": []
           }
         }
