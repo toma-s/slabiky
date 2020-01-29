@@ -1,0 +1,179 @@
+{
+  "language": {
+    "name": "Serbian",
+    "writing_system": "cyrillic"
+  },
+  "lowercase": {
+    "а": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "б": {
+      "phoneme-length": 1,
+      "sign": "OBSTR",
+      "subunit": 0
+    },
+    "в": {
+      "phoneme-length": 1,
+      "sign": "GLIDE",
+      "subunit": 0
+    },
+    "г": {
+      "phoneme-length": 1,
+      "sign": "OBSTR",
+      "subunit": 0
+    },
+    "д": {
+      "phoneme-length": 1,
+      "sign": "OBSTR",
+      "subunit": 0
+    },
+    "ђ": {
+      "phoneme-length": 1,
+      "sign": "OBSTR",
+      "subunit": 0
+    },
+    "е": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "ж": {
+      "phoneme-length": 1,
+      "sign": "OBSTR",
+      "subunit": 0
+    },
+    "з": {
+      "phoneme-length": 1,
+      "sign": "OBSTR",
+      "subunit": 0
+    },
+    "и": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "ј": {
+      "phoneme-length": 1,
+      "sign": "GLIDE",
+      "subunit": 0
+    },
+    "к": {
+      "phoneme-length": 1,
+      "sign": "OBSTR",
+      "subunit": 0
+    },
+    "л": {
+      "phoneme-length": 1,
+      "sign": "LIQUID",
+      "subunit": 0
+    },
+    "љ": {
+      "phoneme-length": 1,
+      "sign": "LIQUID",
+      "subunit": 0
+    },
+    "м": {
+      "phoneme-length": 1,
+      "sign": "NASAL",
+      "subunit": 0
+    },
+    "н": {
+      "phoneme-length": 1,
+      "sign": "NASAL",
+      "subunit": 0
+    },
+    "њ": {
+      "phoneme-length": 1,
+      "sign": "NASAL",
+      "subunit": 0
+    },
+    "о": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "п": {
+      "phoneme-length": 1,
+      "sign": "OBSTR",
+      "subunit": 0
+    },
+    "р": {
+      "phoneme-length": 1,
+      "sign": "LIQUID",
+      "subunit": 0
+    },
+    "с": {
+      "phoneme-length": 1,
+      "sign": "OBSTR",
+      "subunit": 0
+    },
+    "т": {
+      "phoneme-length": 1,
+      "sign": "OBSTR",
+      "subunit": 0
+    },
+    "ћ": {
+      "phoneme-length": 1,
+      "sign": "OBSTR",
+      "subunit": 0
+    },
+    "у": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "ф": {
+      "phoneme-length": 1,
+      "sign": "OBSTR",
+      "subunit": 0
+    },
+    "х": {
+      "phoneme-length": 1,
+      "sign": "OBSTR",
+      "subunit": 0
+    },
+    "ц": {
+      "phoneme-length": 1,
+      "sign": "OBSTR",
+      "subunit": 0
+    },
+    "ч": {
+      "phoneme-length": 1,
+      "sign": "OBSTR",
+      "subunit": 0
+    },
+    "џ": {
+      "phoneme-length": 1,
+      "sign": "OBSTR",
+      "subunit": 0
+    },
+    "ш": {
+      "phoneme-length": 1,
+      "sign": "OBSTR",
+      "subunit": 0
+    }
+  },
+  "clusters": {},
+  "phonotype_changes": {
+    "р": {
+      "preceding": {
+        "signs": ["OBSTR", "GLIDE", "LIQUID", "NASAL"],
+        "letters": []
+      },
+      "following": {
+        "signs": ["OBSTR", "GLIDE", "LIQUID", "NASAL"],
+        "letters": []
+      },
+      "becomes": "VOWEL",
+      "only_in_word": []
+    }
+  },
+  "text_changes": {},
+  "zero-syllable_words": {
+    "к": "to_following",
+    "с": "to_following"
+  },
+  "special_sound_length": {}
+}

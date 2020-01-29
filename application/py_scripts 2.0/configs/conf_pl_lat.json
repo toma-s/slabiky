@@ -1,0 +1,455 @@
+{
+  "language": {
+      "name": "Polish",
+      "writing_system": "latin"
+    },
+  "lowercase": {
+    "a": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "ą": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "b": {
+      "phoneme-length": 1,
+      "sign": "OBSTR",
+      "subunit": 0
+    },
+    "c": {
+      "phoneme-length": 1,
+      "sign": "OBSTR",
+      "subunit": 1
+    },
+    "ć": {
+      "phoneme-length": 1,
+      "sign": "OBSTR",
+      "subunit": 0
+    },
+    "d": {
+      "phoneme-length": 1,
+      "sign": "OBSTR",
+      "subunit": 1
+    },
+    "e": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "ę": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "f": {
+      "phoneme-length": 1,
+      "sign": "OBSTR",
+      "subunit": 0
+    },
+    "g": {
+      "phoneme-length": 1,
+      "sign": "OBSTR",
+      "subunit": 0
+    },
+    "h": {
+      "phoneme-length": 1,
+      "sign": "OBSTR",
+      "subunit": 0
+    },
+    "i": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 1
+    },
+    "j": {
+      "phoneme-length": 1,
+      "sign": "GLIDE",
+      "subunit": 0
+    },
+    "k": {
+      "phoneme-length": 1,
+      "sign": "OBSTR",
+      "subunit": 0
+    },
+    "l": {
+      "phoneme-length": 1,
+      "sign": "LIQUID",
+      "subunit": 0
+    },
+    "ł": {
+      "phoneme-length": 1,
+      "sign": "GLIDE",
+      "subunit": 0
+    },
+    "m": {
+      "phoneme-length": 1,
+      "sign": "NASAL",
+      "subunit": 0
+    },
+    "n": {
+      "phoneme-length": 1,
+      "sign": "NASAL",
+      "subunit": 0
+    },
+    "ń": {
+      "phoneme-length": 1,
+      "sign": "NASAL",
+      "subunit": 0
+    },
+    "o": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "ó": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "p": {
+      "phoneme-length": 1,
+      "sign": "OBSTR",
+      "subunit": 0
+    },
+    "r": {
+      "phoneme-length": 1,
+      "sign": "LIQUID",
+      "subunit": 1
+    },
+    "s": {
+      "phoneme-length": 1,
+      "sign": "OBSTR",
+      "subunit": 1
+    },
+    "ś": {
+      "phoneme-length": 1,
+      "sign": "OBSTR",
+      "subunit": 0
+    },
+    "t": {
+      "phoneme-length": 1,
+      "sign": "OBSTR",
+      "subunit": 0
+    },
+    "u": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "w": {
+      "phoneme-length": 1,
+      "sign": "OBSTR",
+      "subunit": 0
+    },
+    "y": {
+      "phoneme-length": 1,
+      "sign": "VOWEL",
+      "subunit": 0
+    },
+    "z": {
+      "phoneme-length": 1,
+      "sign": "OBSTR",
+      "subunit": 0
+    },
+    "ź": {
+      "phoneme-length": 1,
+      "sign": "OBSTR",
+      "subunit": 0
+    },
+    "ż": {
+      "phoneme-length": 1,
+      "sign": "OBSTR",
+      "subunit": 0
+    }
+  },
+  "clusters": {
+    "c": {
+      "h": {
+        "except_in_subword": [],
+        "only_in_subword": [],
+        "length": 1,
+        "phonotype": "OBSTR"
+      },
+      "z": {
+        "except_in_subword": [],
+        "only_in_subword": [],
+        "length": 1,
+        "phonotype": "OBSTR"
+      }
+    },
+    "d": {
+      "ź": {
+        "except_in_subword": [],
+        "only_in_subword": [],
+        "length": 1,
+        "phonotype": "OBSTR"
+      },
+      "ż": {
+        "except_in_subword": [],
+        "only_in_subword": [],
+        "length": 1,
+        "phonotype": "OBSTR"
+      }
+    },
+    "s": {
+      "z": {
+        "except_in_subword": [],
+        "only_in_subword": [],
+        "length": 1,
+        "phonotype": "OBSTR"
+      }
+    },
+    "r": {
+      "z": {
+        "except_in_subword": [],
+        "only_in_subword": [],
+        "length": 1,
+        "phonotype": "LIQUID"
+      }
+    },
+    "i": {
+      "a": {
+        "except_in_subword": [],
+        "only_in_subword": [],
+        "length": -1,
+        "phonotype": "VOWEL"
+      },
+      "ą": {
+        "except_in_subword": [],
+        "only_in_subword": [],
+        "length": -1,
+        "phonotype": "VOWEL"
+      },
+      "e": {
+        "except_in_subword": [],
+        "only_in_subword": [],
+        "length": -1,
+        "phonotype": "VOWEL"
+      },
+      "ę": {
+        "except_in_subword": [],
+        "only_in_subword": [],
+        "length": -1,
+        "phonotype": "VOWEL"
+      },
+      "o": {
+        "except_in_subword": [],
+        "only_in_subword": [],
+        "length": -1,
+        "phonotype": "VOWEL"
+      },
+      "ó": {
+        "except_in_subword": [],
+        "only_in_subword": [],
+        "length": -1,
+        "phonotype": "VOWEL"
+      },
+      "u": {
+        "except_in_subword": [],
+        "only_in_subword": [],
+        "length": -1,
+        "phonotype": "VOWEL"
+      }
+    }
+  },
+  "phonotype_changes": {},
+  "text_changes": {},
+  "zero-syllable_words": {
+    "w": "to_following",
+    "z": "to_following"
+  },
+  "special_sound_length": {
+    "ia": {
+      "0": [],
+      "1": [
+        {
+          "preceding": {
+            "signs": ["NONE", "OBSTR", "GLIDE", "NASAL", "VOWEL", "SPEC"],
+            "letters": []
+          },
+          "following": {
+            "signs": ["NONE", "OBSTR", "GLIDE", "LIQUID", "NASAL", "VOWEL", "SPEC"],
+            "letters": []
+          }
+        }
+      ],
+      "2": [
+        {
+          "preceding": {
+            "signs": ["LIQUID"],
+            "letters": []
+          },
+          "following": {
+            "signs": ["NONE", "OBSTR", "GLIDE", "LIQUID", "NASAL", "VOWEL", "SPEC"],
+            "letters": []
+          }
+        }
+      ]
+    },
+    "ią": {
+      "0": [],
+      "1": [
+        {
+          "preceding": {
+            "signs": ["NONE", "OBSTR", "GLIDE", "NASAL", "VOWEL", "SPEC"],
+            "letters": []
+          },
+          "following": {
+            "signs": ["NONE", "OBSTR", "GLIDE", "LIQUID", "NASAL", "VOWEL", "SPEC"],
+            "letters": []
+          }
+        }
+      ],
+      "2": [
+        {
+          "preceding": {
+            "signs": ["LIQUID"],
+            "letters": []
+          },
+          "following": {
+            "signs": ["NONE", "OBSTR", "GLIDE", "LIQUID", "NASAL", "VOWEL", "SPEC"],
+            "letters": []
+          }
+        }
+      ]
+    },
+    "ie": {
+      "0": [],
+      "1": [
+        {
+          "preceding": {
+            "signs": ["NONE", "OBSTR", "GLIDE", "NASAL", "VOWEL", "SPEC"],
+            "letters": []
+          },
+          "following": {
+            "signs": ["NONE", "OBSTR", "GLIDE", "LIQUID", "NASAL", "VOWEL", "SPEC"],
+            "letters": []
+          }
+        }
+      ],
+      "2": [
+        {
+          "preceding": {
+            "signs": ["LIQUID"],
+            "letters": []
+          },
+          "following": {
+            "signs": ["NONE", "OBSTR", "GLIDE", "LIQUID", "NASAL", "VOWEL", "SPEC"],
+            "letters": []
+          }
+        }
+      ]
+    },
+    "ię": {
+      "0": [],
+      "1": [
+        {
+          "preceding": {
+            "signs": ["NONE", "OBSTR", "GLIDE", "NASAL", "VOWEL", "SPEC"],
+            "letters": []
+          },
+          "following": {
+            "signs": ["NONE", "OBSTR", "GLIDE", "LIQUID", "NASAL", "VOWEL", "SPEC"],
+            "letters": []
+          }
+        }
+      ],
+      "2": [
+        {
+          "preceding": {
+            "signs": ["LIQUID"],
+            "letters": []
+          },
+          "following": {
+            "signs": ["NONE", "OBSTR", "GLIDE", "LIQUID", "NASAL", "VOWEL", "SPEC"],
+            "letters": []
+          }
+        }
+      ]
+    },
+    "io": {
+      "0": [],
+      "1": [
+        {
+          "preceding": {
+            "signs": ["NONE", "OBSTR", "GLIDE", "NASAL", "VOWEL", "SPEC"],
+            "letters": []
+          },
+          "following": {
+            "signs": ["NONE", "OBSTR", "GLIDE", "LIQUID", "NASAL", "VOWEL", "SPEC"],
+            "letters": []
+          }
+        }
+      ],
+      "2": [
+        {
+          "preceding": {
+            "signs": ["LIQUID"],
+            "letters": []
+          },
+          "following": {
+            "signs": ["NONE", "OBSTR", "GLIDE", "LIQUID", "NASAL", "VOWEL", "SPEC"],
+            "letters": []
+          }
+        }
+      ]
+    },
+    "ió": {
+      "0": [],
+      "1": [
+        {
+          "preceding": {
+            "signs": ["NONE", "OBSTR", "GLIDE", "NASAL", "VOWEL", "SPEC"],
+            "letters": []
+          },
+          "following": {
+            "signs": ["NONE", "OBSTR", "GLIDE", "LIQUID", "NASAL", "VOWEL", "SPEC"],
+            "letters": []
+          }
+        }
+      ],
+      "2": [
+        {
+          "preceding": {
+            "signs": ["LIQUID"],
+            "letters": []
+          },
+          "following": {
+            "signs": ["NONE", "OBSTR", "GLIDE", "LIQUID", "NASAL", "VOWEL", "SPEC"],
+            "letters": []
+          }
+        }
+      ]
+    },
+    "iu": {
+      "0": [],
+      "1": [
+        {
+          "preceding": {
+            "signs": ["NONE", "OBSTR", "GLIDE", "NASAL", "VOWEL", "SPEC"],
+            "letters": []
+          },
+          "following": {
+            "signs": ["NONE", "OBSTR", "GLIDE", "LIQUID", "NASAL", "VOWEL", "SPEC"],
+            "letters": []
+          }
+        }
+      ],
+      "2": [
+        {
+          "preceding": {
+            "signs": ["LIQUID"],
+            "letters": []
+          },
+          "following": {
+            "signs": ["NONE", "OBSTR", "GLIDE", "LIQUID", "NASAL", "VOWEL", "SPEC"],
+            "letters": []
+          }
+        }
+      ]
+    }
+  }
+}
