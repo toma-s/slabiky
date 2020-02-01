@@ -259,7 +259,7 @@
         "letters": []
       },
       "following": {
-        "signs": ["OBSTR", "GLIDE", "LIQUID", "NASAL"],
+        "signs": ["OBSTR", "GLIDE", "LIQUID", "NASAL", "NONE"],
         "letters": []
       },
       "becomes": "VOWEL",
