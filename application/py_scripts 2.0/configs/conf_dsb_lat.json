@@ -208,22 +208,6 @@
         "phonotype": "NASAL"
       }
     },
-    "n": {
-      "j": {
-        "except_in_subword": [],
-        "only_in_subword": [],
-        "length": 1,
-        "phonotype": "NASAL"
-      }
-    },
-    "r": {
-      "j": {
-        "except_in_subword": [],
-        "only_in_subword": [],
-        "length": 1,
-        "phonotype": "LIQUID"
-      }
-    },
     "d": {
       "z": {
         "except_in_subword": [],

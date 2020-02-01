@@ -130,7 +130,7 @@
       "subunit": 0
     },
     "ô": {
-      "phoneme-length": 2,
+      "phoneme-length": 1,
       "sign": "VOWEL",
       "subunit": 0
     },
@@ -229,11 +229,6 @@
       "sign": "VOWEL",
       "subunit": 0
     },
-    "#": {
-      "phoneme-length": 1,
-      "sign": "VOWEL",
-      "subunit": 0
-    },
     "%": {
       "phoneme-length": 1,
       "sign": "VOWEL",
@@ -244,7 +239,7 @@
       "sign": "VOWEL",
       "subunit": 0
     },
-    "ě": {
+    "#": {
       "phoneme-length": 1,
       "sign": "VOWEL",
       "subunit": 0
@@ -252,12 +247,12 @@
   },
   "clusters": {
     "c": {
-        "h": {
-          "except_in_subword": [],
-          "only_in_subword": [],
-          "length": 1,
-          "phonotype": "OBSTR"
-        }
+      "h": {
+        "except_in_subword": [],
+        "only_in_subword": [],
+        "length": 1,
+        "phonotype": "OBSTR"
+      }
     },
     "d": {
       "z": {
