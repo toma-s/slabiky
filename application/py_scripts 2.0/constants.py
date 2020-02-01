@@ -1,12 +1,15 @@
 CONS = 0
-SONOR = 1
-VOWEL = 2
-SPEC = 3  # special alphabet signs
-SUBUNIT = 4  # letters make sound with letters they attach
+NASAL = 1
+LIQUID = 2
+GLIDE = 3
+VOWEL = 4
 
-PUNCT = 5
-HYPHEN = 6
+SPEC = 5  # special alphabet signs
+SUBUNIT = 6  # letters make sound with letters they attach
+
+PUNCT = 7
+HYPHEN = 8
 
 
-def get_conts(num):
+def get_const(num):
     return eval(num)
