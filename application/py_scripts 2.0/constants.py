@@ -1,4 +1,4 @@
-CONS = 0
+OBSTR = 0
 NASAL = 1
 LIQUID = 2
 GLIDE = 3
