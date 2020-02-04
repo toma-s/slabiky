@@ -203,16 +203,18 @@
   "special_sound_length": {
     "ije": {
       "0": [],
-      "1": {
-        "preceding": {
-          "signs": ["NONE", "OBSTR", "GLIDE", "LIQUID", "NASAL", "VOWEL", "SPEC"],
-          "letters": []
-        },
-        "following": {
-          "signs": ["NONE", "OBSTR", "GLIDE", "LIQUID", "NASAL", "VOWEL", "SPEC"],
-          "letters": []
+      "1": [
+        {
+          "preceding": {
+            "signs": ["NONE", "OBSTR", "GLIDE", "LIQUID", "NASAL", "VOWEL", "SPEC"],
+            "letters": []
+          },
+          "following": {
+            "signs": ["NONE", "OBSTR", "GLIDE", "LIQUID", "NASAL", "VOWEL", "SPEC"],
+            "letters": []
+          }
         }
-      },
+      ],
       "2": []
     }
   }
