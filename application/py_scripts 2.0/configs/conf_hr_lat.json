@@ -179,6 +179,14 @@
         "length": 1,
         "phonotype": "OBSTR"
       }
+    },
+    "i": {
+      "je": {
+        "except_in_subword": [],
+        "only_in_subword": [],
+        "length": 1,
+        "phonotype": "VOWEL"
+      }
     }
   },
   "phonotype_changes": {
@@ -200,22 +208,5 @@
     "k": "to_following",
     "s": "to_following"
   },
-  "special_sound_length": {
-    "ije": {
-      "0": [],
-      "1": [
-        {
-          "preceding": {
-            "signs": ["NONE", "OBSTR", "GLIDE", "LIQUID", "NASAL", "VOWEL", "SPEC"],
-            "letters": []
-          },
-          "following": {
-            "signs": ["NONE", "OBSTR", "GLIDE", "LIQUID", "NASAL", "VOWEL", "SPEC"],
-            "letters": []
-          }
-        }
-      ],
-      "2": []
-    }
-  }
+  "special_sound_length": {}
 }
