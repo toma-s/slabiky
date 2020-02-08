@@ -115,8 +115,9 @@ class CountModule(ThreadModule):
 
     def find_length_value(self, index_of_letter):
         syllable = self.word.get_syllables()[self.index_of_syllable]
-        if self.is_subunit(self.word.get_phonotypes()[self.index_of_syllable], index_of_letter):
-            length_of_letter = self.find_length_of_cluster(syllable[index_of_letter], syllable[index_of_letter + 1])
+        phonotypes = self.word.get_phonotypes()[self.index_of_syllable]
+        if self.is_subunit(phonotypes, index_of_letter):
+            length_of_letter = self.find_length_of_cluster(syllable, phonotypes, index_of_letter)
         else:
             length_of_letter = self.find_length_of_one_character_letter(index_of_letter, syllable)
         return length_of_letter
@@ -129,7 +130,12 @@ class CountModule(ThreadModule):
     def find_length_of_one_character_letter(self, index_of_letter, syllable):
         return self._data.letter_to_phon_len[syllable[index_of_letter]]
 
-    def find_length_of_cluster(self, letter, next_letter):
+    def find_length_of_cluster(self, syllable, phonotypes, index_of_letter):
+        letter = syllable[index_of_letter]
+        next_letter = ''
+        while self.is_subunit(phonotypes, index_of_letter):
+            next_letter += syllable[index_of_letter + 1]
+            index_of_letter += 1
         return self._data.clusters[letter][next_letter]['length']
 
     def find_next_letter_and_phonotype_if_exist(self, index_of_letter):
