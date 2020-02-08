@@ -5,10 +5,12 @@ from word import SyllablesLengths
 from end import End
 from pipe import Pipe
 from constants import *
+import re
 
 ERROR_LENGTH = -999
 NO_INDEX = -99
 NEXTS_DONT_EXIST = PREC_DONT_EXIST = (None,None)
+svk_symbols_map = {'\$': 'ia', '&': 'ie', '%': 'iu', '§': 'ou', '#': 'au' }
 
 
 class CountModule(ThreadModule):
@@ -20,6 +22,8 @@ class CountModule(ThreadModule):
         self.frequencies_of_syllables = {}
         self.word = None
         self.index_of_syllable = NO_INDEX
+        self.syllable_contains_special_symbol = False
+        self.set_of_syllables_with_special_symbols = set()
 
     def run(self):
         pipe_in = self.get_pipes()[0]
@@ -30,7 +34,20 @@ class CountModule(ThreadModule):
         self.start_result_module()
 
     def start_result_module(self):
+        self.replace_syllables_in_maps_if_needed()
         ResultModule(self.lengths_of_syllables, self.frequencies_of_syllables, self._file_path).run()
+
+    def replace_syllables_in_maps_if_needed(self):
+        if self._data.lang_name != "Slovak":
+            return
+        for syllable in self.set_of_syllables_with_special_symbols:
+            length = self.lengths_of_syllables[syllable]
+            frequency = self.frequencies_of_syllables[syllable]
+            del self.lengths_of_syllables[syllable]
+            del self.frequencies_of_syllables[syllable]
+            replaced_syllable = self.replace_symbols_svk(syllable)
+            self.lengths_of_syllables[replaced_syllable] = length
+            self.frequencies_of_syllables[replaced_syllable] = frequency
 
     def handle_next_word(self, pipe_in, pipe_out):
         self.word = self.get_word(pipe_in)
@@ -63,8 +80,12 @@ class CountModule(ThreadModule):
         syllables_of_word = self.word.get_syllables()
         lengths_of_syllables_of_word = []
         for index_of_syllable in range(len(syllables_of_word)):
+            self.syllable_contains_special_symbol = False
             self.index_of_syllable = index_of_syllable
             lengths_of_syllables_of_word.append(self.process_one_syllable())
+            if self.syllable_contains_special_symbol:
+                self.set_of_syllables_with_special_symbols.add(syllables_of_word[index_of_syllable])
+                syllables_of_word[index_of_syllable] = self.replace_symbols_svk(syllables_of_word[index_of_syllable])
         return SyllablesLengths(syllables_of_word, lengths_of_syllables_of_word)
 
     def process_one_syllable(self):
@@ -80,6 +101,8 @@ class CountModule(ThreadModule):
     def count_length_of_syllable(self):
         length = 0
         for index_of_letter in range(len(self.word.get_syllables()[self.index_of_syllable])):
+            if self._data.lang_name == "Slovak" and self.is_special_symbol_svk(self.word.get_syllables()[index_of_letter]):
+                self.syllable_contains_special_symbol = True
             if self.letter_already_counted(index_of_letter, self.word.get_phonotypes()[self.index_of_syllable]):
                 continue
             length += self.find_length_of_letter(index_of_letter)
@@ -217,3 +240,11 @@ class CountModule(ThreadModule):
                 following_phonotype in condition['following']['signs']) and \
                (preceding_letter in condition['preceding']['letters'] or
                 preceding_phonotype in condition['preceding']['signs'])
+
+    def is_special_symbol_svk(self, letter):
+        return letter in ['$', '&', '%', '§', '#']
+
+    def replace_symbols_svk(self, syllable):
+        for key in svk_symbols_map:
+            syllable = re.sub(key, svk_symbols_map[key], syllable)
+        return syllable
