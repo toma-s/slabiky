@@ -61,11 +61,13 @@ class PhonotypeModule(ThreadModule):
 
         return word
 
-    def phonotype_changes_func(self, word_text, previous_sign, current_sign, next_sign):
-        only_in_word = self.phono_changes[current_sign]['only_in_word']
-        preceding = self.phono_changes[current_sign]['preceding']
-        following = self.phono_changes[current_sign]['following']
-        becomes = self.phono_changes[current_sign]['becomes']
+    def phonotype_changes_func(self, word_text, previous_letter, current_letter, next_letter):
+        preceding_signs = self.phono_changes[current_letter]['preceding']['signs']
+        preceding_letters = self.phono_changes[current_letter]['preceding']['letters']
+        following_signs = self.phono_changes[current_letter]['following']['signs']
+        following_letters = self.phono_changes[current_letter]['following']['letters']
+        becomes = self.phono_changes[current_letter]['becomes']
+        only_in_word = self.phono_changes[current_letter]['only_in_word']
         signs = self.signs
 
         is_exception = False
@@ -74,35 +76,39 @@ class PhonotypeModule(ThreadModule):
             self.phonotypes.append(becomes)
             return True
 
-        def sign_exists(sign):
-            if sign is None:
+        def letter_exists(letter):
+            if letter == "":
                 return False
             return True
+
+        previous_sign = signs[previous_letter] if previous_letter != "" else None
+        next_sign = signs[next_letter] if next_letter != "" else None
 
         if word_text in only_in_word:
             is_exception = apply_phonotype_excption()
 
-        elif sign_exists(next_sign) and sign_exists(previous_sign):
-            if signs[previous_sign] in preceding and signs[next_sign] in following:
+        elif letter_exists(next_letter) and letter_exists(previous_letter):
+            if (previous_sign in preceding_signs or previous_letter in preceding_letters) \
+                    and (next_sign in following_signs or next_letter in following_letters):
                 is_exception = apply_phonotype_excption()
 
-        elif not sign_exists(previous_sign) and None in preceding:
-            if signs[next_sign] in following:
+        elif not letter_exists(previous_letter) and None in preceding_signs:
+            if next_sign in following_signs:
                 is_exception = apply_phonotype_excption()
 
-        elif not sign_exists(next_sign) and None in following:
-            if signs[previous_sign] in preceding:
+        elif not letter_exists(next_letter) and None in following_signs:
+            if previous_sign in preceding_signs:
                 is_exception = apply_phonotype_excption()
 
         return is_exception
 
-    def clusters_func(self, word_text, current_sign, next_sign):
-        except_in_subword = self.clusters[current_sign][next_sign]['except_in_subword']
-        only_in_subword = self.clusters[current_sign][next_sign]['only_in_subword']
+    def clusters_func(self, word_text, current_letter, next_letter, exception_next_letter):
+        except_in_subword = self.clusters[current_letter][next_letter + exception_next_letter]['except_in_subword']
+        only_in_subword = self.clusters[current_letter][next_letter + exception_next_letter]['only_in_subword']
         except_in_subword_length = len(except_in_subword)
         only_in_subword_length = len(only_in_subword)
         phonotypes = self.phonotypes
-        phonotype = self.clusters[current_sign][next_sign]["phonotype"]
+        phonotype = self.clusters[current_letter][next_letter + exception_next_letter]["phonotype"]
         signs = self.signs
 
         is_exception = current_to_subunit_next_unchanged = False
@@ -112,13 +118,15 @@ class PhonotypeModule(ThreadModule):
             return True
 
         if except_in_subword_length == 0 and only_in_subword_length == 0:
+            if exception_next_letter != "":
+                phonotypes.append(SUBUNIT)
             phonotypes.append(SUBUNIT)
             is_exception = apply_cluster_exeption()
 
         elif except_in_subword_length != 0:
             for subword in except_in_subword:
                 if subword in word_text:
-                    phonotypes.append(signs[current_sign])
+                    phonotypes.append(signs[current_letter])
                     is_exception = apply_cluster_exeption()
 
             if not is_exception:
@@ -142,6 +150,7 @@ class PhonotypeModule(ThreadModule):
         word_length = len(word_text)
 
         cluster_exception = False
+        cluster_croatian_exception = False
 
         for i in range(word_length):
 
@@ -149,25 +158,36 @@ class PhonotypeModule(ThreadModule):
                 cluster_exception = False
                 continue
 
+            if cluster_croatian_exception:
+                cluster_croatian_exception = False
+                continue
+
             current_to_subunit_next_unchanged = phonotype_exception = False
 
-            previous_sign = word_text[i - 1] if i - 1 >= 0 else None
-            current_sign = word_text[i]
-            next_sign = word_text[i + 1] if i + 1 < word_length else None
+            previous_letter = word_text[i - 1] if i - 1 >= 0 else ""
+            current_letter = word_text[i]
+            next_letter = word_text[i + 1] if i + 1 < word_length else ""
+            exception_next_letter = word_text[i + 2] if i + 2 < word_length else "" # used because of exception in croatian language (ije -> [SUBUNIT, SUBUNIT, VOWEL])
 
-            if current_sign in cluster_letters and next_sign in cluster_letters[current_sign]:  # CLUSTERS
-                cluster_exception, current_to_subunit_next_unchanged = \
-                    self.clusters_func(word_text, current_sign, next_sign)
+            if current_letter in cluster_letters:  # CLUSTERS
 
-            elif current_sign in phono_changes:  # PHONOTYPE CHANGES
-                phonotype_exception = self.phonotype_changes_func(word_text, previous_sign,
-                                                                  current_sign, next_sign)
+                if exception_next_letter != "" and next_letter + exception_next_letter in cluster_letters[current_letter]:
+                    cluster_exception, current_to_subunit_next_unchanged = \
+                        self.clusters_func(word_text, current_letter, next_letter, exception_next_letter)
+                    cluster_croatian_exception = True
 
-            no_exceptions = not current_to_subunit_next_unchanged and \
-                            not cluster_exception and not phonotype_exception
+                if next_letter in cluster_letters[current_letter]:
+                    cluster_exception, current_to_subunit_next_unchanged = \
+                        self.clusters_func(word_text, current_letter, next_letter, "")
+
+            elif current_letter in phono_changes:  # PHONOTYPE CHANGES
+                phonotype_exception = self.phonotype_changes_func(word_text, previous_letter,
+                                                                  current_letter, next_letter)
+
+            no_exceptions = not current_to_subunit_next_unchanged and not cluster_exception and not phonotype_exception
 
             if no_exceptions:
-                self.phonotypes.append(signs[current_sign])
+                self.phonotypes.append(signs[current_letter])
 
         phonotypes = self.phonotypes
         self.phonotypes = []
