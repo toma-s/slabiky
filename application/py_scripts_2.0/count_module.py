@@ -101,7 +101,7 @@ class CountModule(ThreadModule):
     def count_length_of_syllable(self):
         length = 0
         for index_of_letter in range(len(self.word.get_syllables()[self.index_of_syllable])):
-            if self._data.lang_name == "Slovak" and self.is_special_symbol_svk(self.word.get_syllables()[index_of_letter]):
+            if self._data.lang_name == "Slovak" and self.is_special_symbol_svk(self.word.get_syllables()[self.index_of_syllable][index_of_letter]):
                 self.syllable_contains_special_symbol = True
             if self.letter_already_counted(index_of_letter, self.word.get_phonotypes()[self.index_of_syllable]):
                 continue
