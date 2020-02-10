@@ -202,6 +202,7 @@
     "з": "to_following",
     "ў": "to_preceding"
   },
+  "one-syllable-words": [],
   "special_sound_length": {
     "е": {
       "0": [],
