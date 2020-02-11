@@ -210,6 +210,7 @@
     "б": "to_preceding",
     "ж": "to_preceding"
   },
+  "one-syllable-words": [],
   "special_sound_length": {
     "є": {
       "0": [],

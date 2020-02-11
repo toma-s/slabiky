@@ -179,5 +179,6 @@
   "zero-syllable_words": {
     "в": "to_following"
   },
+  "one-syllable-words": ["рж"],
   "special_sound_length": {}
 }

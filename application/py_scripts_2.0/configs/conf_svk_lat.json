@@ -122,7 +122,7 @@
     "o": {
       "phoneme-length": 1,
       "sign": "VOWEL",
-      "subunit": 1
+      "subunit": 0
     },
     "ó": {
       "phoneme-length": 1,
@@ -338,5 +338,6 @@
     "v": "to_following",
     "z": "to_following"
   },
+  "one-syllable-words": [],
   "special_sound_length": {}
 }
