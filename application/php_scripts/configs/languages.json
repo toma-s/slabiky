@@ -25,12 +25,20 @@
 			"value": "conf_hsb_lat"
 		},
 		{
+			"option": "Macedonian",
+			"value": "conf_mk_cyr"
+		},
+		{
 			"option": "Polish",
 			"value": "conf_pl_lat"
 		},
 		{
 			"option": "Russian",
 			"value": "conf_ru_cyr"
+		},
+		{
+			"option": "Slovak",
+			"value": "conf_svk_lat"
 		},
 		{
 			"option": "Slovene",
@@ -47,10 +55,6 @@
 		{
 			"option": "Ukrainian",
 			"value": "conf_uk_cyr"
-		},
-		{
-			"option": "Macedonian",
-			"value": "conf_mk_cyr"
 		}
 	]
 }

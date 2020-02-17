@@ -20,6 +20,19 @@ $encodings = $lo->get_encodings();
             return false;
         }
     }
+
+    function handleSlovakOption() {
+        var radioButton = document.getElementById("advanced_version");
+        var option = document.getElementById("slovak");
+        var default_option = document.getElementById("default_option");
+        if (radioButton.checked == true){
+            option.style.display = "block";
+        } else {
+            option.style.display = "none";
+            option.selected = false;
+            default_option.selected = true;
+        }
+    }
 </script>
 
 <body>
@@ -29,8 +42,8 @@ $encodings = $lo->get_encodings();
     <h1>Analysis of linguistic data &mdash; Syllabification</h1>
 
     <nav>
-        <a href="index.php">Select a file </a>
-        <a href="text_index.php" class="chosen">Insert the text </a>
+        <a href="index.php">Select file </a>
+        <a href="text_index.php" class="chosen">Insert text </a>
     </nav>
 
     <div class="form">
@@ -39,20 +52,47 @@ $encodings = $lo->get_encodings();
 
             <div class="language">
                 <label for="language">Language</label>
-                <select name="language" form="myform">
+                <select id="language" name="language" form="myform">
+                    <option id="default_option" disabled selected value> -- select language -- </option>
                     <?php
                     foreach ($languages as $option => $value)
-                        echo "<option value='$value'>$option</option>";
+                        if ($option == 'Slovak')
+                            echo "<option id='slovak' style='display:none' value='$value'>$option</option>";
+                        else
+                            echo "<option value='$value'>$option</option>";
                     ?>
                 </select>
+            </div>
+
+            <div class="version">
+
+                <div class="version_option">
+                    <label for="version">
+                        Basic
+                        <span title="(vowels + sonorants, consonants)">
+                           <img src="https://img.icons8.com/material-outlined/24/000000/info.png" alt="info">
+                        </span>
+                    </label>
+                    <input type="radio" name="version" value="basic" form="myform" onclick="handleSlovakOption()" checked>
+                </div>
+
+                <div class="version_option">
+                    <label for="version">
+                        Advanced
+                        <span title="(vowels + nasals, glides, liquids, obstruents)">
+                            <img src="https://img.icons8.com/material-outlined/24/000000/info.png" alt="info">
+                        </span>
+                    </label>
+                    <input id="advanced_version" type="radio" name="version" value="advanced" form="myform" onclick="handleSlovakOption()">
+                </div>
+
             </div>
 
         </div>
 
         <input type="hidden" name="type" value="text" form="myform">
 
-        <textarea name="text" rows="15" maxlength="1500" placeholder="Enter text here..."
-                  form="myform"></textarea>
+        <textarea name="text" rows="15" maxlength="1500" placeholder="Enter text here..." form="myform"></textarea>
 
         <div class="submit">
             <input type="submit" name="submit" value="Submit" form="myform">
@@ -63,7 +103,7 @@ $encodings = $lo->get_encodings();
     </div>
 
     <footer>
-        <p>&copy; 2019 Hallaballoo</p>
+        <p>&copy; 2019 - <?php echo date("Y");?> Hallaballoo</p>
     </footer>
 
 </div>

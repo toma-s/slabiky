@@ -30,7 +30,7 @@ class PhonotypeModule(ThreadModule):
         self.is_end(word, pout)
         if self.running:
             word = self.set_phonotypes(word)
-            if VOWEL in word.get_phonotypes():
+            if VOWEL in word.get_phonotypes() or word.get_text in data['one-syllable-words']:
                 self.send_word(word, pout)
 
     def get_word(self, pin):

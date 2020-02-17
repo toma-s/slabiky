@@ -77,7 +77,7 @@ class MyFunctions
 
     public function get_python_path()
     {
-        $pythonPath = file_get_contents('configs/python_path.json');
+        $pythonPath = file_get_contents('configs/python_path_origin.json');
         $pythonPath = json_decode($pythonPath, True);
         return $pythonPath['path'];
     }
