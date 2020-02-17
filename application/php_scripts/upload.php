@@ -91,9 +91,21 @@ class Upload
             $encoding = 'UTF-8-sig';
 
         $language = $this->POST['language'];
-        $language = $this->SITE_ROOT."py_scripts/configs/$language.json";
 
-        passthru("$pythonPath ".$this->SITE_ROOT."py_scripts/init_terminate_module.py $this->fileName ".
+        print_r($this->POST);
+
+        if ($this->POST['version'] == 'advanced') {
+            $language = $this->SITE_ROOT."py_scripts_2.0/configs/$language.json";
+            $py_scripts_directory = "py_scripts_2.0/init_terminate_module.py";
+        } else {
+            $language = $this->SITE_ROOT."py_scripts_1.0/configs/$language.json";
+            $py_scripts_directory = "py_scripts_1.0/init_terminate_module.py";
+        }
+
+        echo "$pythonPath ".$this->SITE_ROOT.$py_scripts_directory." $this->fileName ".
+            "$this->path $encoding $language";
+
+        passthru("$pythonPath ".$this->SITE_ROOT.$py_scripts_directory." $this->fileName ".
             "$this->path $encoding $language");
 
         $this->mf->move_to_folder($this->path, $this->downloadFolderName, array($this->fileName, ".", ".."));
