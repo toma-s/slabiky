@@ -1,22 +1,71 @@
 body {
   background-color: rgb(194, 221, 218);
-  /*background-color: rgb(236, 192, 168);*/
-  color: black;
   font-family: 'Helvetica Neue', sans-serif;
-  font-size: 14px;
-  text-align: left;
 }
+
+@media screen and (min-width: 0px) {
+  h1 {
+    padding: 0 8px;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .form {
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+  }
+
+  nav a {
+    border-top: solid 1px;
+    border-right: solid 1px;
+    border-left: solid 1px;
+  }
+
+  nav a:first-child {
+    border-left: none;
+  }
+}
+
+@media screen and (min-width: 520px) {
+  .content {
+    width: 80%;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .form {
+    border-left: solid 1px;
+    border-right: solid 1px;
+  }
+
+  nav a:first-child {
+    border-left: solid 1px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .content {
+    width: 60%;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+  }
+}
+
+
 
 .content {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 60%;
-}
-
-h1 {
-  margin-bottom: 5%;
 }
 
 nav {
@@ -31,52 +80,37 @@ nav .chosen {
 }
 
 nav a {
-  border-top: solid;
-  border-left: solid;
-  width: 10%;
   padding: 1% 3% 3% 3%;
-  /*text-decoration-line: none;*/
   color: black;
 }
 
 nav a:hover {
-  /*background-color: rgb(194, 221, 218);*/
   background-color: rgb(242, 255, 252);
-  /*background-color: rgb(236, 192, 168);*/
 }
 
 nav .chosen:hover {
   background-color: white;
 }
 
-nav a:last-child {
-  border-right: solid;
-}
-
 .form {
   z-index: 1;
-  border:solid;
   position: relative;
   background-color: rgb(255, 255, 255);
   padding: 3%;
 }
 
-.inputFile {
-  /*margin-left: 5%;*/
-  /*margin-bottom: 5%;*/
-  margin-top: 5%;
-  background-color: white;
-  font-size: 1em;
+.grid-container {
+  padding: 10px;
 }
 
-.inputFile p {
-  margin-top: 0.5%;
+.grid-item {
+  padding: 20px;
 }
 
 textarea {
   margin-bottom: 3%;
   width: 100%;
-  box-sizing:border-box;
+  box-sizing: border-box;
   border-color: black;
 }
 
@@ -84,38 +118,16 @@ select {
   width: 150px;
 }
 
-.encoding, .language, .version, .inputFile {
-  float: left;
-  width: 30%;
-  margin-bottom: 3%;
+.version .version__option {
+  margin: 2% 1%;
 }
 
-.version {
-  padding-bottom: .7%;
-  width: 10%;
-  margin-right: 20%;
+.grid-item > div {
+  margin-top: 8px;
 }
 
-#version_border {
-  border: solid .5px gray;
-}
-
-/*.version_label {*/
-  /*float:left;*/
-  /*margin-right: .25em;*/
-/*}*/
-
-.version .version_option{
-  float:left;
-  margin: 3%;
-}
-
-.version .version_option label{
-  psoition:static;
-}
-
-.version img{
-  width: 1.1em;
+.version img {
+  width: 1em;
 }
 
 .submit {
@@ -131,4 +143,17 @@ select {
 
 .hint {
   color: gray;
+  margin-top: 8px;
+  font-size: 12px;
+  font-style: italic;
+}
+
+footer {
+  position: fixed;
+  clear: both;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  z-index: -1;
 }
