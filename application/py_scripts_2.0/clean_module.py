@@ -7,7 +7,7 @@ hyphen_dashes = ['-', '—', '―']
 dashes = ['—', '―']
 punctuation_to_erase = ['.', ',', ':', ';', '?', '!', '[', ']', '(', ')', '{', '}', '⟨', '⟩',
                         '‹', '›', '«', '»', '“', '”', '„', '’', '‘', '‚']
-first_letter_exceptions = ['#']  # hot fix
+first_letter_exceptions = ['#']
 
 
 class CleanModule(ThreadModule):
