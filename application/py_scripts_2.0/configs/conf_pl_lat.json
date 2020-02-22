@@ -181,6 +181,12 @@
       }
     },
     "d": {
+      "z": {
+        "except_in_subword": [],
+        "only_in_subword": [],
+        "length": 1,
+        "phonotype": "OBSTR"
+      },
       "ź": {
         "except_in_subword": [],
         "only_in_subword": [],
