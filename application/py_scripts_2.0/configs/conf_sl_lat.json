@@ -130,7 +130,32 @@
       "subunit": 0
     }
   },
-  "clusters": {},
+  "clusters": {
+    "l": {
+      "j": {
+        "except_in_subword": [],
+        "only_in_subword": [],
+        "length": 1,
+        "phonotype": "LIQID"
+      }
+    },
+    "n": {
+      "j": {
+        "except_in_subword": [],
+        "only_in_subword": [],
+        "length": 1,
+        "phonotype": "NASAL"
+      }
+    },
+    "d": {
+      "ž": {
+        "except_in_subword": [],
+        "only_in_subword": [],
+        "length": 1,
+        "phonotype": "OBSTR"
+      }
+    }
+  },
   "phonotype_changes": {
     "r": {
       "preceding": {

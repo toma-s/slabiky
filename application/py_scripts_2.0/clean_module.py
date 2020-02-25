@@ -7,6 +7,7 @@ hyphen_dashes = ['-', '—', '―']
 dashes = ['—', '―']
 punctuation_to_erase = ['.', ',', ':', ';', '?', '!', '[', ']', '(', ')', '{', '}', '⟨', '⟩',
                         '‹', '›', '«', '»', '“', '”', '„', '’', '‘', '‚']
+first_letter_exceptions = ['#']
 
 
 class CleanModule(ThreadModule):
@@ -57,7 +58,7 @@ class CleanModule(ThreadModule):
             sym = curr.get_text()[i]
             sign = curr.get_punctuation()[i]
 
-            if sym == '.' and isinstance(foll, TextPunctuation) and not foll.get_text().istitle():
+            if sym == '.' and isinstance(foll, TextPunctuation) and not self.is_title(foll):
                 return [None, foll]
 
             if not len(buffer_text) and sign == constants.PUNCT:
@@ -104,6 +105,11 @@ class CleanModule(ThreadModule):
                 return [None, foll]
 
         return [TextPunctuation(''.join(buffer_text), buffer_signs), foll]
+
+    def is_title(self, word: TextPunctuation) -> bool:
+        if word.get_text().istitle() or word.get_text()[0] in first_letter_exceptions:
+            return True
+        return False
 
     def is_zero_syll(self, text: str) -> bool:
         word = text[0]

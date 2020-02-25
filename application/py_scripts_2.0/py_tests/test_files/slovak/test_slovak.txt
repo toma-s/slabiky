@@ -1,0 +1,1 @@
+Toto je prvá veta. #tomobil druhá veta. Posledné slovo má byť vyhodené. &nesprávne slovo
