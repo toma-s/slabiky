@@ -59,8 +59,6 @@ body {
   }
 }
 
-
-
 .content {
   position: fixed;
   top: 50%;
@@ -148,12 +146,28 @@ select {
   font-style: italic;
 }
 
+.gitHubLink {
+  float: left;
+  right: 0%;
+}
+
+.gitHubLink img {
+  width: 5.5em;
+  height: 2em;
+  float: right;
+}
+
+.brand {
+  padding-top: 0.3em;
+}
+
 footer {
   position: fixed;
   clear: both;
-  bottom: 0;
   width: 100%;
-  left: 0;
-  text-align: center;
-  z-index: -1;
+}
+
+footer div{
+  float: left;
+  width: 50%;
 }

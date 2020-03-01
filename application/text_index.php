@@ -9,6 +9,7 @@ $encodings = $lo->get_encodings();
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport"/>
     <title>Syllabification</title>
+    <link rel = "icon" href="site_logo.png" type = "image/x-icon"/>
     <link href="style/style.css" rel="stylesheet" media="all">
 </head>
 
@@ -17,7 +18,12 @@ $encodings = $lo->get_encodings();
         var text = document.forms["myform"]["text"].value;
         text = text.trim(text);
         if (text === "") {
-            alert("Please, enter the text.");
+            alert("Please, enter text.");
+            return false;
+        }
+        var language = document.forms["myform"]["language"].value;
+        if (language === "NONE") {
+            alert("Please, select language.");
             return false;
         }
     }
@@ -55,7 +61,7 @@ $encodings = $lo->get_encodings();
                 <label for="language">Language:</label>
                 <div>
                     <select id="language" name="language" form="myform">
-                        <option id="default_option" disabled selected value> -- select language -- </option>
+                        <option id="default_option" disabled selected value="NONE"> -- select language -- </option>
                         <?php
                         foreach ($languages as $option => $value)
                             if ($option == 'Slovak')
@@ -77,7 +83,7 @@ $encodings = $lo->get_encodings();
                         <label for="version">
                             Basic
                             <span title="(vowels + sonorants, consonants)">
-                               <img src="https://img.icons8.com/material-outlined/24/000000/info.png" alt="info">
+                               <img src="info_icon.png" alt="info_icon">
                             </span>
                         </label>
                     </div>
@@ -87,7 +93,7 @@ $encodings = $lo->get_encodings();
                         <label for="version">
                             Advanced
                             <span title="(vowels + nasals, glides, liquids, obstruents)">
-                                <img src="https://img.icons8.com/material-outlined/24/000000/info.png" alt="info">
+                                <img src="info_icon.png" alt="info_icon">
                             </span>
                         </label>
                     </div>
@@ -110,7 +116,17 @@ $encodings = $lo->get_encodings();
     </div>
 
     <footer>
-        <span>&copy; Hallaballoo</span>
+
+        <p>
+        <div class="brand">2019 - <?php echo date("Y");?> Hallaballoo</div>
+
+        <div class="gitHubLink">
+            <a href="https://github.com/toma-s/slabiky" target="_blank">
+                <img src="github_icon.png" alt="github_icon">
+            </a>
+        </div>
+        </p>
+
     </footer>
 
 </div>
