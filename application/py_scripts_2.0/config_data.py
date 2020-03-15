@@ -51,7 +51,11 @@ class ConfigData(object):
         # dict
         self.zero_syll_words = data['zero-syllable_words']
 
-        """speial sound length"""
+        """special sound length"""
+        # dict
+        self.one_syllable_words = data['one-syllable-words']
+
+        """one syllable words"""
         # dict
         self.spec_sound_len = data['special_sound_length']
         self.transform_spec_sound_len_phonotypes()
