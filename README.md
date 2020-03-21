@@ -16,6 +16,7 @@ Output:
 * number_of_length_of_syllables_without_repetition.xls – an excel table containing frequencies of all occuring lengths of syllables, only with different syllables taken into account (types – i.e., if the syllable “ma” with length 2 occurs 500-times in the text, it contributes to the frequency of length 2 only once).
 
 Note: Texts have to be written correctly in order to get the best possible results (i.e. punctuation etc.). 
+
 Possible known bugs: Application may not be able to distinguish all abbreviations correcly, which may cause them to appear in the results, although all abbreviations should be removed.
 
 
