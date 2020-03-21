@@ -1,5 +1,23 @@
 # Linguistics analysis: Syllabification
 
+## About
+
+Application allows you to syllabify texts written in Slavic languages and analyze lengths and frequencies of occuring syllables as well as frequencies of their lengths. 
+
+Input: 
+* a text file (.txt) in Slavic language
+* special case – diphtongs in Slovak language need to be replaced respectively: $(ia), &(ie), #(io), %(iu), §(ou), ě(au)
+
+Output: 
+* syllable_text.txt – a text (.txt) file containing syllabified text (all letters changed to lowercase, all special characters removed);
+* syllable_lengths_text.txt – a text file (.txt) containing legths of syllables corresponding to words from syllable_text.txt file;
+* syllables_multiplicity.xls – an excel table containing frequencies and lengths of all syllables occuring in the input text;
+* number_of_length_of_syllables_with_repetition.xls – an excel table containing frequencies of all occuring lengths of syllables, with all syllables taken into account (tokens – i.e., if the syllable “ma” with length 2 occurs 500-times in the text, it contributes to the frequency of length two 500-times);
+* number_of_length_of_syllables_without_repetition.xls – an excel table containing frequencies of all occuring lengths of syllables, only with different syllables taken into account (types – i.e., if the syllable “ma” with length 2 occurs 500-times in the text, it contributes to the frequency of length 2 only once).
+
+Note: Texts have to be written correctly in order to get the best possible results (i.e. punctuation etc.). 
+Possible known bugs: Application may not be able to distinguish all abbreviations correcly, which may cause them to appear in the results, although all abbreviations should be removed.
+
 
 ## Instructions for local use of the console application:
 
