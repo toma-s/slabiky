@@ -1,5 +1,4 @@
-# slabiky
-Analýza lingvistických dát
+# Linguistics analysis: Syllabification
 
 
 ## Instructions for local use of the console application:
