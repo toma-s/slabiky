@@ -14,6 +14,7 @@ class PhonotypeModule(ThreadModule):
         self.cluster_letters = data.cluster_letters
         self.phono_changes = data.phono_changes
         self.text_changes = data.text_changes
+        self.one_syllable_words = data.one_syllable_words
         self.phonotypes = []
         self.running = False
 
@@ -30,7 +31,7 @@ class PhonotypeModule(ThreadModule):
         self.is_end(word, pout)
         if self.running:
             word = self.set_phonotypes(word)
-            if VOWEL in word.get_phonotypes() or word.get_text in data['one-syllable-words']:
+            if VOWEL in word.get_phonotypes() or word.get_text() in self.one_syllable_words:
                 self.send_word(word, pout)
 
     def get_word(self, pin):
