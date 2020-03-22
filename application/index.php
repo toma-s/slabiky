@@ -142,7 +142,7 @@ $encodings = $lo->get_encodings();
     <footer>
 
         <p>
-            <div class="brand">2019 - <?php echo date("Y");?> Hallaballoo</div>
+            <div class="brand">Last updated 22.03.2020 by Hallaballoo</div>
 
             <div class="gitHubLink">
                 <a href="https://github.com/toma-s/slabiky" target="_blank">
